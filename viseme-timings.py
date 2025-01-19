@@ -1,6 +1,6 @@
 import os
 import json
-from pocketsphinx import AudioFile, get_model_path
+from pocketsphinx import AudioFile, get_model_path, Pocketsphinx
 from pydub import AudioSegment
 
 def convert_to_wav(input_file, output_file):
@@ -33,6 +33,28 @@ def read_transcript(file_path):
         print(f"Error: Transcript file not found at {file_path}")
         return None
 
+def load_cmu_dict(file_path):
+    """
+    Load the CMU Pronouncing Dictionary from a file.
+
+    :param file_path: Path to the CMU Pronouncing Dictionary file.
+    :return: A dictionary with words as keys and lists of phonemes as values.
+    """
+    cmu_dict = {}
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if not line.startswith(";;;"):  # Skip comment lines
+                    parts = line.strip().split("  ")
+                    if len(parts) == 2:
+                        word, phonemes = parts
+                        cmu_dict[word.lower()] = phonemes.split()
+        print("CMU Pronouncing Dictionary loaded successfully.")
+    except Exception as e:
+        print(f"Error loading CMU dictionary: {e}")
+    return cmu_dict
+
+
 def align_words(audio_file, transcript):
     """
     Align words in the audio file with the transcript using PocketSphinx.
@@ -45,49 +67,58 @@ def align_words(audio_file, transcript):
 
     config = {
         'verbose': False,
-        'audio_file': audio_file,
         'hmm': os.path.join(model_path, 'en-us', 'en-us'),
         'lm': os.path.join(model_path, '/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/en-us.lm.bin'),
         'dict': '/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict',
+        'bestpath': True,  # Enable best path decoding
     }
 
-    word_data = []
-    audio = AudioFile(**config)
+    # Debugging configuration paths
+    print("HMM Path:", config['hmm'])
+    print("LM Path:", config['lm'])
+    print("Dictionary Path:", config['dict'])
 
-    for segment in audio:
-        if hasattr(segment, 'word') and segment.word not in ('<s>', '</s>'):
-            word_data.append({
-                'word': segment.word,
-                'start_time': segment.start_frame / 100.0,  # Convert frames to seconds
-                'end_time': segment.end_frame / 100.0
-            })
+    try:
+        # Initialize Pocketsphinx and decode the audio
+        ps = Pocketsphinx(**config)
+        ps.decode(audio_file=audio_file)
+        print("Decoded Hypothesis:", ps.hypothesis())  # Output the recognized hypothesis
 
-    return word_data
+        # Collect word data
+        word_data = []
+        for word in ps.seg():  # Use ps.seg() for segment iteration
+            print(f"Detected word: {word.word} ({word.start_frame / 100.0}s to {word.end_frame / 100.0}s)")
+            if word.word not in ('<s>', '</s>'):
+                word_data.append({
+                    'word': word.word,
+                    'start_time': word.start_frame / 100.0,
+                    'end_time': word.end_frame / 100.0
+                })
+
+        print("Word Data:", word_data)  # Debug print
+        return word_data
+
+    except Exception as e:
+        print(f"Error during alignment: {e}")
+        return []
 
 def map_words_to_phonemes(word_data):
-    """
-    Map words to phonemes using a phoneme dictionary and provide timings.
-
-    :param word_data: List of words with start and end timings.
-    :return: List of phonemes with start and end timings.
-    """
-    # Load CMU Pronouncing Dictionary
-    cmu_dict = {
-        "example": ["EH1", "G", "Z", "AE1", "M", "P", "L"],  # Add more mappings here
-        # Extend with a proper CMU dictionary for real use
-    }
+    cmu_dict = load_cmu_dict('/Users/nervous/Documents/GitHub/speech-aligner/cmudict.dict')
 
     phoneme_data = []
     for word_entry in word_data:
-        word = word_entry['word'].lower()
+        raw_word = word_entry['word']
+        word = raw_word.lower().strip("()[]0123456789")  # Remove extra characters
         start_time = word_entry['start_time']
         end_time = word_entry['end_time']
         word_duration = end_time - start_time
 
-        # Get phonemes for the word
-        phonemes = cmu_dict.get(word, ["SIL"])  # Default to 'SIL' for silence
+        # Handle special cases for noise/silence
+        if word in ['<sil>', '[noise]', '[silence]']:
+            phonemes = ['SIL']
+        else:
+            phonemes = cmu_dict.get(word, ['SIL'])  # Default to 'SIL' if not found
 
-        # Evenly distribute phonemes over word duration
         num_phonemes = len(phonemes)
         phoneme_duration = word_duration / num_phonemes if num_phonemes else 0
 
@@ -102,15 +133,16 @@ def map_words_to_phonemes(word_data):
 
     return phoneme_data
 
+
 def map_phonemes_to_visemes(phoneme_data):
     """
-    Map phonemes to visemes using a predefined dictionary.
+    Map phonemes to visemes using a comprehensive predefined dictionary.
 
     :param phoneme_data: List of phonemes with timing information.
     :return: List of visemes with timing information.
     """
     phoneme_viseme_map = {
-"AA": "wide_open",
+        "AA": "wide_open",
         "AE": "mouth_open",
         "AH": "neutral",
         "AO": "round_open",
@@ -149,7 +181,7 @@ def map_phonemes_to_visemes(phoneme_data):
         "Y": "smile_narrow",
         "Z": "teeth_open",
         "ZH": "teeth_slit",
-        "SIL": "neutral",        
+        "SIL": "neutral",
     }
 
     viseme_list = []
@@ -161,6 +193,7 @@ def map_phonemes_to_visemes(phoneme_data):
             "end_time": entry['end_time']
         })
 
+    print("Viseme Data:", viseme_list)  # Debug print
     return viseme_list
 
 if __name__ == "__main__":
