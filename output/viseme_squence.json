@@ -1,0 +1,4612 @@
+[
+    {
+        "viseme": "neutral",
+        "start_time": 0,
+        "end_time": 54.00325379609544
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 54.00325379609544,
+        "end_time": 108.00650759219089
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 108.00650759219089,
+        "end_time": 162.00976138828634
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 162.00976138828634,
+        "end_time": 216.01301518438177
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 216.01301518438177,
+        "end_time": 270.0162689804772
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 270.0162689804772,
+        "end_time": 324.01952277657267
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 324.01952277657267,
+        "end_time": 378.02277657266814
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 378.02277657266814,
+        "end_time": 432.0260303687636
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 432.0260303687636,
+        "end_time": 486.02928416485906
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 486.02928416485906,
+        "end_time": 540.0325379609545
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 540.0325379609545,
+        "end_time": 594.03579175705
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 594.03579175705,
+        "end_time": 648.0390455531455
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 648.0390455531455,
+        "end_time": 702.0422993492409
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 702.0422993492409,
+        "end_time": 756.0455531453364
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 756.0455531453364,
+        "end_time": 810.0488069414318
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 810.0488069414318,
+        "end_time": 864.0520607375273
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 864.0520607375273,
+        "end_time": 918.0553145336228
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 918.0553145336228,
+        "end_time": 972.0585683297182
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 972.0585683297182,
+        "end_time": 1026.0618221258137
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1026.0618221258137,
+        "end_time": 1080.065075921909
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1080.065075921909,
+        "end_time": 1134.0683297180044
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1134.0683297180044,
+        "end_time": 1188.0715835140998
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1188.0715835140998,
+        "end_time": 1242.074837310195
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1242.074837310195,
+        "end_time": 1296.0780911062905
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1296.0780911062905,
+        "end_time": 1350.0813449023858
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 1350.0813449023858,
+        "end_time": 1404.0845986984812
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1404.0845986984812,
+        "end_time": 1458.0878524945765
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1458.0878524945765,
+        "end_time": 1512.0911062906719
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1512.0911062906719,
+        "end_time": 1566.0943600867672
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1566.0943600867672,
+        "end_time": 1620.0976138828626
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1620.0976138828626,
+        "end_time": 1674.100867678958
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1674.100867678958,
+        "end_time": 1728.1041214750533
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1728.1041214750533,
+        "end_time": 1782.1073752711486
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1782.1073752711486,
+        "end_time": 1836.110629067244
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1836.110629067244,
+        "end_time": 1890.1138828633393
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1890.1138828633393,
+        "end_time": 1944.1171366594347
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1944.1171366594347,
+        "end_time": 1998.12039045553
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 1998.12039045553,
+        "end_time": 2052.1236442516256
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2052.1236442516256,
+        "end_time": 2106.126898047721
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 2106.126898047721,
+        "end_time": 2160.1301518438167
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2160.1301518438167,
+        "end_time": 2214.1334056399123
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2214.1334056399123,
+        "end_time": 2268.136659436008
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2268.136659436008,
+        "end_time": 2322.1399132321035
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2322.1399132321035,
+        "end_time": 2376.143167028199
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 2376.143167028199,
+        "end_time": 2430.1464208242946
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2430.1464208242946,
+        "end_time": 2484.14967462039
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2484.14967462039,
+        "end_time": 2538.152928416486
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 2538.152928416486,
+        "end_time": 2592.1561822125814
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2592.1561822125814,
+        "end_time": 2646.159436008677
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2646.159436008677,
+        "end_time": 2700.1626898047725
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2700.1626898047725,
+        "end_time": 2754.165943600868
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2754.165943600868,
+        "end_time": 2808.1691973969637
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2808.1691973969637,
+        "end_time": 2862.1724511930593
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2862.1724511930593,
+        "end_time": 2916.175704989155
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2916.175704989155,
+        "end_time": 2970.1789587852504
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 2970.1789587852504,
+        "end_time": 3024.182212581346
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3024.182212581346,
+        "end_time": 3078.1854663774416
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3078.1854663774416,
+        "end_time": 3132.188720173537
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3132.188720173537,
+        "end_time": 3186.1919739696327
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3186.1919739696327,
+        "end_time": 3240.1952277657283
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3240.1952277657283,
+        "end_time": 3294.198481561824
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3294.198481561824,
+        "end_time": 3348.2017353579195
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3348.2017353579195,
+        "end_time": 3402.204989154015
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3402.204989154015,
+        "end_time": 3456.2082429501106
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3456.2082429501106,
+        "end_time": 3510.211496746206
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3510.211496746206,
+        "end_time": 3564.2147505423018
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 3564.2147505423018,
+        "end_time": 3618.2180043383973
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3618.2180043383973,
+        "end_time": 3672.221258134493
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3672.221258134493,
+        "end_time": 3726.2245119305885
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 3726.2245119305885,
+        "end_time": 3780.227765726684
+    },
+    {
+        "viseme": "smile",
+        "start_time": 3780.227765726684,
+        "end_time": 3834.2310195227797
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3834.2310195227797,
+        "end_time": 3888.2342733188752
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3888.2342733188752,
+        "end_time": 3942.237527114971
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 3942.237527114971,
+        "end_time": 3996.2407809110664
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 3996.2407809110664,
+        "end_time": 4050.244034707162
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4050.244034707162,
+        "end_time": 4104.247288503258
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4104.247288503258,
+        "end_time": 4158.250542299353
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4158.250542299353,
+        "end_time": 4212.253796095448
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4212.253796095448,
+        "end_time": 4266.257049891543
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4266.257049891543,
+        "end_time": 4320.260303687638
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4320.260303687638,
+        "end_time": 4374.263557483733
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4374.263557483733,
+        "end_time": 4428.266811279828
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4428.266811279828,
+        "end_time": 4482.270065075923
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4482.270065075923,
+        "end_time": 4536.2733188720185
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4536.2733188720185,
+        "end_time": 4590.276572668114
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 4590.276572668114,
+        "end_time": 4644.279826464209
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4644.279826464209,
+        "end_time": 4698.283080260304
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4698.283080260304,
+        "end_time": 4752.286334056399
+    },
+    {
+        "viseme": "closed",
+        "start_time": 4752.286334056399,
+        "end_time": 4806.289587852494
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 4806.289587852494,
+        "end_time": 4860.292841648589
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4860.292841648589,
+        "end_time": 4914.296095444684
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4914.296095444684,
+        "end_time": 4968.2993492407795
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 4968.2993492407795,
+        "end_time": 5022.302603036875
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5022.302603036875,
+        "end_time": 5076.30585683297
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5076.30585683297,
+        "end_time": 5130.309110629065
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 5130.309110629065,
+        "end_time": 5184.31236442516
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5184.31236442516,
+        "end_time": 5238.315618221255
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5238.315618221255,
+        "end_time": 5292.31887201735
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5292.31887201735,
+        "end_time": 5346.322125813445
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5346.322125813445,
+        "end_time": 5400.3253796095405
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 5400.3253796095405,
+        "end_time": 5454.328633405636
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5454.328633405636,
+        "end_time": 5508.331887201731
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 5508.331887201731,
+        "end_time": 5562.335140997826
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 5562.335140997826,
+        "end_time": 5616.338394793921
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5616.338394793921,
+        "end_time": 5670.341648590016
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5670.341648590016,
+        "end_time": 5724.344902386111
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 5724.344902386111,
+        "end_time": 5778.348156182206
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5778.348156182206,
+        "end_time": 5832.3514099783015
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 5832.3514099783015,
+        "end_time": 5886.354663774397
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5886.354663774397,
+        "end_time": 5940.357917570492
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 5940.357917570492,
+        "end_time": 5994.361171366587
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 5994.361171366587,
+        "end_time": 6048.364425162682
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6048.364425162682,
+        "end_time": 6102.367678958777
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6102.367678958777,
+        "end_time": 6156.370932754872
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6156.370932754872,
+        "end_time": 6210.374186550967
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6210.374186550967,
+        "end_time": 6264.3774403470625
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6264.3774403470625,
+        "end_time": 6318.380694143158
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6318.380694143158,
+        "end_time": 6372.383947939253
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6372.383947939253,
+        "end_time": 6426.387201735348
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6426.387201735348,
+        "end_time": 6480.390455531443
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6480.390455531443,
+        "end_time": 6534.393709327538
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6534.393709327538,
+        "end_time": 6588.396963123633
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6588.396963123633,
+        "end_time": 6642.400216919728
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6642.400216919728,
+        "end_time": 6696.4034707158235
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6696.4034707158235,
+        "end_time": 6750.406724511919
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6750.406724511919,
+        "end_time": 6804.409978308014
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 6804.409978308014,
+        "end_time": 6858.413232104109
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6858.413232104109,
+        "end_time": 6912.416485900204
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6912.416485900204,
+        "end_time": 6966.419739696299
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 6966.419739696299,
+        "end_time": 7020.422993492394
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7020.422993492394,
+        "end_time": 7074.426247288489
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7074.426247288489,
+        "end_time": 7128.429501084584
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7128.429501084584,
+        "end_time": 7182.43275488068
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7182.43275488068,
+        "end_time": 7236.436008676775
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 7236.436008676775,
+        "end_time": 7290.43926247287
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7290.43926247287,
+        "end_time": 7344.442516268965
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7344.442516268965,
+        "end_time": 7398.44577006506
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7398.44577006506,
+        "end_time": 7452.449023861155
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7452.449023861155,
+        "end_time": 7506.45227765725
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7506.45227765725,
+        "end_time": 7560.455531453345
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 7560.455531453345,
+        "end_time": 7614.458785249441
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7614.458785249441,
+        "end_time": 7668.462039045536
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7668.462039045536,
+        "end_time": 7722.465292841631
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7722.465292841631,
+        "end_time": 7776.468546637726
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7776.468546637726,
+        "end_time": 7830.471800433821
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7830.471800433821,
+        "end_time": 7884.475054229916
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 7884.475054229916,
+        "end_time": 7938.478308026011
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 7938.478308026011,
+        "end_time": 7992.481561822106
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 7992.481561822106,
+        "end_time": 8046.4848156182015
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8046.4848156182015,
+        "end_time": 8100.488069414297
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8100.488069414297,
+        "end_time": 8154.491323210392
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8154.491323210392,
+        "end_time": 8208.494577006488
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8208.494577006488,
+        "end_time": 8262.497830802584
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 8262.497830802584,
+        "end_time": 8316.50108459868
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8316.50108459868,
+        "end_time": 8370.504338394776
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8370.504338394776,
+        "end_time": 8424.507592190872
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8424.507592190872,
+        "end_time": 8478.510845986968
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8478.510845986968,
+        "end_time": 8532.514099783064
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8532.514099783064,
+        "end_time": 8586.51735357916
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8586.51735357916,
+        "end_time": 8640.520607375256
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8640.520607375256,
+        "end_time": 8694.523861171352
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 8694.523861171352,
+        "end_time": 8748.527114967448
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8748.527114967448,
+        "end_time": 8802.530368763544
+    },
+    {
+        "viseme": "closed",
+        "start_time": 8802.530368763544,
+        "end_time": 8856.53362255964
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 8856.53362255964,
+        "end_time": 8910.536876355736
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8910.536876355736,
+        "end_time": 8964.540130151832
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 8964.540130151832,
+        "end_time": 9018.543383947928
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9018.543383947928,
+        "end_time": 9072.546637744024
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 9072.546637744024,
+        "end_time": 9126.54989154012
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9126.54989154012,
+        "end_time": 9180.553145336216
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9180.553145336216,
+        "end_time": 9234.556399132312
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9234.556399132312,
+        "end_time": 9288.559652928408
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 9288.559652928408,
+        "end_time": 9342.562906724505
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9342.562906724505,
+        "end_time": 9396.5661605206
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 9396.5661605206,
+        "end_time": 9450.569414316697
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9450.569414316697,
+        "end_time": 9504.572668112793
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9504.572668112793,
+        "end_time": 9558.575921908889
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 9558.575921908889,
+        "end_time": 9612.579175704985
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9612.579175704985,
+        "end_time": 9666.58242950108
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 9666.58242950108,
+        "end_time": 9720.585683297177
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9720.585683297177,
+        "end_time": 9774.588937093273
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 9774.588937093273,
+        "end_time": 9828.592190889369
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 9828.592190889369,
+        "end_time": 9882.595444685465
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9882.595444685465,
+        "end_time": 9936.59869848156
+    },
+    {
+        "viseme": "closed",
+        "start_time": 9936.59869848156,
+        "end_time": 9990.601952277657
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 9990.601952277657,
+        "end_time": 10044.605206073753
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10044.605206073753,
+        "end_time": 10098.608459869849
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10098.608459869849,
+        "end_time": 10152.611713665945
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10152.611713665945,
+        "end_time": 10206.614967462041
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10206.614967462041,
+        "end_time": 10260.618221258137
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10260.618221258137,
+        "end_time": 10314.621475054233
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 10314.621475054233,
+        "end_time": 10368.62472885033
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10368.62472885033,
+        "end_time": 10422.627982646425
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10422.627982646425,
+        "end_time": 10476.631236442521
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10476.631236442521,
+        "end_time": 10530.634490238617
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10530.634490238617,
+        "end_time": 10584.637744034713
+    },
+    {
+        "viseme": "closed",
+        "start_time": 10584.637744034713,
+        "end_time": 10638.64099783081
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 10638.64099783081,
+        "end_time": 10692.644251626905
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10692.644251626905,
+        "end_time": 10746.647505423001
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10746.647505423001,
+        "end_time": 10800.650759219097
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10800.650759219097,
+        "end_time": 10854.654013015193
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10854.654013015193,
+        "end_time": 10908.65726681129
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10908.65726681129,
+        "end_time": 10962.660520607385
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 10962.660520607385,
+        "end_time": 11016.663774403482
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11016.663774403482,
+        "end_time": 11070.667028199578
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11070.667028199578,
+        "end_time": 11124.670281995674
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11124.670281995674,
+        "end_time": 11178.67353579177
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11178.67353579177,
+        "end_time": 11232.676789587866
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11232.676789587866,
+        "end_time": 11286.680043383962
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11286.680043383962,
+        "end_time": 11340.683297180058
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11340.683297180058,
+        "end_time": 11394.686550976154
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11394.686550976154,
+        "end_time": 11448.68980477225
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11448.68980477225,
+        "end_time": 11502.693058568346
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 11502.693058568346,
+        "end_time": 11556.696312364442
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11556.696312364442,
+        "end_time": 11610.699566160538
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 11610.699566160538,
+        "end_time": 11664.702819956634
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11664.702819956634,
+        "end_time": 11718.70607375273
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11718.70607375273,
+        "end_time": 11772.709327548826
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11772.709327548826,
+        "end_time": 11826.712581344922
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 11826.712581344922,
+        "end_time": 11880.715835141018
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11880.715835141018,
+        "end_time": 11934.719088937114
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 11934.719088937114,
+        "end_time": 11988.72234273321
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 11988.72234273321,
+        "end_time": 12042.725596529306
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12042.725596529306,
+        "end_time": 12096.728850325402
+    },
+    {
+        "viseme": "closed",
+        "start_time": 12096.728850325402,
+        "end_time": 12150.732104121498
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12150.732104121498,
+        "end_time": 12204.735357917594
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12204.735357917594,
+        "end_time": 12258.73861171369
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12258.73861171369,
+        "end_time": 12312.741865509786
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12312.741865509786,
+        "end_time": 12366.745119305882
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12366.745119305882,
+        "end_time": 12420.748373101978
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 12420.748373101978,
+        "end_time": 12474.751626898074
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12474.751626898074,
+        "end_time": 12528.75488069417
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12528.75488069417,
+        "end_time": 12582.758134490266
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12582.758134490266,
+        "end_time": 12636.761388286362
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12636.761388286362,
+        "end_time": 12690.764642082459
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12690.764642082459,
+        "end_time": 12744.767895878555
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12744.767895878555,
+        "end_time": 12798.77114967465
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12798.77114967465,
+        "end_time": 12852.774403470747
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 12852.774403470747,
+        "end_time": 12906.777657266843
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12906.777657266843,
+        "end_time": 12960.780911062939
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 12960.780911062939,
+        "end_time": 13014.784164859035
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13014.784164859035,
+        "end_time": 13068.78741865513
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13068.78741865513,
+        "end_time": 13122.790672451227
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13122.790672451227,
+        "end_time": 13176.793926247323
+    },
+    {
+        "viseme": "closed",
+        "start_time": 13176.793926247323,
+        "end_time": 13230.797180043419
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 13230.797180043419,
+        "end_time": 13284.800433839515
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13284.800433839515,
+        "end_time": 13338.803687635611
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13338.803687635611,
+        "end_time": 13392.806941431707
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 13392.806941431707,
+        "end_time": 13446.810195227803
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13446.810195227803,
+        "end_time": 13500.813449023899
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13500.813449023899,
+        "end_time": 13554.816702819995
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 13554.816702819995,
+        "end_time": 13608.819956616091
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 13608.819956616091,
+        "end_time": 13662.823210412187
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13662.823210412187,
+        "end_time": 13716.826464208283
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 13716.826464208283,
+        "end_time": 13770.82971800438
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13770.82971800438,
+        "end_time": 13824.832971800475
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13824.832971800475,
+        "end_time": 13878.836225596571
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13878.836225596571,
+        "end_time": 13932.839479392667
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13932.839479392667,
+        "end_time": 13986.842733188763
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 13986.842733188763,
+        "end_time": 14040.84598698486
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14040.84598698486,
+        "end_time": 14094.849240780955
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14094.849240780955,
+        "end_time": 14148.852494577051
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14148.852494577051,
+        "end_time": 14202.855748373147
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14202.855748373147,
+        "end_time": 14256.859002169243
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14256.859002169243,
+        "end_time": 14310.86225596534
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14310.86225596534,
+        "end_time": 14364.865509761436
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 14364.865509761436,
+        "end_time": 14418.868763557532
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14418.868763557532,
+        "end_time": 14472.872017353628
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14472.872017353628,
+        "end_time": 14526.875271149724
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14526.875271149724,
+        "end_time": 14580.87852494582
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14580.87852494582,
+        "end_time": 14634.881778741916
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14634.881778741916,
+        "end_time": 14688.885032538012
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14688.885032538012,
+        "end_time": 14742.888286334108
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14742.888286334108,
+        "end_time": 14796.891540130204
+    },
+    {
+        "viseme": "pucker",
+        "start_time": 14796.891540130204,
+        "end_time": 14850.8947939263
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14850.8947939263,
+        "end_time": 14904.898047722396
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14904.898047722396,
+        "end_time": 14958.901301518492
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 14958.901301518492,
+        "end_time": 15012.904555314588
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15012.904555314588,
+        "end_time": 15066.907809110684
+    },
+    {
+        "viseme": "closed",
+        "start_time": 15066.907809110684,
+        "end_time": 15120.91106290678
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15120.91106290678,
+        "end_time": 15174.914316702876
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15174.914316702876,
+        "end_time": 15228.917570498972
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 15228.917570498972,
+        "end_time": 15282.920824295068
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15282.920824295068,
+        "end_time": 15336.924078091164
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15336.924078091164,
+        "end_time": 15390.92733188726
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15390.92733188726,
+        "end_time": 15444.930585683356
+    },
+    {
+        "viseme": "closed",
+        "start_time": 15444.930585683356,
+        "end_time": 15498.933839479452
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 15498.933839479452,
+        "end_time": 15552.937093275548
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15552.937093275548,
+        "end_time": 15606.940347071644
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15606.940347071644,
+        "end_time": 15660.94360086774
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15660.94360086774,
+        "end_time": 15714.946854663836
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15714.946854663836,
+        "end_time": 15768.950108459932
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 15768.950108459932,
+        "end_time": 15822.953362256028
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15822.953362256028,
+        "end_time": 15876.956616052124
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 15876.956616052124,
+        "end_time": 15930.95986984822
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15930.95986984822,
+        "end_time": 15984.963123644317
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 15984.963123644317,
+        "end_time": 16038.966377440413
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16038.966377440413,
+        "end_time": 16092.969631236509
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16092.969631236509,
+        "end_time": 16146.972885032605
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16146.972885032605,
+        "end_time": 16200.9761388287
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16200.9761388287,
+        "end_time": 16254.979392624797
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16254.979392624797,
+        "end_time": 16308.982646420893
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16308.982646420893,
+        "end_time": 16362.985900216989
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16362.985900216989,
+        "end_time": 16416.989154013085
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16416.989154013085,
+        "end_time": 16470.99240780918
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16470.99240780918,
+        "end_time": 16524.995661605273
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 16524.995661605273,
+        "end_time": 16578.998915401367
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16578.998915401367,
+        "end_time": 16633.00216919746
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16633.00216919746,
+        "end_time": 16687.005422993556
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16687.005422993556,
+        "end_time": 16741.00867678965
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16741.00867678965,
+        "end_time": 16795.011930585744
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 16795.011930585744,
+        "end_time": 16849.01518438184
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16849.01518438184,
+        "end_time": 16903.018438177933
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16903.018438177933,
+        "end_time": 16957.021691974027
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 16957.021691974027,
+        "end_time": 17011.02494577012
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 17011.02494577012,
+        "end_time": 17065.028199566215
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17065.028199566215,
+        "end_time": 17119.03145336231
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17119.03145336231,
+        "end_time": 17173.034707158404
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 17173.034707158404,
+        "end_time": 17227.037960954498
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17227.037960954498,
+        "end_time": 17281.041214750592
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17281.041214750592,
+        "end_time": 17335.044468546686
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17335.044468546686,
+        "end_time": 17389.04772234278
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 17389.04772234278,
+        "end_time": 17443.050976138875
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17443.050976138875,
+        "end_time": 17497.05422993497
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17497.05422993497,
+        "end_time": 17551.057483731063
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17551.057483731063,
+        "end_time": 17605.060737527157
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17605.060737527157,
+        "end_time": 17659.06399132325
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17659.06399132325,
+        "end_time": 17713.067245119346
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 17713.067245119346,
+        "end_time": 17767.07049891544
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 17767.07049891544,
+        "end_time": 17821.073752711534
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17821.073752711534,
+        "end_time": 17875.07700650763
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17875.07700650763,
+        "end_time": 17929.080260303723
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 17929.080260303723,
+        "end_time": 17983.083514099817
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 17983.083514099817,
+        "end_time": 18037.08676789591
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18037.08676789591,
+        "end_time": 18091.090021692005
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18091.090021692005,
+        "end_time": 18145.0932754881
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 18145.0932754881,
+        "end_time": 18199.096529284194
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18199.096529284194,
+        "end_time": 18253.099783080288
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18253.099783080288,
+        "end_time": 18307.103036876382
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18307.103036876382,
+        "end_time": 18361.106290672476
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18361.106290672476,
+        "end_time": 18415.10954446857
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 18415.10954446857,
+        "end_time": 18469.112798264665
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18469.112798264665,
+        "end_time": 18523.11605206076
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18523.11605206076,
+        "end_time": 18577.119305856853
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18577.119305856853,
+        "end_time": 18631.122559652948
+    },
+    {
+        "viseme": "closed",
+        "start_time": 18631.122559652948,
+        "end_time": 18685.12581344904
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18685.12581344904,
+        "end_time": 18739.129067245136
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 18739.129067245136,
+        "end_time": 18793.13232104123
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18793.13232104123,
+        "end_time": 18847.135574837324
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18847.135574837324,
+        "end_time": 18901.13882863342
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18901.13882863342,
+        "end_time": 18955.142082429513
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 18955.142082429513,
+        "end_time": 19009.145336225607
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19009.145336225607,
+        "end_time": 19063.1485900217
+    },
+    {
+        "viseme": "closed",
+        "start_time": 19063.1485900217,
+        "end_time": 19117.151843817795
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 19117.151843817795,
+        "end_time": 19171.15509761389
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19171.15509761389,
+        "end_time": 19225.158351409984
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19225.158351409984,
+        "end_time": 19279.161605206078
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19279.161605206078,
+        "end_time": 19333.164859002172
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19333.164859002172,
+        "end_time": 19387.168112798267
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19387.168112798267,
+        "end_time": 19441.17136659436
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19441.17136659436,
+        "end_time": 19495.174620390455
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19495.174620390455,
+        "end_time": 19549.17787418655
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19549.17787418655,
+        "end_time": 19603.181127982643
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19603.181127982643,
+        "end_time": 19657.184381778738
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19657.184381778738,
+        "end_time": 19711.18763557483
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19711.18763557483,
+        "end_time": 19765.190889370926
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19765.190889370926,
+        "end_time": 19819.19414316702
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19819.19414316702,
+        "end_time": 19873.197396963114
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 19873.197396963114,
+        "end_time": 19927.20065075921
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19927.20065075921,
+        "end_time": 19981.203904555303
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 19981.203904555303,
+        "end_time": 20035.207158351397
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 20035.207158351397,
+        "end_time": 20089.21041214749
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20089.21041214749,
+        "end_time": 20143.213665943586
+    },
+    {
+        "viseme": "closed",
+        "start_time": 20143.213665943586,
+        "end_time": 20197.21691973968
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20197.21691973968,
+        "end_time": 20251.220173535774
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 20251.220173535774,
+        "end_time": 20305.223427331868
+    },
+    {
+        "viseme": "smile",
+        "start_time": 20305.223427331868,
+        "end_time": 20359.226681127962
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20359.226681127962,
+        "end_time": 20413.229934924057
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20413.229934924057,
+        "end_time": 20467.23318872015
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20467.23318872015,
+        "end_time": 20521.236442516245
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20521.236442516245,
+        "end_time": 20575.23969631234
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20575.23969631234,
+        "end_time": 20629.242950108433
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20629.242950108433,
+        "end_time": 20683.246203904528
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 20683.246203904528,
+        "end_time": 20737.249457700622
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20737.249457700622,
+        "end_time": 20791.252711496716
+    },
+    {
+        "viseme": "closed",
+        "start_time": 20791.252711496716,
+        "end_time": 20845.25596529281
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20845.25596529281,
+        "end_time": 20899.259219088905
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20899.259219088905,
+        "end_time": 20953.262472885
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 20953.262472885,
+        "end_time": 21007.265726681093
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21007.265726681093,
+        "end_time": 21061.268980477187
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21061.268980477187,
+        "end_time": 21115.27223427328
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21115.27223427328,
+        "end_time": 21169.275488069376
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21169.275488069376,
+        "end_time": 21223.27874186547
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 21223.27874186547,
+        "end_time": 21277.281995661564
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21277.281995661564,
+        "end_time": 21331.28524945766
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 21331.28524945766,
+        "end_time": 21385.288503253752
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21385.288503253752,
+        "end_time": 21439.291757049847
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 21439.291757049847,
+        "end_time": 21493.29501084594
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21493.29501084594,
+        "end_time": 21547.298264642035
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 21547.298264642035,
+        "end_time": 21601.30151843813
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21601.30151843813,
+        "end_time": 21655.304772234223
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21655.304772234223,
+        "end_time": 21709.308026030318
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21709.308026030318,
+        "end_time": 21763.311279826412
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21763.311279826412,
+        "end_time": 21817.314533622506
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 21817.314533622506,
+        "end_time": 21871.3177874186
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21871.3177874186,
+        "end_time": 21925.321041214695
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 21925.321041214695,
+        "end_time": 21979.32429501079
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 21979.32429501079,
+        "end_time": 22033.327548806883
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22033.327548806883,
+        "end_time": 22087.330802602977
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22087.330802602977,
+        "end_time": 22141.33405639907
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22141.33405639907,
+        "end_time": 22195.337310195166
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 22195.337310195166,
+        "end_time": 22249.34056399126
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 22249.34056399126,
+        "end_time": 22303.343817787354
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22303.343817787354,
+        "end_time": 22357.34707158345
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22357.34707158345,
+        "end_time": 22411.350325379542
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22411.350325379542,
+        "end_time": 22465.353579175637
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22465.353579175637,
+        "end_time": 22519.35683297173
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22519.35683297173,
+        "end_time": 22573.360086767825
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22573.360086767825,
+        "end_time": 22627.36334056392
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22627.36334056392,
+        "end_time": 22681.366594360014
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22681.366594360014,
+        "end_time": 22735.369848156108
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22735.369848156108,
+        "end_time": 22789.373101952202
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22789.373101952202,
+        "end_time": 22843.376355748296
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22843.376355748296,
+        "end_time": 22897.37960954439
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 22897.37960954439,
+        "end_time": 22951.382863340485
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 22951.382863340485,
+        "end_time": 23005.38611713658
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23005.38611713658,
+        "end_time": 23059.389370932673
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 23059.389370932673,
+        "end_time": 23113.392624728767
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23113.392624728767,
+        "end_time": 23167.39587852486
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23167.39587852486,
+        "end_time": 23221.399132320956
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23221.399132320956,
+        "end_time": 23275.40238611705
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 23275.40238611705,
+        "end_time": 23329.405639913144
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23329.405639913144,
+        "end_time": 23383.40889370924
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23383.40889370924,
+        "end_time": 23437.412147505333
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23437.412147505333,
+        "end_time": 23491.415401301427
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 23491.415401301427,
+        "end_time": 23545.41865509752
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23545.41865509752,
+        "end_time": 23599.421908893615
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23599.421908893615,
+        "end_time": 23653.42516268971
+    },
+    {
+        "viseme": "closed",
+        "start_time": 23653.42516268971,
+        "end_time": 23707.428416485804
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 23707.428416485804,
+        "end_time": 23761.431670281898
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23761.431670281898,
+        "end_time": 23815.434924077992
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23815.434924077992,
+        "end_time": 23869.438177874086
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23869.438177874086,
+        "end_time": 23923.44143167018
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 23923.44143167018,
+        "end_time": 23977.444685466275
+    },
+    {
+        "viseme": "closed",
+        "start_time": 23977.444685466275,
+        "end_time": 24031.44793926237
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24031.44793926237,
+        "end_time": 24085.451193058463
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24085.451193058463,
+        "end_time": 24139.454446854557
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24139.454446854557,
+        "end_time": 24193.45770065065
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24193.45770065065,
+        "end_time": 24247.460954446746
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24247.460954446746,
+        "end_time": 24301.46420824284
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24301.46420824284,
+        "end_time": 24355.467462038934
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24355.467462038934,
+        "end_time": 24409.47071583503
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24409.47071583503,
+        "end_time": 24463.473969631123
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24463.473969631123,
+        "end_time": 24517.477223427217
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 24517.477223427217,
+        "end_time": 24571.48047722331
+    },
+    {
+        "viseme": "pucker",
+        "start_time": 24571.48047722331,
+        "end_time": 24625.483731019405
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24625.483731019405,
+        "end_time": 24679.4869848155
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24679.4869848155,
+        "end_time": 24733.490238611594
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 24733.490238611594,
+        "end_time": 24787.493492407688
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24787.493492407688,
+        "end_time": 24841.496746203782
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24841.496746203782,
+        "end_time": 24895.499999999876
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24895.499999999876,
+        "end_time": 24949.50325379597
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 24949.50325379597,
+        "end_time": 25003.506507592065
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 25003.506507592065,
+        "end_time": 25057.50976138816
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25057.50976138816,
+        "end_time": 25111.513015184253
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 25111.513015184253,
+        "end_time": 25165.516268980347
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25165.516268980347,
+        "end_time": 25219.51952277644
+    },
+    {
+        "viseme": "closed",
+        "start_time": 25219.51952277644,
+        "end_time": 25273.522776572536
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25273.522776572536,
+        "end_time": 25327.52603036863
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25327.52603036863,
+        "end_time": 25381.529284164724
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25381.529284164724,
+        "end_time": 25435.53253796082
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25435.53253796082,
+        "end_time": 25489.535791756913
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25489.535791756913,
+        "end_time": 25543.539045553007
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 25543.539045553007,
+        "end_time": 25597.5422993491
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25597.5422993491,
+        "end_time": 25651.545553145195
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25651.545553145195,
+        "end_time": 25705.54880694129
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25705.54880694129,
+        "end_time": 25759.552060737384
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25759.552060737384,
+        "end_time": 25813.555314533478
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25813.555314533478,
+        "end_time": 25867.558568329572
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25867.558568329572,
+        "end_time": 25921.561822125666
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 25921.561822125666,
+        "end_time": 25975.56507592176
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 25975.56507592176,
+        "end_time": 26029.568329717855
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26029.568329717855,
+        "end_time": 26083.57158351395
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26083.57158351395,
+        "end_time": 26137.574837310043
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26137.574837310043,
+        "end_time": 26191.578091106137
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26191.578091106137,
+        "end_time": 26245.58134490223
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26245.58134490223,
+        "end_time": 26299.584598698326
+    },
+    {
+        "viseme": "closed",
+        "start_time": 26299.584598698326,
+        "end_time": 26353.58785249442
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26353.58785249442,
+        "end_time": 26407.591106290514
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26407.591106290514,
+        "end_time": 26461.59436008661
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26461.59436008661,
+        "end_time": 26515.597613882703
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26515.597613882703,
+        "end_time": 26569.600867678797
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26569.600867678797,
+        "end_time": 26623.60412147489
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26623.60412147489,
+        "end_time": 26677.607375270985
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26677.607375270985,
+        "end_time": 26731.61062906708
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26731.61062906708,
+        "end_time": 26785.613882863174
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 26785.613882863174,
+        "end_time": 26839.617136659268
+    },
+    {
+        "viseme": "smile",
+        "start_time": 26839.617136659268,
+        "end_time": 26893.620390455362
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26893.620390455362,
+        "end_time": 26947.623644251456
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 26947.623644251456,
+        "end_time": 27001.62689804755
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27001.62689804755,
+        "end_time": 27055.630151843645
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27055.630151843645,
+        "end_time": 27109.63340563974
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27109.63340563974,
+        "end_time": 27163.636659435833
+    },
+    {
+        "viseme": "closed",
+        "start_time": 27163.636659435833,
+        "end_time": 27217.639913231927
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27217.639913231927,
+        "end_time": 27271.64316702802
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27271.64316702802,
+        "end_time": 27325.646420824116
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27325.646420824116,
+        "end_time": 27379.64967462021
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27379.64967462021,
+        "end_time": 27433.652928416304
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 27433.652928416304,
+        "end_time": 27487.6561822124
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 27487.6561822124,
+        "end_time": 27541.659436008493
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27541.659436008493,
+        "end_time": 27595.662689804587
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27595.662689804587,
+        "end_time": 27649.66594360068
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 27649.66594360068,
+        "end_time": 27703.669197396775
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27703.669197396775,
+        "end_time": 27757.67245119287
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27757.67245119287,
+        "end_time": 27811.675704988964
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 27811.675704988964,
+        "end_time": 27865.678958785058
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27865.678958785058,
+        "end_time": 27919.682212581152
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27919.682212581152,
+        "end_time": 27973.685466377246
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 27973.685466377246,
+        "end_time": 28027.68872017334
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 28027.68872017334,
+        "end_time": 28081.691973969435
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28081.691973969435,
+        "end_time": 28135.69522776553
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28135.69522776553,
+        "end_time": 28189.698481561623
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 28189.698481561623,
+        "end_time": 28243.701735357718
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28243.701735357718,
+        "end_time": 28297.70498915381
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28297.70498915381,
+        "end_time": 28351.708242949906
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28351.708242949906,
+        "end_time": 28405.711496746
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28405.711496746,
+        "end_time": 28459.714750542094
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28459.714750542094,
+        "end_time": 28513.71800433819
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28513.71800433819,
+        "end_time": 28567.721258134283
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28567.721258134283,
+        "end_time": 28621.724511930377
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28621.724511930377,
+        "end_time": 28675.72776572647
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28675.72776572647,
+        "end_time": 28729.731019522565
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28729.731019522565,
+        "end_time": 28783.73427331866
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28783.73427331866,
+        "end_time": 28837.737527114754
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28837.737527114754,
+        "end_time": 28891.740780910848
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28891.740780910848,
+        "end_time": 28945.744034706942
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 28945.744034706942,
+        "end_time": 28999.747288503037
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 28999.747288503037,
+        "end_time": 29053.75054229913
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29053.75054229913,
+        "end_time": 29107.753796095225
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29107.753796095225,
+        "end_time": 29161.75704989132
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29161.75704989132,
+        "end_time": 29215.760303687413
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 29215.760303687413,
+        "end_time": 29269.763557483508
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29269.763557483508,
+        "end_time": 29323.766811279602
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29323.766811279602,
+        "end_time": 29377.770065075696
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29377.770065075696,
+        "end_time": 29431.77331887179
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29431.77331887179,
+        "end_time": 29485.776572667884
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 29485.776572667884,
+        "end_time": 29539.77982646398
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29539.77982646398,
+        "end_time": 29593.783080260073
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29593.783080260073,
+        "end_time": 29647.786334056167
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29647.786334056167,
+        "end_time": 29701.78958785226
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29701.78958785226,
+        "end_time": 29755.792841648356
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29755.792841648356,
+        "end_time": 29809.79609544445
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29809.79609544445,
+        "end_time": 29863.799349240544
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29863.799349240544,
+        "end_time": 29917.802603036638
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29917.802603036638,
+        "end_time": 29971.805856832732
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 29971.805856832732,
+        "end_time": 30025.809110628827
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30025.809110628827,
+        "end_time": 30079.81236442492
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30079.81236442492,
+        "end_time": 30133.815618221015
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30133.815618221015,
+        "end_time": 30187.81887201711
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 30187.81887201711,
+        "end_time": 30241.822125813203
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30241.822125813203,
+        "end_time": 30295.825379609298
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30295.825379609298,
+        "end_time": 30349.828633405392
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30349.828633405392,
+        "end_time": 30403.831887201486
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30403.831887201486,
+        "end_time": 30457.83514099758
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 30457.83514099758,
+        "end_time": 30511.838394793675
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30511.838394793675,
+        "end_time": 30565.84164858977
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30565.84164858977,
+        "end_time": 30619.844902385863
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30619.844902385863,
+        "end_time": 30673.848156181957
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30673.848156181957,
+        "end_time": 30727.85140997805
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30727.85140997805,
+        "end_time": 30781.854663774146
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30781.854663774146,
+        "end_time": 30835.85791757024
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30835.85791757024,
+        "end_time": 30889.861171366334
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30889.861171366334,
+        "end_time": 30943.86442516243
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 30943.86442516243,
+        "end_time": 30997.867678958522
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 30997.867678958522,
+        "end_time": 31051.870932754617
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 31051.870932754617,
+        "end_time": 31105.87418655071
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 31105.87418655071,
+        "end_time": 31159.877440346805
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31159.877440346805,
+        "end_time": 31213.8806941429
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31213.8806941429,
+        "end_time": 31267.883947938994
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31267.883947938994,
+        "end_time": 31321.887201735088
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31321.887201735088,
+        "end_time": 31375.890455531182
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 31375.890455531182,
+        "end_time": 31429.893709327276
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31429.893709327276,
+        "end_time": 31483.89696312337
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31483.89696312337,
+        "end_time": 31537.900216919465
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31537.900216919465,
+        "end_time": 31591.90347071556
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 31591.90347071556,
+        "end_time": 31645.906724511653
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31645.906724511653,
+        "end_time": 31699.909978307747
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 31699.909978307747,
+        "end_time": 31753.91323210384
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31753.91323210384,
+        "end_time": 31807.916485899936
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31807.916485899936,
+        "end_time": 31861.91973969603
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31861.91973969603,
+        "end_time": 31915.922993492124
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31915.922993492124,
+        "end_time": 31969.92624728822
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 31969.92624728822,
+        "end_time": 32023.929501084313
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32023.929501084313,
+        "end_time": 32077.932754880407
+    },
+    {
+        "viseme": "closed",
+        "start_time": 32077.932754880407,
+        "end_time": 32131.9360086765
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32131.9360086765,
+        "end_time": 32185.939262472595
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32185.939262472595,
+        "end_time": 32239.94251626869
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32239.94251626869,
+        "end_time": 32293.945770064784
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32293.945770064784,
+        "end_time": 32347.949023860878
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32347.949023860878,
+        "end_time": 32401.952277656972
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32401.952277656972,
+        "end_time": 32455.955531453066
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 32455.955531453066,
+        "end_time": 32509.95878524916
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32509.95878524916,
+        "end_time": 32563.962039045255
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 32563.962039045255,
+        "end_time": 32617.96529284135
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32617.96529284135,
+        "end_time": 32671.968546637443
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32671.968546637443,
+        "end_time": 32725.971800433537
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32725.971800433537,
+        "end_time": 32779.97505422963
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 32779.97505422963,
+        "end_time": 32833.978308025726
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32833.978308025726,
+        "end_time": 32887.98156182182
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32887.98156182182,
+        "end_time": 32941.984815617914
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 32941.984815617914,
+        "end_time": 32995.98806941401
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 32995.98806941401,
+        "end_time": 33049.9913232101
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33049.9913232101,
+        "end_time": 33103.9945770062
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 33103.9945770062,
+        "end_time": 33157.99783080229
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33157.99783080229,
+        "end_time": 33212.001084598385
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 33212.001084598385,
+        "end_time": 33266.00433839448
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33266.00433839448,
+        "end_time": 33320.00759219057
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33320.00759219057,
+        "end_time": 33374.01084598667
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 33374.01084598667,
+        "end_time": 33428.01409978276
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33428.01409978276,
+        "end_time": 33482.017353578856
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33482.017353578856,
+        "end_time": 33536.02060737495
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33536.02060737495,
+        "end_time": 33590.023861171045
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33590.023861171045,
+        "end_time": 33644.02711496714
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33644.02711496714,
+        "end_time": 33698.03036876323
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33698.03036876323,
+        "end_time": 33752.03362255933
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33752.03362255933,
+        "end_time": 33806.03687635542
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33806.03687635542,
+        "end_time": 33860.040130151516
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33860.040130151516,
+        "end_time": 33914.04338394761
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 33914.04338394761,
+        "end_time": 33968.046637743704
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 33968.046637743704,
+        "end_time": 34022.0498915398
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34022.0498915398,
+        "end_time": 34076.05314533589
+    },
+    {
+        "viseme": "closed",
+        "start_time": 34076.05314533589,
+        "end_time": 34130.05639913199
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34130.05639913199,
+        "end_time": 34184.05965292808
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 34184.05965292808,
+        "end_time": 34238.062906724175
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34238.062906724175,
+        "end_time": 34292.06616052027
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34292.06616052027,
+        "end_time": 34346.069414316364
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34346.069414316364,
+        "end_time": 34400.07266811246
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34400.07266811246,
+        "end_time": 34454.07592190855
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34454.07592190855,
+        "end_time": 34508.079175704646
+    },
+    {
+        "viseme": "closed",
+        "start_time": 34508.079175704646,
+        "end_time": 34562.08242950074
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 34562.08242950074,
+        "end_time": 34616.085683296835
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34616.085683296835,
+        "end_time": 34670.08893709293
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34670.08893709293,
+        "end_time": 34724.09219088902
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34724.09219088902,
+        "end_time": 34778.09544468512
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 34778.09544468512,
+        "end_time": 34832.09869848121
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 34832.09869848121,
+        "end_time": 34886.101952277306
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34886.101952277306,
+        "end_time": 34940.1052060734
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 34940.1052060734,
+        "end_time": 34994.108459869494
+    },
+    {
+        "viseme": "closed",
+        "start_time": 34994.108459869494,
+        "end_time": 35048.11171366559
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 35048.11171366559,
+        "end_time": 35102.11496746168
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35102.11496746168,
+        "end_time": 35156.11822125778
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35156.11822125778,
+        "end_time": 35210.12147505387
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35210.12147505387,
+        "end_time": 35264.124728849965
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35264.124728849965,
+        "end_time": 35318.12798264606
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35318.12798264606,
+        "end_time": 35372.131236442154
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35372.131236442154,
+        "end_time": 35426.13449023825
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35426.13449023825,
+        "end_time": 35480.13774403434
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35480.13774403434,
+        "end_time": 35534.14099783044
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35534.14099783044,
+        "end_time": 35588.14425162653
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35588.14425162653,
+        "end_time": 35642.147505422625
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35642.147505422625,
+        "end_time": 35696.15075921872
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35696.15075921872,
+        "end_time": 35750.15401301481
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35750.15401301481,
+        "end_time": 35804.15726681091
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35804.15726681091,
+        "end_time": 35858.160520607
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35858.160520607,
+        "end_time": 35912.163774403096
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 35912.163774403096,
+        "end_time": 35966.16702819919
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 35966.16702819919,
+        "end_time": 36020.170281995284
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 36020.170281995284,
+        "end_time": 36074.17353579138
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36074.17353579138,
+        "end_time": 36128.17678958747
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36128.17678958747,
+        "end_time": 36182.18004338357
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 36182.18004338357,
+        "end_time": 36236.18329717966
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 36236.18329717966,
+        "end_time": 36290.186550975755
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36290.186550975755,
+        "end_time": 36344.18980477185
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36344.18980477185,
+        "end_time": 36398.193058567944
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36398.193058567944,
+        "end_time": 36452.19631236404
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36452.19631236404,
+        "end_time": 36506.19956616013
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36506.19956616013,
+        "end_time": 36560.20281995623
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 36560.20281995623,
+        "end_time": 36614.20607375232
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36614.20607375232,
+        "end_time": 36668.209327548415
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36668.209327548415,
+        "end_time": 36722.21258134451
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36722.21258134451,
+        "end_time": 36776.2158351406
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36776.2158351406,
+        "end_time": 36830.2190889367
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 36830.2190889367,
+        "end_time": 36884.22234273279
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 36884.22234273279,
+        "end_time": 36938.225596528886
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36938.225596528886,
+        "end_time": 36992.22885032498
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 36992.22885032498,
+        "end_time": 37046.232104121074
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37046.232104121074,
+        "end_time": 37100.23535791717
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37100.23535791717,
+        "end_time": 37154.23861171326
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37154.23861171326,
+        "end_time": 37208.24186550936
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37208.24186550936,
+        "end_time": 37262.24511930545
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37262.24511930545,
+        "end_time": 37316.248373101545
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 37316.248373101545,
+        "end_time": 37370.25162689764
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37370.25162689764,
+        "end_time": 37424.254880693734
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37424.254880693734,
+        "end_time": 37478.25813448983
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37478.25813448983,
+        "end_time": 37532.26138828592
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37532.26138828592,
+        "end_time": 37586.26464208202
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 37586.26464208202,
+        "end_time": 37640.26789587811
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37640.26789587811,
+        "end_time": 37694.271149674205
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37694.271149674205,
+        "end_time": 37748.2744034703
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37748.2744034703,
+        "end_time": 37802.27765726639
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 37802.27765726639,
+        "end_time": 37856.28091106249
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 37856.28091106249,
+        "end_time": 37910.28416485858
+    },
+    {
+        "viseme": "closed",
+        "start_time": 37910.28416485858,
+        "end_time": 37964.287418654676
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 37964.287418654676,
+        "end_time": 38018.29067245077
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38018.29067245077,
+        "end_time": 38072.293926246864
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38072.293926246864,
+        "end_time": 38126.29718004296
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38126.29718004296,
+        "end_time": 38180.30043383905
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38180.30043383905,
+        "end_time": 38234.30368763515
+    },
+    {
+        "viseme": "closed",
+        "start_time": 38234.30368763515,
+        "end_time": 38288.30694143124
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38288.30694143124,
+        "end_time": 38342.310195227335
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38342.310195227335,
+        "end_time": 38396.31344902343
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38396.31344902343,
+        "end_time": 38450.316702819524
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38450.316702819524,
+        "end_time": 38504.31995661562
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38504.31995661562,
+        "end_time": 38558.32321041171
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38558.32321041171,
+        "end_time": 38612.32646420781
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38612.32646420781,
+        "end_time": 38666.3297180039
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38666.3297180039,
+        "end_time": 38720.332971799995
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38720.332971799995,
+        "end_time": 38774.33622559609
+    },
+    {
+        "viseme": "closed",
+        "start_time": 38774.33622559609,
+        "end_time": 38828.33947939218
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38828.33947939218,
+        "end_time": 38882.34273318828
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38882.34273318828,
+        "end_time": 38936.34598698437
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38936.34598698437,
+        "end_time": 38990.349240780466
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 38990.349240780466,
+        "end_time": 39044.35249457656
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39044.35249457656,
+        "end_time": 39098.355748372654
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39098.355748372654,
+        "end_time": 39152.35900216875
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 39152.35900216875,
+        "end_time": 39206.36225596484
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39206.36225596484,
+        "end_time": 39260.36550976094
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 39260.36550976094,
+        "end_time": 39314.36876355703
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39314.36876355703,
+        "end_time": 39368.372017353126
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39368.372017353126,
+        "end_time": 39422.37527114922
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39422.37527114922,
+        "end_time": 39476.378524945314
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39476.378524945314,
+        "end_time": 39530.38177874141
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 39530.38177874141,
+        "end_time": 39584.3850325375
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39584.3850325375,
+        "end_time": 39638.3882863336
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39638.3882863336,
+        "end_time": 39692.39154012969
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39692.39154012969,
+        "end_time": 39746.394793925785
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 39746.394793925785,
+        "end_time": 39800.39804772188
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 39800.39804772188,
+        "end_time": 39854.40130151797
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39854.40130151797,
+        "end_time": 39908.40455531407
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39908.40455531407,
+        "end_time": 39962.40780911016
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 39962.40780911016,
+        "end_time": 40016.411062906256
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 40016.411062906256,
+        "end_time": 40070.41431670235
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40070.41431670235,
+        "end_time": 40124.417570498445
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40124.417570498445,
+        "end_time": 40178.42082429454
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40178.42082429454,
+        "end_time": 40232.42407809063
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40232.42407809063,
+        "end_time": 40286.42733188673
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40286.42733188673,
+        "end_time": 40340.43058568282
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40340.43058568282,
+        "end_time": 40394.433839478916
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 40394.433839478916,
+        "end_time": 40448.43709327501
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40448.43709327501,
+        "end_time": 40502.440347071104
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40502.440347071104,
+        "end_time": 40556.4436008672
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40556.4436008672,
+        "end_time": 40610.44685466329
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40610.44685466329,
+        "end_time": 40664.45010845939
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40664.45010845939,
+        "end_time": 40718.45336225548
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40718.45336225548,
+        "end_time": 40772.456616051575
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40772.456616051575,
+        "end_time": 40826.45986984767
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40826.45986984767,
+        "end_time": 40880.46312364376
+    },
+    {
+        "viseme": "smile",
+        "start_time": 40880.46312364376,
+        "end_time": 40934.46637743986
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 40934.46637743986,
+        "end_time": 40988.46963123595
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 40988.46963123595,
+        "end_time": 41042.472885032046
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41042.472885032046,
+        "end_time": 41096.47613882814
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41096.47613882814,
+        "end_time": 41150.479392624235
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41150.479392624235,
+        "end_time": 41204.48264642033
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41204.48264642033,
+        "end_time": 41258.48590021642
+    },
+    {
+        "viseme": "closed",
+        "start_time": 41258.48590021642,
+        "end_time": 41312.48915401252
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 41312.48915401252,
+        "end_time": 41366.49240780861
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41366.49240780861,
+        "end_time": 41420.495661604706
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41420.495661604706,
+        "end_time": 41474.4989154008
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41474.4989154008,
+        "end_time": 41528.502169196894
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 41528.502169196894,
+        "end_time": 41582.50542299299
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41582.50542299299,
+        "end_time": 41636.50867678908
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41636.50867678908,
+        "end_time": 41690.51193058518
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41690.51193058518,
+        "end_time": 41744.51518438127
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41744.51518438127,
+        "end_time": 41798.518438177365
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41798.518438177365,
+        "end_time": 41852.52169197346
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41852.52169197346,
+        "end_time": 41906.52494576955
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41906.52494576955,
+        "end_time": 41960.52819956565
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 41960.52819956565,
+        "end_time": 42014.53145336174
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42014.53145336174,
+        "end_time": 42068.534707157836
+    },
+    {
+        "viseme": "pucker",
+        "start_time": 42068.534707157836,
+        "end_time": 42122.53796095393
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42122.53796095393,
+        "end_time": 42176.541214750025
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42176.541214750025,
+        "end_time": 42230.54446854612
+    },
+    {
+        "viseme": "p_outward",
+        "start_time": 42230.54446854612,
+        "end_time": 42284.54772234221
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42284.54772234221,
+        "end_time": 42338.55097613831
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42338.55097613831,
+        "end_time": 42392.5542299344
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42392.5542299344,
+        "end_time": 42446.557483730496
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42446.557483730496,
+        "end_time": 42500.56073752659
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42500.56073752659,
+        "end_time": 42554.563991322684
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42554.563991322684,
+        "end_time": 42608.56724511878
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42608.56724511878,
+        "end_time": 42662.57049891487
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42662.57049891487,
+        "end_time": 42716.57375271097
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42716.57375271097,
+        "end_time": 42770.57700650706
+    },
+    {
+        "viseme": "closed",
+        "start_time": 42770.57700650706,
+        "end_time": 42824.580260303155
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42824.580260303155,
+        "end_time": 42878.58351409925
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42878.58351409925,
+        "end_time": 42932.586767895344
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 42932.586767895344,
+        "end_time": 42986.59002169144
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 42986.59002169144,
+        "end_time": 43040.59327548753
+    },
+    {
+        "viseme": "round_open",
+        "start_time": 43040.59327548753,
+        "end_time": 43094.596529283626
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43094.596529283626,
+        "end_time": 43148.59978307972
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43148.59978307972,
+        "end_time": 43202.603036875815
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 43202.603036875815,
+        "end_time": 43256.60629067191
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43256.60629067191,
+        "end_time": 43310.609544468
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43310.609544468,
+        "end_time": 43364.6127982641
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43364.6127982641,
+        "end_time": 43418.61605206019
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43418.61605206019,
+        "end_time": 43472.619305856286
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43472.619305856286,
+        "end_time": 43526.62255965238
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43526.62255965238,
+        "end_time": 43580.625813448474
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43580.625813448474,
+        "end_time": 43634.62906724457
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43634.62906724457,
+        "end_time": 43688.63232104066
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43688.63232104066,
+        "end_time": 43742.63557483676
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 43742.63557483676,
+        "end_time": 43796.63882863285
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43796.63882863285,
+        "end_time": 43850.642082428945
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43850.642082428945,
+        "end_time": 43904.64533622504
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 43904.64533622504,
+        "end_time": 43958.648590021134
+    },
+    {
+        "viseme": "pucker",
+        "start_time": 43958.648590021134,
+        "end_time": 44012.65184381723
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44012.65184381723,
+        "end_time": 44066.65509761332
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44066.65509761332,
+        "end_time": 44120.658351409416
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 44120.658351409416,
+        "end_time": 44174.66160520551
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44174.66160520551,
+        "end_time": 44228.664859001605
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44228.664859001605,
+        "end_time": 44282.6681127977
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 44282.6681127977,
+        "end_time": 44336.67136659379
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44336.67136659379,
+        "end_time": 44390.67462038989
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44390.67462038989,
+        "end_time": 44444.67787418598
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44444.67787418598,
+        "end_time": 44498.681127982076
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 44498.681127982076,
+        "end_time": 44552.68438177817
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 44552.68438177817,
+        "end_time": 44606.687635574264
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44606.687635574264,
+        "end_time": 44660.69088937036
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44660.69088937036,
+        "end_time": 44714.69414316645
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44714.69414316645,
+        "end_time": 44768.69739696255
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 44768.69739696255,
+        "end_time": 44822.70065075864
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44822.70065075864,
+        "end_time": 44876.703904554735
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44876.703904554735,
+        "end_time": 44930.70715835083
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44930.70715835083,
+        "end_time": 44984.710412146924
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 44984.710412146924,
+        "end_time": 45038.71366594302
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45038.71366594302,
+        "end_time": 45092.71691973911
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45092.71691973911,
+        "end_time": 45146.72017353521
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45146.72017353521,
+        "end_time": 45200.7234273313
+    },
+    {
+        "viseme": "closed",
+        "start_time": 45200.7234273313,
+        "end_time": 45254.726681127395
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45254.726681127395,
+        "end_time": 45308.72993492349
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45308.72993492349,
+        "end_time": 45362.73318871958
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45362.73318871958,
+        "end_time": 45416.73644251568
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45416.73644251568,
+        "end_time": 45470.73969631177
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45470.73969631177,
+        "end_time": 45524.742950107866
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45524.742950107866,
+        "end_time": 45578.74620390396
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45578.74620390396,
+        "end_time": 45632.749457700054
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45632.749457700054,
+        "end_time": 45686.75271149615
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45686.75271149615,
+        "end_time": 45740.75596529224
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45740.75596529224,
+        "end_time": 45794.75921908834
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45794.75921908834,
+        "end_time": 45848.76247288443
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45848.76247288443,
+        "end_time": 45902.765726680525
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45902.765726680525,
+        "end_time": 45956.76898047662
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 45956.76898047662,
+        "end_time": 46010.772234272714
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46010.772234272714,
+        "end_time": 46064.77548806881
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46064.77548806881,
+        "end_time": 46118.7787418649
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46118.7787418649,
+        "end_time": 46172.781995661
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 46172.781995661,
+        "end_time": 46226.78524945709
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46226.78524945709,
+        "end_time": 46280.788503253185
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46280.788503253185,
+        "end_time": 46334.79175704928
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46334.79175704928,
+        "end_time": 46388.79501084537
+    },
+    {
+        "viseme": "narrow_smile",
+        "start_time": 46388.79501084537,
+        "end_time": 46442.79826464147
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46442.79826464147,
+        "end_time": 46496.80151843756
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46496.80151843756,
+        "end_time": 46550.804772233656
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46550.804772233656,
+        "end_time": 46604.80802602975
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 46604.80802602975,
+        "end_time": 46658.811279825844
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46658.811279825844,
+        "end_time": 46712.81453362194
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46712.81453362194,
+        "end_time": 46766.81778741803
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46766.81778741803,
+        "end_time": 46820.82104121413
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46820.82104121413,
+        "end_time": 46874.82429501022
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46874.82429501022,
+        "end_time": 46928.827548806315
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 46928.827548806315,
+        "end_time": 46982.83080260241
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 46982.83080260241,
+        "end_time": 47036.834056398504
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 47036.834056398504,
+        "end_time": 47090.8373101946
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47090.8373101946,
+        "end_time": 47144.84056399069
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47144.84056399069,
+        "end_time": 47198.84381778679
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47198.84381778679,
+        "end_time": 47252.84707158288
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47252.84707158288,
+        "end_time": 47306.850325378975
+    },
+    {
+        "viseme": "teeth_upper",
+        "start_time": 47306.850325378975,
+        "end_time": 47360.85357917507
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47360.85357917507,
+        "end_time": 47414.85683297116
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47414.85683297116,
+        "end_time": 47468.86008676726
+    },
+    {
+        "viseme": "teeth_open",
+        "start_time": 47468.86008676726,
+        "end_time": 47522.86334056335
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 47522.86334056335,
+        "end_time": 47576.866594359446
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47576.866594359446,
+        "end_time": 47630.86984815554
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47630.86984815554,
+        "end_time": 47684.873101951634
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47684.873101951634,
+        "end_time": 47738.87635574773
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47738.87635574773,
+        "end_time": 47792.87960954382
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47792.87960954382,
+        "end_time": 47846.88286333992
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47846.88286333992,
+        "end_time": 47900.88611713601
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47900.88611713601,
+        "end_time": 47954.889370932106
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 47954.889370932106,
+        "end_time": 48008.8926247282
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48008.8926247282,
+        "end_time": 48062.895878524294
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48062.895878524294,
+        "end_time": 48116.89913232039
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48116.89913232039,
+        "end_time": 48170.90238611648
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48170.90238611648,
+        "end_time": 48224.90563991258
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48224.90563991258,
+        "end_time": 48278.90889370867
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48278.90889370867,
+        "end_time": 48332.912147504765
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48332.912147504765,
+        "end_time": 48386.91540130086
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48386.91540130086,
+        "end_time": 48440.91865509695
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48440.91865509695,
+        "end_time": 48494.92190889305
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48494.92190889305,
+        "end_time": 48548.92516268914
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48548.92516268914,
+        "end_time": 48602.928416485236
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48602.928416485236,
+        "end_time": 48656.93167028133
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48656.93167028133,
+        "end_time": 48710.934924077425
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48710.934924077425,
+        "end_time": 48764.93817787352
+    },
+    {
+        "viseme": "pucker",
+        "start_time": 48764.93817787352,
+        "end_time": 48818.94143166961
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48818.94143166961,
+        "end_time": 48872.94468546571
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48872.94468546571,
+        "end_time": 48926.9479392618
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48926.9479392618,
+        "end_time": 48980.951193057896
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 48980.951193057896,
+        "end_time": 49034.95444685399
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49034.95444685399,
+        "end_time": 49088.957700650084
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49088.957700650084,
+        "end_time": 49142.96095444618
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49142.96095444618,
+        "end_time": 49196.96420824227
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49196.96420824227,
+        "end_time": 49250.96746203837
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49250.96746203837,
+        "end_time": 49304.97071583446
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49304.97071583446,
+        "end_time": 49358.973969630555
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49358.973969630555,
+        "end_time": 49412.97722342665
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49412.97722342665,
+        "end_time": 49466.98047722274
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49466.98047722274,
+        "end_time": 49520.98373101884
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49520.98373101884,
+        "end_time": 49574.98698481493
+    },
+    {
+        "viseme": "flat_open",
+        "start_time": 49574.98698481493,
+        "end_time": 49628.990238611026
+    },
+    {
+        "viseme": "mouth_open",
+        "start_time": 49628.990238611026,
+        "end_time": 49682.99349240712
+    },
+    {
+        "viseme": "neutral",
+        "start_time": 49682.99349240712,
+        "end_time": 49736.996746203215
+    },
+    {
+        "viseme": "closed",
+        "start_time": 49736.996746203215,
+        "end_time": 49790.99999999931
+    }
+]

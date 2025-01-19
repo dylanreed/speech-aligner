@@ -1,6 +1,11 @@
 import json
 from phonemizer import phonemize  # Install with `pip install phonemizer`
 from pydub import AudioSegment  # Install with `pip install pydub`
+from phonemizer.backend.espeak.wrapper import EspeakWrapper
+
+_ESPEAK_LIBRARY = '/opt/homebrew/Cellar/espeak/1.48.04_1/lib/libespeak.1.1.48.dylib'  #use the Path to the library.
+EspeakWrapper.set_library(_ESPEAK_LIBRARY)
+
 
 def load_phoneme_viseme_map():
     """Defines a mapping of phonemes to visemes (mouth shapes)."""
