@@ -82,7 +82,6 @@ def align_words(audio_file, transcript):
         debug_file.write(f"Dictionary Path: {config['dict']}\n")
         debug_file.write(f"Audio File Path: {audio_file}\n")
 
-    # Initialize Pocketsphinx directly for debugging
     try:
         ps = Pocketsphinx(**config)
         ps.decode(audio_file=audio_file)  # Pass the audio file here
@@ -91,17 +90,46 @@ def align_words(audio_file, transcript):
         with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
             debug_file.write(f"Decoded Hypothesis: {hypothesis}\n")
 
-        # Collect word data
         word_data = []
-        for segment in ps.segments():
-            with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
-                debug_file.write(f"Detected segment: {segment.word} ({segment.start_frame / 100.0}s to {segment.end_frame / 100.0}s)\n")
-            if segment.word not in ('<s>', '</s>'):
+        segments = ps.segments()
+
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+            debug_file.write(f"Segments Retrieved: {segments}\n")
+
+        for segment in segments:
+            if isinstance(segment, str):
+                try:
+                    # Parse string-based segment
+                    parts = segment.split()
+                    if len(parts) >= 4:
+                        word = parts[0]
+                        start_frame = int(parts[1])
+                        end_frame = int(parts[2])
+                        word_data.append({
+                            'word': word,
+                            'start_time': start_frame / 100.0,
+                            'end_time': end_frame / 100.0
+                        })
+                        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+                            debug_file.write(
+                                f"Parsed string segment: {word} ({start_frame / 100.0}s to {end_frame / 100.0}s)\n"
+                            )
+                except Exception as parse_error:
+                    with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+                        debug_file.write(f"Error parsing string segment: {segment}, Error: {parse_error}\n")
+            elif hasattr(segment, 'word'):
                 word_data.append({
                     'word': segment.word,
                     'start_time': segment.start_frame / 100.0,
                     'end_time': segment.end_frame / 100.0
                 })
+                with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+                    debug_file.write(
+                        f"Detected segment: {segment.word} ({segment.start_frame / 100.0}s to {segment.end_frame / 100.0}s)\n"
+                    )
+            else:
+                with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+                    debug_file.write(f"Unexpected segment type: {segment}\n")
 
         return word_data
 
@@ -109,6 +137,8 @@ def align_words(audio_file, transcript):
         with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
             debug_file.write(f"Error during alignment: {e}\n")
         return []
+
+
 
 def map_words_to_phonemes(word_data):
     """
