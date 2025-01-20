@@ -14,10 +14,11 @@ def convert_to_wav(input_file, output_file):
         audio = AudioSegment.from_file(input_file)
         audio = audio.set_frame_rate(16000).set_channels(1).set_sample_width(2)
         audio.export(output_file, format="wav")
-        print(f"File converted to WAV successfully: {output_file}")
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_conversion.txt", "w") as debug_file:
+            debug_file.write(f"File converted to WAV successfully: {output_file}\n")
     except Exception as e:
-        print(f"Error during conversion: {e}")
-
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_conversion.txt", "w") as debug_file:
+            debug_file.write(f"Error during conversion: {e}\n")
 
 def read_transcript(file_path):
     """
@@ -30,7 +31,8 @@ def read_transcript(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read().strip()
     except FileNotFoundError:
-        print(f"Error: Transcript file not found at {file_path}")
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_transcript.txt", "w") as debug_file:
+            debug_file.write(f"Error: Transcript file not found at {file_path}\n")
         return None
 
 def load_cmu_dict(file_path):
@@ -49,11 +51,12 @@ def load_cmu_dict(file_path):
                     if len(parts) == 2:
                         word, phonemes = parts
                         cmu_dict[word.lower()] = phonemes.split()
-        print("CMU Pronouncing Dictionary loaded successfully.")
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_cmu_dict.txt", "w") as debug_file:
+            debug_file.write("CMU Pronouncing Dictionary loaded successfully.\n")
     except Exception as e:
-        print(f"Error loading CMU dictionary: {e}")
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_cmu_dict.txt", "w") as debug_file:
+            debug_file.write(f"Error loading CMU dictionary: {e}\n")
     return cmu_dict
-
 
 def align_words(audio_file, transcript):
     """
@@ -73,51 +76,61 @@ def align_words(audio_file, transcript):
         'bestpath': True,  # Enable best path decoding
     }
 
-    # Debugging configuration paths
-    print("HMM Path:", config['hmm'])
-    print("LM Path:", config['lm'])
-    print("Dictionary Path:", config['dict'])
+    with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "w") as debug_file:
+        debug_file.write(f"HMM Path: {config['hmm']}\n")
+        debug_file.write(f"LM Path: {config['lm']}\n")
+        debug_file.write(f"Dictionary Path: {config['dict']}\n")
+        debug_file.write(f"Audio File Path: {audio_file}\n")
 
+    # Initialize Pocketsphinx directly for debugging
     try:
-        # Initialize Pocketsphinx and decode the audio
         ps = Pocketsphinx(**config)
-        ps.decode(audio_file=audio_file)
-        print("Decoded Hypothesis:", ps.hypothesis())  # Output the recognized hypothesis
+        ps.decode(audio_file=audio_file)  # Pass the audio file here
+        hypothesis = ps.hypothesis()
+
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+            debug_file.write(f"Decoded Hypothesis: {hypothesis}\n")
 
         # Collect word data
         word_data = []
-        for word in ps.seg():  # Use ps.seg() for segment iteration
-            print(f"Detected word: {word.word} ({word.start_frame / 100.0}s to {word.end_frame / 100.0}s)")
-            if word.word not in ('<s>', '</s>'):
+        for segment in ps.segments():
+            with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+                debug_file.write(f"Detected segment: {segment.word} ({segment.start_frame / 100.0}s to {segment.end_frame / 100.0}s)\n")
+            if segment.word not in ('<s>', '</s>'):
                 word_data.append({
-                    'word': word.word,
-                    'start_time': word.start_frame / 100.0,
-                    'end_time': word.end_frame / 100.0
+                    'word': segment.word,
+                    'start_time': segment.start_frame / 100.0,
+                    'end_time': segment.end_frame / 100.0
                 })
 
-        print("Word Data:", word_data)  # Debug print
         return word_data
 
     except Exception as e:
-        print(f"Error during alignment: {e}")
+        with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_alignment.txt", "a") as debug_file:
+            debug_file.write(f"Error during alignment: {e}\n")
         return []
 
 def map_words_to_phonemes(word_data):
-    cmu_dict = load_cmu_dict('/Users/nervous/Documents/GitHub/speech-aligner/cmudict.dict')
+    """
+    Map words to phonemes using the loaded CMU Pronouncing Dictionary.
+
+    :param word_data: List of words with start and end timings.
+    :return: List of phonemes with start and end timings.
+    """
+    cmu_dict = load_cmu_dict('/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict')  # Provide the path to your CMU dictionary file
 
     phoneme_data = []
     for word_entry in word_data:
         raw_word = word_entry['word']
-        word = raw_word.lower().strip("()[]0123456789")  # Remove extra characters
+        word = raw_word.lower().strip("()[]0123456789")
         start_time = word_entry['start_time']
         end_time = word_entry['end_time']
         word_duration = end_time - start_time
 
-        # Handle special cases for noise/silence
         if word in ['<sil>', '[noise]', '[silence]']:
             phonemes = ['SIL']
         else:
-            phonemes = cmu_dict.get(word, ['SIL'])  # Default to 'SIL' if not found
+            phonemes = cmu_dict.get(word, ['SIL'])
 
         num_phonemes = len(phonemes)
         phoneme_duration = word_duration / num_phonemes if num_phonemes else 0
@@ -131,8 +144,10 @@ def map_words_to_phonemes(word_data):
             })
             current_time += phoneme_duration
 
-    return phoneme_data
+    with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_phonemes.txt", "w") as debug_file:
+        debug_file.write(f"Phoneme Data: {phoneme_data}\n")
 
+    return phoneme_data
 
 def map_phonemes_to_visemes(phoneme_data):
     """
@@ -186,14 +201,16 @@ def map_phonemes_to_visemes(phoneme_data):
 
     viseme_list = []
     for entry in phoneme_data:
-        viseme = phoneme_viseme_map.get(entry['phoneme'], "neutral")  # Default to 'neutral'
+        viseme = phoneme_viseme_map.get(entry['phoneme'], "neutral")
         viseme_list.append({
             "viseme": viseme,
             "start_time": entry['start_time'],
             "end_time": entry['end_time']
         })
 
-    print("Viseme Data:", viseme_list)  # Debug print
+    with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_visemes.txt", "w") as debug_file:
+        debug_file.write(f"Viseme Data: {viseme_list}\n")
+
     return viseme_list
 
 if __name__ == "__main__":
@@ -225,4 +242,5 @@ if __name__ == "__main__":
                 json.dump(viseme_data, outfile, indent=4)
             print(f"Viseme sequence saved to {viseme_output_file}")
         except Exception as e:
-            print(f"Error saving viseme sequence: {e}")
+            with open("/Users/nervous/Documents/GitHub/speech-aligner/logs/debug_viseme_output.txt", "w") as debug_file:
+                debug_file.write(f"Error saving viseme sequence: {e}\n")

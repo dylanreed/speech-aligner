@@ -24,7 +24,7 @@ def transcribe_and_save(audio_file, model_name="base", transcript_file="transcri
             f.write(transcription)
         print(f"Transcription saved to {transcript_file}")
     except Exception as e:
-        print(f"Error saving transcription: {e}")
+        print(f"Error saving transcription:{e}")
 
 # Example usage
 audio_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Path to your audio file
