@@ -1,0 +1,3027 @@
+[
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 1.4200000000000015,
+        "end_time": 1.500000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 1.500000000000001,
+        "end_time": 1.5800000000000007
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 1.5800000000000007,
+        "end_time": 1.6600000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 1.6600000000000004,
+        "end_time": 1.74
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 1.74,
+        "end_time": 1.8199999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 1.82,
+        "end_time": 1.96
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 1.96,
+        "end_time": 2.1
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 2.1,
+        "end_time": 2.185
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 2.185,
+        "end_time": 2.27
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 2.27,
+        "end_time": 2.355
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 2.355,
+        "end_time": 2.44
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 2.78,
+        "end_time": 2.8
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 2.8,
+        "end_time": 2.8449999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 2.8449999999999998,
+        "end_time": 2.8899999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 2.8899999999999997,
+        "end_time": 2.9349999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 2.9349999999999996,
+        "end_time": 2.9799999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 2.98,
+        "end_time": 3.0300000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.0300000000000002,
+        "end_time": 3.08
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.08,
+        "end_time": 3.14
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 3.14,
+        "end_time": 3.2
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 3.2,
+        "end_time": 3.2600000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.26,
+        "end_time": 3.33
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.33,
+        "end_time": 3.4000000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.4,
+        "end_time": 3.455
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.455,
+        "end_time": 3.5100000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.5100000000000002,
+        "end_time": 3.5650000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.5650000000000004,
+        "end_time": 3.6200000000000006
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 3.62,
+        "end_time": 3.6866666666666665
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 3.6866666666666665,
+        "end_time": 3.753333333333333
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 3.753333333333333,
+        "end_time": 3.8199999999999994
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.82,
+        "end_time": 3.868
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.868,
+        "end_time": 3.916
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 3.916,
+        "end_time": 3.964
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 3.964,
+        "end_time": 4.012
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 4.012,
+        "end_time": 4.06
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 4.06,
+        "end_time": 4.17
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 4.17,
+        "end_time": 4.28
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 4.28,
+        "end_time": 4.390000000000001
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 4.390000000000001,
+        "end_time": 4.5
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 4.5,
+        "end_time": 4.609999999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 4.609999999999999,
+        "end_time": 4.719999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.2,
+        "end_time": 5.233333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.233333333333333,
+        "end_time": 5.266666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 5.266666666666667,
+        "end_time": 5.3
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.3,
+        "end_time": 5.5
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 5.5,
+        "end_time": 5.54
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.54,
+        "end_time": 5.58
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.58,
+        "end_time": 5.66
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 5.66,
+        "end_time": 5.74
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.74,
+        "end_time": 5.8100000000000005
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 5.8100000000000005,
+        "end_time": 5.880000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.88,
+        "end_time": 5.935
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 5.935,
+        "end_time": 5.989999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 5.989999999999999,
+        "end_time": 6.044999999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 6.044999999999999,
+        "end_time": 6.099999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 6.3,
+        "end_time": 6.3
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 6.3,
+        "end_time": 6.3933333333333335
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 6.3933333333333335,
+        "end_time": 6.486666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 6.486666666666667,
+        "end_time": 6.580000000000001
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 6.58,
+        "end_time": 6.66
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 6.66,
+        "end_time": 6.74
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 6.74,
+        "end_time": 6.82
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 6.82,
+        "end_time": 6.856666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 6.856666666666667,
+        "end_time": 6.893333333333334
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 6.893333333333334,
+        "end_time": 6.9300000000000015
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 6.9300000000000015,
+        "end_time": 6.966666666666669
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 6.966666666666669,
+        "end_time": 7.003333333333336
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 7.003333333333336,
+        "end_time": 7.040000000000003
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 7.040000000000003,
+        "end_time": 7.07666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.07666666666667,
+        "end_time": 7.113333333333337
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 7.113333333333337,
+        "end_time": 7.150000000000004
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 7.150000000000004,
+        "end_time": 7.186666666666671
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.186666666666671,
+        "end_time": 7.223333333333338
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.223333333333338,
+        "end_time": 7.260000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.26,
+        "end_time": 7.319999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.319999999999999,
+        "end_time": 7.379999999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 7.379999999999999,
+        "end_time": 7.439999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.439999999999999,
+        "end_time": 7.499999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.499999999999998,
+        "end_time": 7.559999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.56,
+        "end_time": 7.66
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 7.66,
+        "end_time": 7.76
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.76,
+        "end_time": 7.83
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 7.83,
+        "end_time": 7.9
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 7.9,
+        "end_time": 7.970000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 7.970000000000001,
+        "end_time": 8.040000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 8.54,
+        "end_time": 8.66
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 8.66,
+        "end_time": 8.706666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 8.706666666666667,
+        "end_time": 8.753333333333334
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 8.753333333333334,
+        "end_time": 8.8
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 8.8,
+        "end_time": 8.848
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 8.848,
+        "end_time": 8.896
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 8.896,
+        "end_time": 8.944
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 8.944,
+        "end_time": 8.992
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 8.992,
+        "end_time": 9.040000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.1,
+        "end_time": 9.2
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.2,
+        "end_time": 9.254999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.254999999999999,
+        "end_time": 9.309999999999999
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 9.309999999999999,
+        "end_time": 9.364999999999998
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 9.364999999999998,
+        "end_time": 9.419999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.42,
+        "end_time": 9.466666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.466666666666667,
+        "end_time": 9.513333333333334
+    },
+    {
+        "mouth_shape": "11.png",
+        "start_time": 9.513333333333334,
+        "end_time": 9.56
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.56,
+        "end_time": 9.7
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 9.7,
+        "end_time": 9.753333333333332
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.753333333333332,
+        "end_time": 9.806666666666665
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 9.806666666666665,
+        "end_time": 9.859999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 9.86,
+        "end_time": 9.93
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 9.93,
+        "end_time": 10.0
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.0,
+        "end_time": 10.073333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.073333333333334,
+        "end_time": 10.146666666666668
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.146666666666668,
+        "end_time": 10.220000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.42,
+        "end_time": 10.56
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.56,
+        "end_time": 10.602500000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.602500000000001,
+        "end_time": 10.645000000000001
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 10.645000000000001,
+        "end_time": 10.687500000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.687500000000002,
+        "end_time": 10.730000000000002
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 10.730000000000002,
+        "end_time": 10.772500000000003
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 10.772500000000003,
+        "end_time": 10.815000000000003
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.815000000000003,
+        "end_time": 10.857500000000003
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.857500000000003,
+        "end_time": 10.900000000000004
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 10.9,
+        "end_time": 10.935
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 10.935,
+        "end_time": 10.97
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 10.97,
+        "end_time": 11.005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.005,
+        "end_time": 11.040000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.040000000000001,
+        "end_time": 11.075000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.075000000000001,
+        "end_time": 11.110000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.110000000000001,
+        "end_time": 11.145000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 11.145000000000001,
+        "end_time": 11.180000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.18,
+        "end_time": 11.24
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.24,
+        "end_time": 11.3
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 11.3,
+        "end_time": 11.360000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 11.360000000000001,
+        "end_time": 11.420000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.42,
+        "end_time": 11.55
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.55,
+        "end_time": 11.68
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.68,
+        "end_time": 11.709999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.709999999999999,
+        "end_time": 11.739999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.739999999999998,
+        "end_time": 11.769999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.769999999999998,
+        "end_time": 11.799999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.799999999999997,
+        "end_time": 11.829999999999997
+    },
+    {
+        "mouth_shape": "11.png",
+        "start_time": 11.829999999999997,
+        "end_time": 11.859999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.859999999999996,
+        "end_time": 11.889999999999995
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 11.889999999999995,
+        "end_time": 11.919999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 11.92,
+        "end_time": 12.07
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 12.07,
+        "end_time": 12.22
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 12.22,
+        "end_time": 12.251428571428573
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.251428571428573,
+        "end_time": 12.282857142857145
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 12.282857142857145,
+        "end_time": 12.314285714285717
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.314285714285717,
+        "end_time": 12.345714285714289
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.345714285714289,
+        "end_time": 12.37714285714286
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.37714285714286,
+        "end_time": 12.408571428571433
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 12.408571428571433,
+        "end_time": 12.440000000000005
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 12.44,
+        "end_time": 12.485
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.485,
+        "end_time": 12.53
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.53,
+        "end_time": 12.575
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.575,
+        "end_time": 12.62
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.62,
+        "end_time": 12.653333333333332
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.653333333333332,
+        "end_time": 12.686666666666666
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 12.686666666666666,
+        "end_time": 12.719999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.72,
+        "end_time": 12.82
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.82,
+        "end_time": 12.866666666666667
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 12.866666666666667,
+        "end_time": 12.913333333333334
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 12.913333333333334,
+        "end_time": 12.96
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 12.96,
+        "end_time": 13.0
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.0,
+        "end_time": 13.04
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 13.04,
+        "end_time": 13.079999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.079999999999998,
+        "end_time": 13.119999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.119999999999997,
+        "end_time": 13.159999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.16,
+        "end_time": 13.280000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.280000000000001,
+        "end_time": 13.400000000000002
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 13.4,
+        "end_time": 13.455
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.455,
+        "end_time": 13.51
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 13.51,
+        "end_time": 13.565
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 13.565,
+        "end_time": 13.62
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 13.62,
+        "end_time": 13.66
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.66,
+        "end_time": 13.700000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.700000000000001,
+        "end_time": 13.740000000000002
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 13.74,
+        "end_time": 13.824
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 13.824,
+        "end_time": 13.908
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 13.908,
+        "end_time": 13.991999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 13.991999999999999,
+        "end_time": 14.075999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 14.075999999999999,
+        "end_time": 14.159999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 14.88,
+        "end_time": 14.932
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 14.932,
+        "end_time": 14.984
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 14.984,
+        "end_time": 15.036
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.036,
+        "end_time": 15.088
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.088,
+        "end_time": 15.139999999999999
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 15.14,
+        "end_time": 15.206666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.206666666666667,
+        "end_time": 15.273333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.273333333333333,
+        "end_time": 15.34
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 15.34,
+        "end_time": 15.393333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.393333333333333,
+        "end_time": 15.446666666666665
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.446666666666665,
+        "end_time": 15.499999999999998
+    },
+    {
+        "mouth_shape": "11.png",
+        "start_time": 15.5,
+        "end_time": 15.573333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.573333333333334,
+        "end_time": 15.646666666666668
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 15.646666666666668,
+        "end_time": 15.720000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.72,
+        "end_time": 15.8
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 15.8,
+        "end_time": 15.88
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 15.88,
+        "end_time": 15.926666666666668
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 15.926666666666668,
+        "end_time": 15.973333333333334
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 15.973333333333334,
+        "end_time": 16.02
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.02,
+        "end_time": 16.14
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.14,
+        "end_time": 16.193333333333335
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 16.193333333333335,
+        "end_time": 16.24666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 16.24666666666667,
+        "end_time": 16.300000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.3,
+        "end_time": 16.38
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.38,
+        "end_time": 16.439999999999998
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 16.439999999999998,
+        "end_time": 16.499999999999996
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 16.499999999999996,
+        "end_time": 16.559999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.56,
+        "end_time": 16.64
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 16.64,
+        "end_time": 16.72
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 16.72,
+        "end_time": 16.753333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.753333333333334,
+        "end_time": 16.78666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 16.78666666666667,
+        "end_time": 16.820000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.82,
+        "end_time": 16.908
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 16.908,
+        "end_time": 16.996000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 16.996000000000002,
+        "end_time": 17.084000000000003
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 17.084000000000003,
+        "end_time": 17.172000000000004
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 17.172000000000004,
+        "end_time": 17.260000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 17.68,
+        "end_time": 17.9
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 17.9,
+        "end_time": 17.924999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 17.924999999999997,
+        "end_time": 17.949999999999996
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 17.949999999999996,
+        "end_time": 17.974999999999994
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 17.974999999999994,
+        "end_time": 17.999999999999993
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 18.0,
+        "end_time": 18.033333333333335
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.033333333333335,
+        "end_time": 18.06666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 18.06666666666667,
+        "end_time": 18.100000000000005
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 18.1,
+        "end_time": 18.16
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.16,
+        "end_time": 18.22
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.22,
+        "end_time": 18.246666666666666
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.246666666666666,
+        "end_time": 18.273333333333333
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 18.273333333333333,
+        "end_time": 18.3
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 18.3,
+        "end_time": 18.353333333333335
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.353333333333335,
+        "end_time": 18.40666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.40666666666667,
+        "end_time": 18.460000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.46,
+        "end_time": 18.55
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 18.55,
+        "end_time": 18.64
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.64,
+        "end_time": 18.689999999999998
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 18.689999999999998,
+        "end_time": 18.739999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.74,
+        "end_time": 18.83
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.83,
+        "end_time": 18.92
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.92,
+        "end_time": 18.973333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 18.973333333333333,
+        "end_time": 19.026666666666664
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 19.026666666666664,
+        "end_time": 19.079999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.08,
+        "end_time": 19.146666666666665
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 19.146666666666665,
+        "end_time": 19.21333333333333
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 19.21333333333333,
+        "end_time": 19.279999999999998
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 19.28,
+        "end_time": 19.335
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 19.335,
+        "end_time": 19.39
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 19.39,
+        "end_time": 19.445
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.445,
+        "end_time": 19.5
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 19.5,
+        "end_time": 19.553333333333335
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.553333333333335,
+        "end_time": 19.60666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.60666666666667,
+        "end_time": 19.660000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.66,
+        "end_time": 19.744
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.744,
+        "end_time": 19.828
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.828,
+        "end_time": 19.912
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 19.912,
+        "end_time": 19.996
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 19.996,
+        "end_time": 20.08
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.04,
+        "end_time": 21.14
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.14,
+        "end_time": 21.240000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.24,
+        "end_time": 21.279999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.279999999999998,
+        "end_time": 21.319999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.319999999999997,
+        "end_time": 21.359999999999996
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 21.359999999999996,
+        "end_time": 21.399999999999995
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 21.399999999999995,
+        "end_time": 21.439999999999994
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.439999999999994,
+        "end_time": 21.479999999999993
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.479999999999993,
+        "end_time": 21.519999999999992
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 21.52,
+        "end_time": 21.56
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.56,
+        "end_time": 21.599999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.599999999999998,
+        "end_time": 21.639999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.639999999999997,
+        "end_time": 21.679999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.679999999999996,
+        "end_time": 21.719999999999995
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 21.72,
+        "end_time": 21.81
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.81,
+        "end_time": 21.9
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 21.9,
+        "end_time": 21.93142857142857
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 21.93142857142857,
+        "end_time": 21.96285714285714
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 21.96285714285714,
+        "end_time": 21.99428571428571
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 21.99428571428571,
+        "end_time": 22.02571428571428
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 22.02571428571428,
+        "end_time": 22.05714285714285
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 22.05714285714285,
+        "end_time": 22.08857142857142
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 22.08857142857142,
+        "end_time": 22.11999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 22.12,
+        "end_time": 22.96
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 22.96,
+        "end_time": 23.8
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 23.8,
+        "end_time": 23.866666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 23.866666666666667,
+        "end_time": 23.933333333333334
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 23.933333333333334,
+        "end_time": 24.0
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 24.0,
+        "end_time": 24.037142857142857
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.037142857142857,
+        "end_time": 24.074285714285715
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 24.074285714285715,
+        "end_time": 24.111428571428572
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.111428571428572,
+        "end_time": 24.14857142857143
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.14857142857143,
+        "end_time": 24.185714285714287
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.185714285714287,
+        "end_time": 24.222857142857144
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 24.222857142857144,
+        "end_time": 24.26
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.26,
+        "end_time": 24.305
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 24.305,
+        "end_time": 24.35
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 24.35,
+        "end_time": 24.395000000000003
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.395000000000003,
+        "end_time": 24.440000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.44,
+        "end_time": 24.520000000000003
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.520000000000003,
+        "end_time": 24.6
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.6,
+        "end_time": 24.648
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.648,
+        "end_time": 24.695999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.695999999999998,
+        "end_time": 24.743999999999996
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 24.743999999999996,
+        "end_time": 24.791999999999994
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.791999999999994,
+        "end_time": 24.839999999999993
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.839999999999993,
+        "end_time": 24.88799999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.88799999999999,
+        "end_time": 24.93599999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.93599999999999,
+        "end_time": 24.983999999999988
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 24.983999999999988,
+        "end_time": 25.031999999999986
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 25.031999999999986,
+        "end_time": 25.079999999999984
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 25.08,
+        "end_time": 25.28
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 25.28,
+        "end_time": 25.363333333333333
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 25.363333333333333,
+        "end_time": 25.446666666666665
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 25.446666666666665,
+        "end_time": 25.529999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 25.529999999999998,
+        "end_time": 25.61333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 25.61333333333333,
+        "end_time": 25.696666666666662
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 25.696666666666662,
+        "end_time": 25.779999999999994
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.2,
+        "end_time": 26.299999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.299999999999997,
+        "end_time": 26.4
+    },
+    {
+        "mouth_shape": "11.png",
+        "start_time": 26.4,
+        "end_time": 26.446666666666665
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.446666666666665,
+        "end_time": 26.493333333333332
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.493333333333332,
+        "end_time": 26.54
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.54,
+        "end_time": 26.62
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.62,
+        "end_time": 26.673333333333336
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.673333333333336,
+        "end_time": 26.72666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 26.72666666666667,
+        "end_time": 26.780000000000005
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 26.78,
+        "end_time": 26.835
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 26.835,
+        "end_time": 26.89
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 26.89,
+        "end_time": 26.945
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 26.945,
+        "end_time": 27.0
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 27.0,
+        "end_time": 27.066666666666666
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 27.066666666666666,
+        "end_time": 27.133333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 27.133333333333333,
+        "end_time": 27.2
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 27.2,
+        "end_time": 27.259999999999998
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 27.259999999999998,
+        "end_time": 27.32
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 27.32,
+        "end_time": 27.373333333333335
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 27.373333333333335,
+        "end_time": 27.42666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 27.42666666666667,
+        "end_time": 27.480000000000004
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 27.48,
+        "end_time": 27.56
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 27.56,
+        "end_time": 27.639999999999997
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 27.639999999999997,
+        "end_time": 27.719999999999995
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 27.72,
+        "end_time": 27.773333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 27.773333333333333,
+        "end_time": 27.826666666666668
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 27.826666666666668,
+        "end_time": 27.880000000000003
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 27.88,
+        "end_time": 28.869999999999997
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 28.869999999999997,
+        "end_time": 29.86
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 29.86,
+        "end_time": 29.88
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 29.88,
+        "end_time": 29.9
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 29.9,
+        "end_time": 29.951999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 29.951999999999998,
+        "end_time": 30.003999999999998
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 30.003999999999998,
+        "end_time": 30.055999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.055999999999997,
+        "end_time": 30.107999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.107999999999997,
+        "end_time": 30.159999999999997
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.16,
+        "end_time": 30.24
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 30.24,
+        "end_time": 30.319999999999997
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 30.319999999999997,
+        "end_time": 30.399999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.4,
+        "end_time": 30.433333333333334
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 30.433333333333334,
+        "end_time": 30.46666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.46666666666667,
+        "end_time": 30.500000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.500000000000004,
+        "end_time": 30.53333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.53333333333334,
+        "end_time": 30.566666666666674
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.566666666666674,
+        "end_time": 30.60000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.6,
+        "end_time": 30.666666666666668
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 30.666666666666668,
+        "end_time": 30.733333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.733333333333334,
+        "end_time": 30.8
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 30.8,
+        "end_time": 30.86
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.86,
+        "end_time": 30.92
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 30.92,
+        "end_time": 30.975
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 30.975,
+        "end_time": 31.03
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 31.03,
+        "end_time": 31.085
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 31.085,
+        "end_time": 31.14
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 31.66,
+        "end_time": 31.72
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 31.72,
+        "end_time": 31.78
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 31.78,
+        "end_time": 31.82
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 31.82,
+        "end_time": 31.86
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 31.86,
+        "end_time": 31.9
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 31.9,
+        "end_time": 31.939999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 31.94,
+        "end_time": 31.97714285714286
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 31.97714285714286,
+        "end_time": 32.01428571428572
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 32.01428571428572,
+        "end_time": 32.05142857142857
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.05142857142857,
+        "end_time": 32.08857142857143
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.08857142857143,
+        "end_time": 32.12571428571428
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.12571428571428,
+        "end_time": 32.162857142857135
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.162857142857135,
+        "end_time": 32.19999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.2,
+        "end_time": 32.290000000000006
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 32.290000000000006,
+        "end_time": 32.38000000000001
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 32.38,
+        "end_time": 32.43333333333334
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 32.43333333333334,
+        "end_time": 32.48666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 32.48666666666667,
+        "end_time": 32.540000000000006
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.54,
+        "end_time": 32.64
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 32.64,
+        "end_time": 32.725
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.725,
+        "end_time": 32.81
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 32.81,
+        "end_time": 32.895
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 32.895,
+        "end_time": 32.980000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 32.98,
+        "end_time": 33.04
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 33.04,
+        "end_time": 33.1
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 33.1,
+        "end_time": 33.160000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 33.16,
+        "end_time": 33.269999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 33.269999999999996,
+        "end_time": 33.379999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 33.38,
+        "end_time": 33.43
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 33.43,
+        "end_time": 33.48
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 33.48,
+        "end_time": 33.529999999999994
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 33.529999999999994,
+        "end_time": 33.57999999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 33.58,
+        "end_time": 33.685
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 33.685,
+        "end_time": 33.790000000000006
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 33.790000000000006,
+        "end_time": 33.89500000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 33.89500000000001,
+        "end_time": 34.000000000000014
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.0,
+        "end_time": 34.10666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.10666666666667,
+        "end_time": 34.21333333333334
+    },
+    {
+        "mouth_shape": "11.png",
+        "start_time": 34.21333333333334,
+        "end_time": 34.32000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.32,
+        "end_time": 34.36666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 34.36666666666667,
+        "end_time": 34.413333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.413333333333334,
+        "end_time": 34.46
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.46,
+        "end_time": 34.50666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.50666666666667,
+        "end_time": 34.553333333333335
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.553333333333335,
+        "end_time": 34.6
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 34.6,
+        "end_time": 34.7
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.7,
+        "end_time": 34.8
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.8,
+        "end_time": 34.86
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.86,
+        "end_time": 34.92
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 34.92,
+        "end_time": 34.95
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 34.95,
+        "end_time": 34.980000000000004
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 34.980000000000004,
+        "end_time": 35.010000000000005
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 35.010000000000005,
+        "end_time": 35.040000000000006
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.04,
+        "end_time": 35.120000000000005
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 35.120000000000005,
+        "end_time": 35.2
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.2,
+        "end_time": 35.236000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.236000000000004,
+        "end_time": 35.272000000000006
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 35.272000000000006,
+        "end_time": 35.30800000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.30800000000001,
+        "end_time": 35.34400000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.34400000000001,
+        "end_time": 35.38000000000001
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 35.38,
+        "end_time": 35.58
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.58,
+        "end_time": 35.78
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 35.78,
+        "end_time": 35.870000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.870000000000005,
+        "end_time": 35.96000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 35.96000000000001,
+        "end_time": 36.05000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 36.05000000000001,
+        "end_time": 36.140000000000015
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 36.86,
+        "end_time": 36.94
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 36.94,
+        "end_time": 37.019999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.02,
+        "end_time": 37.06
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.06,
+        "end_time": 37.1
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 37.1,
+        "end_time": 37.14
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.14,
+        "end_time": 37.18
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 37.18,
+        "end_time": 37.23
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.23,
+        "end_time": 37.279999999999994
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 37.279999999999994,
+        "end_time": 37.32999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.32999999999999,
+        "end_time": 37.37999999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 37.37999999999999,
+        "end_time": 37.429999999999986
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 37.429999999999986,
+        "end_time": 37.47999999999998
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.48,
+        "end_time": 37.555
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.555,
+        "end_time": 37.63
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.63,
+        "end_time": 37.705000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 37.705000000000005,
+        "end_time": 37.78000000000001
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 37.78,
+        "end_time": 37.85333333333333
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 37.85333333333333,
+        "end_time": 37.92666666666666
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 37.92666666666666,
+        "end_time": 37.99999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.0,
+        "end_time": 38.1
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.1,
+        "end_time": 38.2
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.2,
+        "end_time": 38.286
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.286,
+        "end_time": 38.372
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.372,
+        "end_time": 38.458
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 38.458,
+        "end_time": 38.544
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.544,
+        "end_time": 38.629999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.629999999999995,
+        "end_time": 38.715999999999994
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.715999999999994,
+        "end_time": 38.80199999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.80199999999999,
+        "end_time": 38.88799999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.88799999999999,
+        "end_time": 38.97399999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 38.97399999999999,
+        "end_time": 39.05999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 39.06,
+        "end_time": 39.196000000000005
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 39.196000000000005,
+        "end_time": 39.33200000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 39.33200000000001,
+        "end_time": 39.46800000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 39.46800000000001,
+        "end_time": 39.60400000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 39.60400000000001,
+        "end_time": 39.740000000000016
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 39.74,
+        "end_time": 39.89333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 39.89333333333334,
+        "end_time": 40.046666666666674
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.046666666666674,
+        "end_time": 40.20000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.2,
+        "end_time": 40.27
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.27,
+        "end_time": 40.34
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.34,
+        "end_time": 40.410000000000004
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.410000000000004,
+        "end_time": 40.480000000000004
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 40.48,
+        "end_time": 40.58
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.58,
+        "end_time": 40.68
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.68,
+        "end_time": 40.769999999999996
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 40.769999999999996,
+        "end_time": 40.86
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 40.86,
+        "end_time": 40.9
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.9,
+        "end_time": 40.94
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 40.94,
+        "end_time": 40.98
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 40.98,
+        "end_time": 41.019999999999996
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 41.019999999999996,
+        "end_time": 41.059999999999995
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 41.059999999999995,
+        "end_time": 41.099999999999994
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.1,
+        "end_time": 41.18
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.18,
+        "end_time": 41.26
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.26,
+        "end_time": 41.339999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.34,
+        "end_time": 41.375
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.375,
+        "end_time": 41.41
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.41,
+        "end_time": 41.44499999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 41.44499999999999,
+        "end_time": 41.47999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.48,
+        "end_time": 41.516666666666666
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 41.516666666666666,
+        "end_time": 41.553333333333335
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.553333333333335,
+        "end_time": 41.59
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.59,
+        "end_time": 41.62666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.62666666666667,
+        "end_time": 41.66333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 41.66333333333334,
+        "end_time": 41.70000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.1,
+        "end_time": 42.22
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.22,
+        "end_time": 42.24666666666666
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 42.24666666666666,
+        "end_time": 42.273333333333326
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 42.273333333333326,
+        "end_time": 42.29999999999999
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.3,
+        "end_time": 42.36
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 42.36,
+        "end_time": 42.45
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.45,
+        "end_time": 42.540000000000006
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.54,
+        "end_time": 42.6
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.6,
+        "end_time": 42.660000000000004
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 42.660000000000004,
+        "end_time": 42.720000000000006
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 42.72,
+        "end_time": 42.78666666666667
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.78666666666667,
+        "end_time": 42.85333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.85333333333334,
+        "end_time": 42.92000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.92,
+        "end_time": 42.972
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 42.972,
+        "end_time": 43.024
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.024,
+        "end_time": 43.076
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.076,
+        "end_time": 43.128
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.128,
+        "end_time": 43.18
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 43.18,
+        "end_time": 43.31
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.31,
+        "end_time": 43.44
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.44,
+        "end_time": 43.56
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.56,
+        "end_time": 43.620000000000005
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 43.620000000000005,
+        "end_time": 43.68000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 43.68000000000001,
+        "end_time": 43.74000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.74,
+        "end_time": 43.77
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.77,
+        "end_time": 43.800000000000004
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 43.800000000000004,
+        "end_time": 43.830000000000005
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 43.830000000000005,
+        "end_time": 43.86000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.86000000000001,
+        "end_time": 43.89000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 43.89000000000001,
+        "end_time": 43.92000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.92000000000001,
+        "end_time": 43.95000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 43.95000000000001,
+        "end_time": 43.98000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 43.98,
+        "end_time": 44.08
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.08,
+        "end_time": 44.18
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 44.18,
+        "end_time": 44.21714285714285
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.21714285714285,
+        "end_time": 44.25428571428571
+    },
+    {
+        "mouth_shape": "2.png",
+        "start_time": 44.25428571428571,
+        "end_time": 44.29142857142856
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 44.29142857142856,
+        "end_time": 44.328571428571415
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 44.328571428571415,
+        "end_time": 44.36571428571427
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 44.36571428571427,
+        "end_time": 44.40285714285712
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.40285714285712,
+        "end_time": 44.439999999999976
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 44.44,
+        "end_time": 44.519999999999996
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.519999999999996,
+        "end_time": 44.599999999999994
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 44.6,
+        "end_time": 44.66
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.66,
+        "end_time": 44.72
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.72,
+        "end_time": 44.768
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.768,
+        "end_time": 44.816
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.816,
+        "end_time": 44.864000000000004
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 44.864000000000004,
+        "end_time": 44.912000000000006
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.912000000000006,
+        "end_time": 44.96000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 44.96000000000001,
+        "end_time": 45.00800000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.00800000000001,
+        "end_time": 45.05600000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.05600000000001,
+        "end_time": 45.10400000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.10400000000001,
+        "end_time": 45.152000000000015
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.152000000000015,
+        "end_time": 45.20000000000002
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.2,
+        "end_time": 45.36666666666667
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 45.36666666666667,
+        "end_time": 45.53333333333333
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 45.53333333333333,
+        "end_time": 45.699999999999996
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 45.7,
+        "end_time": 45.733333333333334
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.733333333333334,
+        "end_time": 45.766666666666666
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 45.766666666666666,
+        "end_time": 45.8
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.8,
+        "end_time": 45.86
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 45.86,
+        "end_time": 45.89333333333333
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 45.89333333333333,
+        "end_time": 45.92666666666666
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 45.92666666666666,
+        "end_time": 45.959999999999994
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 45.96,
+        "end_time": 46.08
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 46.08,
+        "end_time": 46.2
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 46.2,
+        "end_time": 46.256
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 46.256,
+        "end_time": 46.312
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 46.312,
+        "end_time": 46.367999999999995
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 46.367999999999995,
+        "end_time": 46.42399999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 46.42399999999999,
+        "end_time": 46.47999999999999
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 46.48,
+        "end_time": 46.59
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 46.59,
+        "end_time": 46.7
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 46.7,
+        "end_time": 46.75
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 46.75,
+        "end_time": 46.8
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 46.8,
+        "end_time": 46.849999999999994
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 46.849999999999994,
+        "end_time": 46.89999999999999
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 46.9,
+        "end_time": 46.96
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 46.96,
+        "end_time": 47.02
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 47.02,
+        "end_time": 47.080000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 47.080000000000005,
+        "end_time": 47.14000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 47.14000000000001,
+        "end_time": 47.20000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 47.2,
+        "end_time": 47.34
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 47.34,
+        "end_time": 47.480000000000004
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 47.480000000000004,
+        "end_time": 47.620000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 47.62,
+        "end_time": 47.7
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 47.7,
+        "end_time": 47.78
+    },
+    {
+        "mouth_shape": "7.png",
+        "start_time": 47.78,
+        "end_time": 47.85
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 47.85,
+        "end_time": 47.92
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 47.92,
+        "end_time": 48.010000000000005
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 48.010000000000005,
+        "end_time": 48.10000000000001
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 48.1,
+        "end_time": 48.160000000000004
+    },
+    {
+        "mouth_shape": "1.png",
+        "start_time": 48.160000000000004,
+        "end_time": 48.220000000000006
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 48.220000000000006,
+        "end_time": 48.28000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 48.28000000000001,
+        "end_time": 48.34000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 48.34000000000001,
+        "end_time": 48.40000000000001
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 48.4,
+        "end_time": 48.486666666666665
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 48.486666666666665,
+        "end_time": 48.57333333333333
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 48.57333333333333,
+        "end_time": 48.66
+    },
+    {
+        "mouth_shape": "8.png",
+        "start_time": 48.66,
+        "end_time": 48.72
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 48.72,
+        "end_time": 48.78
+    },
+    {
+        "mouth_shape": "neutral.png",
+        "start_time": 48.78,
+        "end_time": 48.84
+    }
+]

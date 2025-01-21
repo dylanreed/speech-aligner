@@ -1,4 +1,0 @@
-HMM Path: /Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/en-us
-LM Path: /Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/en-us.lm.bin
-Dictionary Path: /Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict
-Audio File Path: /Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav
