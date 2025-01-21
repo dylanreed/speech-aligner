@@ -2,45 +2,26 @@ import json
 
 def map_phonemes_to_visemes(phoneme_data):
     """
-    Map phoneme data to viseme data using descriptive-to-image file mappings.
+    Map phoneme data to viseme data using the updated phoneme-to-image mappings.
     """
-    # Descriptive viseme to image file mapping
-    viseme_to_image_map = {
-        "wide_open": "1.png",
-        "mouth_open": "2.png",
-        "neutral": "neutral.png",
-        "teeth_showing": "8.png",
-        "tongue_out": "7.png",
-        "lips_tight": "11.png",
-        "teeth_close": "7.png",
-        "puckered": "11.png",
-        "tongue_top": "8.png",
-    }
-
-    # Phoneme-to-descriptive-viseme mapping
-    phoneme_viseme_map = {
-        "AA": "wide_open", "AE": "mouth_open", "AH": "neutral",
-        "SIL": "neutral", "F": "teeth_showing", "V": "teeth_showing",
-        "TH": "tongue_out", "DH": "tongue_out", "S": "teeth_close",
-        "Z": "teeth_close", "SH": "lips_tight", "CH": "lips_tight",
-        "T": "tongue_top", "D": "tongue_top", "N": "tongue_top",
-        # Add other phonemes as needed
+    phoneme_to_mouth_shape = {
+        "AA": "aei.png", "AE": "aei.png", "AH": "aei.png", "AO": "o.png",
+        "EH": "aei.png", "IH": "aei.png", "IY": "ee.png", "UH": "o.png", "UW": "o.png",
+        "AY": "aei.png", "EY": "ee.png", "OW": "o.png", "OY": "o.png",
+        "F": "fv.png", "V": "fv.png", "B": "bmp.png", "M": "bmp.png", "P": "bmp.png",
+        "C": "cdgknstxyz.png", "D": "cdgknstxyz.png", "G": "cdgknstxyz.png",
+        "K": "cdgknstxyz.png", "N": "cdgknstxyz.png", "S": "cdgknstxyz.png",
+        "T": "cdgknstxyz.png", "X": "cdgknstxyz.png", "Y": "cdgknstxyz.png", "Z": "cdgknstxyz.png",
+        "L": "l.png", "R": "r.png", "W": "qw.png", "Q": "qw.png",
+        "SH": "shch.png", "CH": "shch.png", "JH": "shch.png",
+        "TH": "th.png", "DH": "th.png", "SIL": "aei.png"
     }
 
     viseme_list = []
     for entry in phoneme_data:
         phoneme = entry['phoneme']
+        mouth_shape = phoneme_to_mouth_shape.get(phoneme, "aei.png")  # Default to "aei.png"
 
-        # Map phoneme to descriptive viseme
-        descriptive_viseme = phoneme_viseme_map.get(phoneme, "neutral")
-        
-        # Map descriptive viseme to image file
-        mouth_shape = viseme_to_image_map.get(descriptive_viseme, "neutral.png")
-
-        # Debugging: Print the mapping process
-        print(f"Phoneme: {phoneme}, Descriptive Viseme: {descriptive_viseme}, Mouth Shape: {mouth_shape}")
-
-        # Add to viseme list
         viseme_list.append({
             "mouth_shape": mouth_shape,
             "start_time": entry['start_time'],
@@ -48,6 +29,7 @@ def map_phonemes_to_visemes(phoneme_data):
         })
 
     return viseme_list
+
 
 if __name__ == "__main__":
     # Load phoneme data from the JSON file

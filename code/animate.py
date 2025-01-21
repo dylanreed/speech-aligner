@@ -11,7 +11,7 @@ def load_viseme_data(viseme_file):
         return json.load(f)
 
 def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir):
-    """Render animation frames and encode them into a video."""
+    """Render animation frames and encode them into a video, with neutral frames during silence."""
     # Initialize Pygame
     pygame.init()
 
@@ -19,6 +19,12 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     screen = pygame.Surface(resolution)
 
     # Load images
+    # Load head image
+    if os.path.exists(head_image_path):
+        head_image = pygame.image.load(head_image_path)
+    else:
+        raise FileNotFoundError(f"Head image not found: {head_image_path}")
+    #load mouth shapes
     images = {}
     for entry in viseme_data:
         mouth_shape = entry["mouth_shape"]
@@ -26,6 +32,13 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
             image_path = os.path.join(image_directory, mouth_shape)
             if os.path.exists(image_path):
                 images[mouth_shape] = pygame.image.load(image_path)
+
+    # Ensure the neutral frame is loaded
+    neutral_image_path = os.path.join(image_directory, "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes/positive/smile.png")
+    if os.path.exists(neutral_image_path):
+        images["neutral"] = pygame.image.load(neutral_image_path)
+    else:
+        raise FileNotFoundError("Neutral frame ('smile.png') not found in the image directory.")
 
     # Ensure temp directory exists
     os.makedirs(temp_dir, exist_ok=True)
@@ -38,19 +51,31 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     print(f"Rendering {total_frames} frames...")
     for frame_number in tqdm(range(total_frames), desc="Rendering Frames"):
         # Clear screen
-        screen.fill((0, 0, 0))
+        screen.fill((211, 211, 211))  # Light grey background color
+
+     # Draw the head image centered on the screen
+        head_x = resolution[0] // 2 - head_image.get_width() // 2
+        head_y = resolution[1] // 2 - head_image.get_height() // 2
+        screen.blit(head_image, (head_x, head_y))
 
         # Determine which viseme to show
+        displayed_image = "neutral"
         for entry in viseme_data:
             viseme_start = entry["start_time"]
             viseme_end = entry["end_time"]
             mouth_shape = entry["mouth_shape"]
 
             if viseme_start <= current_time < viseme_end:
-                if mouth_shape in images:
-                    image = images[mouth_shape]
-                    screen.blit(image, (resolution[0] // 2 - image.get_width() // 2,
-                                        resolution[1] // 2 - image.get_height() // 2))
+                displayed_image = mouth_shape
+                break
+
+        # Display the selected image (neutral if no viseme active)
+        if displayed_image in images:
+            mouth_image = images[displayed_image]
+            mouth_x = head_x + head_image.get_width() // 2 - mouth_image.get_width() // 2
+            mouth_y = head_y + head_image.get_height() // 2 - mouth_image.get_height() // 2
+            screen.blit(mouth_image, (mouth_x, mouth_y))
+
 
         # Save the frame as an image
         frame_path = os.path.join(temp_dir, f"frame_{frame_number:04d}.png")
@@ -86,7 +111,7 @@ if __name__ == "__main__":
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/"  # Directory to store temporary frames
     output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_video.mp4"  # Video without audio
     final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/final_output_with_audio.mp4"  # Final video with audio
-
+    head_image_path ="/Users/nervous/Documents/GitHub/speech-aligner/assets/the dude.png"
     # Configuration
     fps = 30  # Frames per second
     resolution = (800, 600)  # Video resolution
