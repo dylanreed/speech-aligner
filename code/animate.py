@@ -57,7 +57,7 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     current_time = 0.0
     blinks = []
     while current_time < total_duration:
-        blink_start = current_time + random.uniform(1, 7)  # Random interval between 2-10 seconds
+        blink_start = current_time + random.uniform(2, 7)  # Random interval between 2-10 seconds
         blink_end = blink_start + 0.2  # Blink duration of 0.2 seconds
         if blink_end > total_duration:
             break
@@ -136,8 +136,8 @@ if __name__ == "__main__":
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/"  # Directory to store temporary frames
     output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_video.mp4"  # Video without audio
     final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/final_output_with_audio.mp4"  # Final video with audio
-    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/the dude.png"
-    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/blink.png" 
+    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/body.png"
+    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/blink.png" 
     # Configuration
     fps = 30  # Frames per second
     resolution = (800, 600)  # Video resolution
