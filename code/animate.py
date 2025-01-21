@@ -43,11 +43,11 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
                 images[mouth_shape] = pygame.image.load(image_path)
 
     # Ensure the neutral frame is loaded
-    neutral_image_path = os.path.join(image_directory, "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes/positive/smile.png")
+    neutral_image_path = os.path.join(image_directory, "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes/neutral.png")
     if os.path.exists(neutral_image_path):
         images["neutral"] = pygame.image.load(neutral_image_path)
     else:
-        raise FileNotFoundError("Neutral frame ('smile.png') not found in the image directory.")
+        raise FileNotFoundError("Neutral frame ('neutral.png') not found in the image directory.")
 
     # Ensure temp directory exists
     os.makedirs(temp_dir, exist_ok=True)
@@ -90,7 +90,7 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
                 displayed_image = mouth_shape
                 break
 
-        # Display the selected image (neutral if no viseme active)
+        # Display the selected mouth image (neutral if no viseme active)
         if displayed_image in images:
             mouth_image = images[displayed_image]
             mouth_x = head_x + head_image.get_width() // 2 - mouth_image.get_width() // 2
@@ -131,7 +131,7 @@ def combine_audio_with_video(video_file, audio_file, output_file):
 if __name__ == "__main__":
     # Paths
     viseme_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"  # Replace with your viseme data file
-    image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes/positive/"  # Directory containing mouth shape images
+    image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes"  # Directory containing mouth shape images
     audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Path to the audio file
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/"  # Directory to store temporary frames
     output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_video.mp4"  # Video without audio

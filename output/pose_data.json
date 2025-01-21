@@ -1,0 +1,17 @@
+[
+    {
+        "pose": "wave",
+        "start_time": 1.4200000000000015,
+        "end_time": 2.3200000000000003
+    },
+    {
+        "pose": "right_fist",
+        "start_time": 5.88,
+        "end_time": 6.6
+    },
+    {
+        "pose": "left_point",
+        "start_time": 11.68,
+        "end_time": 12.42
+    }
+]

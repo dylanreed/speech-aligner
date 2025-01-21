@@ -1,43 +1,20 @@
-import re
-import random
+
+from tqdm import tqdm
 import pygame
+import json
 import os
 import subprocess
-from tqdm import tqdm
-import json
-
-def load_viseme_data(viseme_file):
-    """Load viseme data from a JSON file."""
-    with open(viseme_file, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def parse_transcript_with_poses(transcript, words_timing):
-    """
-    Parse transcript for poses and generate timing data for each pose.
-    """
-    # Pose tag regex
-    pose_pattern = re.compile(r"<(.*?)>")
-    
-    # Match pose tags and associate them with timing
-    pose_data = []
-    for match in re.finditer(pose_pattern, transcript):
-        pose = match.group(1)  # Extract pose name
-        # Find the word with the closest start time to the pose location
-        closest_word = min(
-            words_timing, 
-            key=lambda x: abs(x['start_time'] - (match.start() / len(transcript)))
-        )
-        pose_data.append({
-            "pose": pose,
-            "start_time": closest_word["start_time"],
-            "end_time": closest_word["end_time"] + 0.5  # Extend pose duration by 0.5s
-        })
-    
-    return pose_data
+import random
 
 
 def load_file(file_path):
-    """Load text or JSON file."""
+    """
+    Load text or JSON file content.
+    Args:
+        file_path (str): Path to the file.
+    Returns:
+        str or dict: File content (string for text files, dict for JSON files).
+    """
     if file_path.endswith(".txt"):
         with open(file_path, "r", encoding="utf-8") as f:
             return f.read()
@@ -45,7 +22,13 @@ def load_file(file_path):
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
     else:
-        raise ValueError("Unsupported file format")
+        raise ValueError(f"Unsupported file format for file: {file_path}")
+
+def load_viseme_data(viseme_file):
+    """Load viseme data from a JSON file."""
+    with open(viseme_file, "r", encoding="utf-8") as f:
+        return json.load(f)
+    
 
 
 def render_animation_with_poses(viseme_data, pose_data, mouth_image_dir, pose_image_dir, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, audio_file):
@@ -70,37 +53,31 @@ def render_animation_with_poses(viseme_data, pose_data, mouth_image_dir, pose_im
     else:
         raise FileNotFoundError(f"Blink image not found: {blink_image_path}")
 
-    # Load mouth shape images
+    # Load mouth shape images from assets/visemes/positive
     mouth_images = {}
-    for entry in viseme_data:
-        mouth_shape = entry["mouth_shape"]
-        if mouth_shape not in mouth_images:
-            image_path = os.path.join(mouth_image_dir, mouth_shape)
-            if os.path.exists(image_path):
-                mouth_images[mouth_shape] = pygame.image.load(image_path)
+    mouth_image_dir = os.path.join("/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes/positive")
+    for file_name in os.listdir(mouth_image_dir):
+        if file_name.endswith(".png"):
+            mouth_shape = file_name.replace(".png", "")  # Remove the file extension
+            image_path = os.path.join(mouth_image_dir, file_name)
+            mouth_images[mouth_shape] = pygame.image.load(image_path)
 
-    # Load pose images, including a required "neutral" pose
+    # Load pose images
     pose_images = {}
-    for pose in pose_data:
-        pose_name = pose["pose"]
-        if pose_name not in pose_images:
-            pose_image_path = os.path.join(pose_image_dir, f"{pose_name}.png")
-            if os.path.exists(pose_image_path):
-                pose_images[pose_name] = pygame.image.load(pose_image_path)
+    for file_name in os.listdir(pose_image_dir):
+        if file_name.endswith(".png"):
+            pose_name = file_name.replace(".png", "")  # Remove the file extension
+            image_path = os.path.join(pose_image_dir, file_name)
+            pose_images[pose_name] = pygame.image.load(image_path)
 
-    # Ensure the neutral frame is loaded
-    neutral_image_path = os.path.join(mouth_image_dir, "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes/positive/smile.png")
-    if os.path.exists(neutral_image_path):
-        mouth_images["neutral"] = pygame.image.load(neutral_image_path)
-    else:
-        raise FileNotFoundError("Neutral frame ('smile.png') not found in the image directory.")
-
-    # Load the neutral pose image
+    # Ensure neutral pose exists
     neutral_image_path = os.path.join(pose_image_dir, "neutral.png")
     if os.path.exists(neutral_image_path):
         pose_images["neutral"] = pygame.image.load(neutral_image_path)
     else:
-        raise FileNotFoundError("Neutral pose image (neutral.png) not found in the pose directory.")
+        raise FileNotFoundError(f"Neutral pose image not found: {neutral_image_path}")
+
+    # Ensure temp directory exists
 
     # Ensure temp directory exists
     os.makedirs(temp_dir, exist_ok=True)
@@ -132,7 +109,7 @@ def render_animation_with_poses(viseme_data, pose_data, mouth_image_dir, pose_im
         head_y = resolution[1] // 2 - head_image.get_height() // 2
         screen.blit(head_image, (head_x, head_y))
 
-        # Determine which viseme to show
+        # Determine which viseme to show (fallback to "neutral" mouth shape if none is active)
         displayed_image = "neutral"
         for entry in viseme_data:
             viseme_start = entry["start_time"]
@@ -155,18 +132,23 @@ def render_animation_with_poses(viseme_data, pose_data, mouth_image_dir, pose_im
         if is_blinking:
             screen.blit(blink_image, (head_x, head_y))
 
-         # Determine the active pose for the current frame
+        # Determine the active pose for the current frame
         active_pose = None
         for pose in pose_data:
-            if pose["start_time"] <= current_time < pose["end_time"]:
-                active_pose = pose
-                break
+            if isinstance(pose, dict) and "start_time" in pose and "end_time" in pose:
+                if pose["start_time"] <= current_time < pose["end_time"]:
+                    active_pose = pose
+                    break
+                    
+        # Render the active pose or the neutral pose
+        pose_image = None
+        if active_pose and active_pose["pose"] in pose_images:
+            pose_image = pose_images[active_pose["pose"]]
+        elif "neutral" in pose_images:
+            pose_image = pose_images["neutral"]
 
-        # Render the active pose image, if any
-        if active_pose:
-            pose_image = pose_images.get(active_pose["pose"])
-            if pose_image:
-                screen.blit(pose_image, (head_x, head_y))
+        if pose_image:
+            screen.blit(pose_image, (head_x, head_y))
 
         # Save the frame as an image
         frame_path = os.path.join(temp_dir, f"frame_{frame_number:04d}.png")
@@ -195,28 +177,51 @@ def render_animation_with_poses(viseme_data, pose_data, mouth_image_dir, pose_im
     print(f"Final video with audio saved to {final_output_path}")
 
 
+def combine_audio_with_video(video_file, audio_file, output_file):
+    """Combine the rendered video and audio into a single file."""
+    print("Adding audio to video...")
+    ffmpeg_command = [
+        "ffmpeg", "-y", "-i", video_file, "-i", audio_file, 
+        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", output_file
+    ]
+    subprocess.run(ffmpeg_command, check=True)
+    print(f"Final video with audio saved to {output_file}")
+
 if __name__ == "__main__":
-    # File paths
-    transcript_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/transcript_poses.txt"
-    words_timing_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/word_data.json"
-    viseme_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"
-    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
-    mouth_image_dir = "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes"
-    pose_image_dir = "/Users/nervous/Documents/GitHub/speech-aligner/assets/pose"
-    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/body.png"
-    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/blink.png"
-    temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames"
-    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/final_output_with_audio_poses.mp4"
-    fps = 30
-    resolution = (800, 600)
+    # Paths
+    viseme_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"  # Replace with your viseme data file
+    mouth_image_dir = "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes/positive"  # Directory containing mouth shape images
+    pose_image_dir = "/Users/nervous/Documents/GitHub/speech-aligner/assets/pose" #path to poses
+    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Path to the audio file
+    temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/temp_frames/"  # Directory to store temporary frames
+    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_video.mp4"  # Video without audio
+    final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/final_output_with_audio.mp4"  # Final video with audio
+    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/body.png" #head image
+    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/blink.png" #blink image
+    transcript_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/transcript_poses.txt" #transcript with poses
+    words_timing_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/word_data.json" #word timings
+    pose_data_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json"
+
+    # Configuration
+    fps = 30  # Frames per second
+    resolution = (800, 600)  # Video resolution
 
     # Load data
     transcript = load_file(transcript_file)
     words_timing = load_file(words_timing_file)
     viseme_data = load_file(viseme_file)
 
-    # Parse poses from transcript
-    pose_data = parse_transcript_with_poses(transcript, words_timing)
-
     # Render animation with poses and audio
-    render_animation_with_poses(viseme_data, pose_data, mouth_image_dir, pose_image_dir, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, audio_file)
+    render_animation_with_poses(
+        viseme_data=viseme_data,
+        pose_data=pose_data_file,
+        mouth_image_dir=mouth_image_dir,
+        pose_image_dir=pose_image_dir,
+        output_video=output_video,
+        fps=fps,
+        resolution=resolution,
+        temp_dir=temp_dir,
+        head_image_path=head_image_path,
+        blink_image_path=blink_image_path,
+        audio_file=audio_file
+    )
