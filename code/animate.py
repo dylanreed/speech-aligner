@@ -4,13 +4,14 @@ import pygame
 import json
 import os
 import subprocess
+import random
 
 def load_viseme_data(viseme_file):
     """Load viseme data from a JSON file."""
     with open(viseme_file, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir):
+def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path):
     """Render animation frames and encode them into a video, with neutral frames during silence."""
     # Initialize Pygame
     pygame.init()
@@ -19,11 +20,19 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     screen = pygame.Surface(resolution)
 
     # Load images
+
     # Load head image
     if os.path.exists(head_image_path):
         head_image = pygame.image.load(head_image_path)
     else:
         raise FileNotFoundError(f"Head image not found: {head_image_path}")
+    
+    # Load blink image
+    if os.path.exists(blink_image_path):
+        blink_image = pygame.image.load(blink_image_path)
+    else:
+        raise FileNotFoundError(f"Blink image not found: {blink_image_path}")
+
     #load mouth shapes
     images = {}
     for entry in viseme_data:
@@ -42,6 +51,18 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
 
     # Ensure temp directory exists
     os.makedirs(temp_dir, exist_ok=True)
+
+    # Generate random blink timings
+    total_duration = viseme_data[-1]["end_time"]
+    current_time = 0.0
+    blinks = []
+    while current_time < total_duration:
+        blink_start = current_time + random.uniform(1, 7)  # Random interval between 2-10 seconds
+        blink_end = blink_start + 0.2  # Blink duration of 0.2 seconds
+        if blink_end > total_duration:
+            break
+        blinks.append((blink_start, blink_end))
+        current_time = blink_start
 
     # Render frames
     total_frames = int(viseme_data[-1]["end_time"] * fps)
@@ -76,6 +97,10 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
             mouth_y = head_y + head_image.get_height() // 2 - mouth_image.get_height() // 2
             screen.blit(mouth_image, (mouth_x, mouth_y))
 
+        # Check if the current frame is during a blink
+        is_blinking = any(blink_start <= current_time < blink_end for blink_start, blink_end in blinks)
+        if is_blinking:
+            screen.blit(blink_image, (head_x, head_y))
 
         # Save the frame as an image
         frame_path = os.path.join(temp_dir, f"frame_{frame_number:04d}.png")
@@ -111,7 +136,8 @@ if __name__ == "__main__":
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/"  # Directory to store temporary frames
     output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_video.mp4"  # Video without audio
     final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/final_output_with_audio.mp4"  # Final video with audio
-    head_image_path ="/Users/nervous/Documents/GitHub/speech-aligner/assets/the dude.png"
+    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/the dude.png"
+    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/blink.png" 
     # Configuration
     fps = 30  # Frames per second
     resolution = (800, 600)  # Video resolution
@@ -120,7 +146,7 @@ if __name__ == "__main__":
     viseme_data = load_viseme_data(viseme_file)
 
     # Render animation to video
-    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir)
+    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path)
 
     # Combine video with audio
     combine_audio_with_video(output_video, audio_file, final_output)
