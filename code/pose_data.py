@@ -47,7 +47,7 @@ def parse_transcript_with_poses(transcript, words_timing):
             key=lambda x: abs(x["start_time"] - position)
         )
         pose_data.append({
-            "pose": pose + ".png",
+            "pose_image": pose + ".png",
             "pose_start_time": closest_word["start_time"],
             "pose_end_time": closest_word["end_time"] + 0.5  # Extend duration by 0.5s
         })

@@ -1,67 +1,282 @@
 [
     {
-        "word": " What",
-        "start_time": 1.6199999999999997,
-        "end_time": 2.02
-    },
-    {
-        "word": " did",
-        "start_time": 2.02,
-        "end_time": 2.22
-    },
-    {
-        "word": " one",
-        "start_time": 2.22,
-        "end_time": 2.5
-    },
-    {
-        "word": " snowman",
-        "start_time": 2.5,
-        "end_time": 2.86
-    },
-    {
-        "word": " say",
-        "start_time": 2.86,
-        "end_time": 3.0
-    },
-    {
-        "word": " to",
-        "start_time": 3.0,
-        "end_time": 3.16
-    },
-    {
-        "word": " the",
-        "start_time": 3.16,
-        "end_time": 3.24
-    },
-    {
-        "word": " other",
-        "start_time": 3.24,
-        "end_time": 3.44
-    },
-    {
-        "word": " snowman?",
-        "start_time": 3.44,
-        "end_time": 3.96
-    },
-    {
-        "word": " Do",
-        "start_time": 4.52,
-        "end_time": 4.66
+        "word": " Have",
+        "start_time": 0.0,
+        "end_time": 0.26
     },
     {
         "word": " you",
-        "start_time": 4.66,
-        "end_time": 4.78
+        "start_time": 0.26,
+        "end_time": 0.48
     },
     {
-        "word": " smell",
-        "start_time": 4.78,
-        "end_time": 4.92
+        "word": " heard",
+        "start_time": 0.48,
+        "end_time": 0.74
     },
     {
-        "word": " carrots?",
-        "start_time": 4.92,
-        "end_time": 5.28
+        "word": " about",
+        "start_time": 0.74,
+        "end_time": 1.02
+    },
+    {
+        "word": " Nervous?",
+        "start_time": 1.02,
+        "end_time": 1.56
+    },
+    {
+        "word": " We're",
+        "start_time": 2.04,
+        "end_time": 2.34
+    },
+    {
+        "word": " a",
+        "start_time": 2.34,
+        "end_time": 2.54
+    },
+    {
+        "word": " people",
+        "start_time": 2.54,
+        "end_time": 2.86
+    },
+    {
+        "word": "-first",
+        "start_time": 2.86,
+        "end_time": 3.16
+    },
+    {
+        "word": " agency",
+        "start_time": 3.16,
+        "end_time": 3.8
+    },
+    {
+        "word": " that",
+        "start_time": 3.8,
+        "end_time": 4.3
+    },
+    {
+        "word": " work",
+        "start_time": 4.3,
+        "end_time": 4.6
+    },
+    {
+        "word": " wonders",
+        "start_time": 4.6,
+        "end_time": 5.04
+    },
+    {
+        "word": " with",
+        "start_time": 5.04,
+        "end_time": 5.3
+    },
+    {
+        "word": " Discord,",
+        "start_time": 5.3,
+        "end_time": 5.82
+    },
+    {
+        "word": " the",
+        "start_time": 6.34,
+        "end_time": 6.48
+    },
+    {
+        "word": " web's",
+        "start_time": 6.48,
+        "end_time": 6.9
+    },
+    {
+        "word": " best",
+        "start_time": 6.9,
+        "end_time": 7.1
+    },
+    {
+        "word": " discussion",
+        "start_time": 7.1,
+        "end_time": 7.52
+    },
+    {
+        "word": " platform,",
+        "start_time": 7.52,
+        "end_time": 8.06
+    },
+    {
+        "word": " to",
+        "start_time": 8.62,
+        "end_time": 8.8
+    },
+    {
+        "word": " build",
+        "start_time": 8.8,
+        "end_time": 9.12
+    },
+    {
+        "word": " and",
+        "start_time": 9.12,
+        "end_time": 9.42
+    },
+    {
+        "word": " nurture",
+        "start_time": 9.42,
+        "end_time": 9.72
+    },
+    {
+        "word": " communities",
+        "start_time": 9.72,
+        "end_time": 10.34
+    },
+    {
+        "word": " for",
+        "start_time": 10.34,
+        "end_time": 10.66
+    },
+    {
+        "word": " brands.",
+        "start_time": 10.66,
+        "end_time": 11.12
+    },
+    {
+        "word": " We",
+        "start_time": 11.82,
+        "end_time": 11.96
+    },
+    {
+        "word": " have",
+        "start_time": 11.96,
+        "end_time": 12.2
+    },
+    {
+        "word": " a",
+        "start_time": 12.2,
+        "end_time": 12.48
+    },
+    {
+        "word": " proven",
+        "start_time": 12.48,
+        "end_time": 12.78
+    },
+    {
+        "word": " track",
+        "start_time": 12.78,
+        "end_time": 13.1
+    },
+    {
+        "word": " record",
+        "start_time": 13.1,
+        "end_time": 13.56
+    },
+    {
+        "word": " managing",
+        "start_time": 13.56,
+        "end_time": 14.36
+    },
+    {
+        "word": " amazing",
+        "start_time": 14.36,
+        "end_time": 15.06
+    },
+    {
+        "word": " brand",
+        "start_time": 15.06,
+        "end_time": 15.36
+    },
+    {
+        "word": " communities",
+        "start_time": 15.36,
+        "end_time": 15.86
+    },
+    {
+        "word": " of",
+        "start_time": 15.86,
+        "end_time": 16.14
+    },
+    {
+        "word": " all",
+        "start_time": 16.14,
+        "end_time": 16.42
+    },
+    {
+        "word": " sizes.",
+        "start_time": 16.42,
+        "end_time": 16.88
+    },
+    {
+        "word": " Could",
+        "start_time": 17.6,
+        "end_time": 17.8
+    },
+    {
+        "word": " your",
+        "start_time": 17.8,
+        "end_time": 18.06
+    },
+    {
+        "word": " brand",
+        "start_time": 18.06,
+        "end_time": 18.28
+    },
+    {
+        "word": " benefit",
+        "start_time": 18.28,
+        "end_time": 18.76
+    },
+    {
+        "word": " from",
+        "start_time": 18.76,
+        "end_time": 19.02
+    },
+    {
+        "word": " having",
+        "start_time": 19.02,
+        "end_time": 19.22
+    },
+    {
+        "word": " its",
+        "start_time": 19.22,
+        "end_time": 19.5
+    },
+    {
+        "word": " own",
+        "start_time": 19.5,
+        "end_time": 19.84
+    },
+    {
+        "word": " thriving",
+        "start_time": 19.84,
+        "end_time": 20.18
+    },
+    {
+        "word": " community?",
+        "start_time": 20.18,
+        "end_time": 20.74
+    },
+    {
+        "word": " Let's",
+        "start_time": 21.38,
+        "end_time": 21.66
+    },
+    {
+        "word": " dive",
+        "start_time": 21.66,
+        "end_time": 21.88
+    },
+    {
+        "word": " in",
+        "start_time": 21.88,
+        "end_time": 22.1
+    },
+    {
+        "word": " and",
+        "start_time": 22.1,
+        "end_time": 22.3
+    },
+    {
+        "word": " find",
+        "start_time": 22.3,
+        "end_time": 22.5
+    },
+    {
+        "word": " out.",
+        "start_time": 22.5,
+        "end_time": 22.88
     }
 ]

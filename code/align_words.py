@@ -6,7 +6,7 @@ def align_words(audio_file, transcript):
     config = {
         'verbose': True,
         'hmm': os.path.join(model_path, 'en-us', 'en-us'),
-        'lm': os.path.join(model_path, '/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/en-us.lm.bin'),
+        'lm': os.path.join(model_path, '/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/en-us-phone.lm.bin'),
         'dict': '/Users/nervous/Documents/GitHub/speech-aligner/.venv/lib/python3.10/site-packages/pocketsphinx/model/en-us/cmudict-en-us.dict',
         'bestpath': True,  # Enable best path decoding
     }

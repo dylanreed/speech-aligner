@@ -1,4 +1,3 @@
-
 from tqdm import tqdm
 import pygame
 import json
@@ -10,40 +9,43 @@ def load_viseme_data(viseme_file):
     """Load viseme data from a JSON file."""
     with open(viseme_file, "r", encoding="utf-8") as f:
         return json.load(f)
-    
 
-def render_animation_to_video(
-    viseme_data, mouth_image_path, output_video, fps, resolution, temp_dir, 
-    head_image_path, blink_image_path, pose_image_path, pose_data_path
-):
-    """
-    Renders an animation with visemes, poses, and blinking, and combines it with audio to create a video.
+def load_pose_data(pose_data):
+    """Load pose data from a JSON file and validate its structure."""
+    with open(pose_data, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        if not isinstance(data, list):
+            raise ValueError("pose_data should be a list of dictionaries")
+        # Validate each entry in the pose_data
+        for entry in data:
+            if not isinstance(entry, dict):
+                raise ValueError(f"Invalid pose data entry: {entry}")
+            required_keys = ["pose_image", "pose_start_time", "pose_end_time"]
+            for key in required_keys:
+                if key not in entry:
+                    raise ValueError(f"Missing key '{key}' in pose data entry: {entry}")
+        return data
 
-    Args:
-        viseme_data (list): List of viseme data with timings.
-        mouth_image_path (str): Path to the mouth images directory.
-        output_video (str): Path to save the final video.
-        fps (int): Frames per second.
-        resolution (tuple): Resolution of the video (width, height).
-        temp_dir (str): Directory to save temporary frames.
-        head_image_path (str): Path to the head image file.
-        blink_image_path (str): Path to the blink image file.
-        pose_image_path (str): Path to the pose images directory.
-        pose_data_path (str): Path to the pose data JSON file.
-    """
-    # Initialize Pygame
+def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data):
+    """Render animation frames and encode them into a video, with blinks and random poses."""
+    # Debug: print loaded pose_data
+    print("Pose data at the start of render_animation_to_video:")
+    for entry in pose_data:
+        print(entry)  # Log the content of pose_data
     pygame.init()
 
-    # Set up the display surface (off-screen rendering)
+    # Set up display (off-screen rendering)
     screen = pygame.Surface(resolution)
 
-    # Load the head image
+    # Load images #
+
+    # Load head image
     if os.path.exists(head_image_path):
         head_image = pygame.image.load(head_image_path)
     else:
         raise FileNotFoundError(f"Head image not found: {head_image_path}")
-
-    # Load the blink image
+    
+    # Load blink image
     if os.path.exists(blink_image_path):
         blink_image = pygame.image.load(blink_image_path)
     else:
@@ -51,42 +53,48 @@ def render_animation_to_video(
 
     # Load viseme images
     viseme_images = {}
-    for file_name in os.listdir(mouth_image_path):
-        if file_name.endswith(".png"):
-            viseme = file_name.replace(".png", "")
-            viseme_images[viseme] = pygame.image.load(os.path.join(mouth_image_path, file_name))
+    for entry in viseme_data:
+        mouth_shape = entry["mouth_shape"]
+        if mouth_shape not in viseme_images:
+            image_path = os.path.join(image_directory, mouth_shape)
+            if os.path.exists(image_path):
+                viseme_images[mouth_shape] = pygame.image.load(image_path)
 
-    # Load pose data
-    with open(pose_data_path, "r", encoding="utf-8") as f:
-        pose_data = json.load(f)
-
-    if not isinstance(pose_data, list):
-        raise TypeError(f"pose_data should be a list, got {type(pose_data)}")
+    # Ensure the neutral viseme frame is loaded
+    neutral_viseme_path = os.path.join(image_directory, "neutral.png")
+    if os.path.exists(neutral_viseme_path):
+        viseme_images["neutral"] = pygame.image.load(neutral_viseme_path)
+    else:
+        raise FileNotFoundError("Neutral viseme ('neutral.png') not found in the viseme directory.")
 
     # Load pose images
     pose_images = {}
-    for file_name in os.listdir(pose_image_path):
-        if file_name.endswith(".png"):
-            pose_name = file_name.replace(".png", "")
-            pose_images[pose_name] = pygame.image.load(os.path.join(pose_image_path, file_name))
+    for entry in pose_data:
+        if isinstance(entry, dict) and "pose_image" in entry:
+            pose = entry["pose_image"]
+            if pose not in pose_images:
+                pose_image_path = os.path.join(pose_folder, pose)
+                if os.path.exists(pose_image_path):
+                    pose_images[pose] = pygame.image.load(pose_image_path)
+                else:
+                    print(f"Pose image not found for pose: {pose}")
 
-    # Ensure neutral pose exists
-    if "neutral" not in pose_images:
-        neutral_image_path = os.path.join(pose_image_path, "neutral.png")
-        if os.path.exists(neutral_image_path):
-            pose_images["neutral"] = pygame.image.load(neutral_image_path)
-        else:
-            raise FileNotFoundError("Neutral pose image not found")
-
+    # Check for missing neutral pose image
+    neutral_pose_path = os.path.join(pose_folder, "neutralpose.png")
+    if not os.path.exists(neutral_pose_path):
+        print("Warning: Neutral pose ('neutralpose.png') not found in the pose directory.")
+    else:
+        pose_images["neutralpose"] = pygame.image.load(neutral_pose_path)
+      
     # Ensure temp directory exists
     os.makedirs(temp_dir, exist_ok=True)
 
     # Generate random blink timings
     total_duration = viseme_data[-1]["end_time"]
-    blinks = []
     current_time = 0.0
+    blinks = []
     while current_time < total_duration:
-        blink_start = current_time + random.uniform(2, 7)
+        blink_start = current_time + random.uniform(2, 10)
         blink_end = blink_start + 0.2
         if blink_end > total_duration:
             break
@@ -94,78 +102,76 @@ def render_animation_to_video(
         current_time = blink_start
 
     # Render frames
-    total_frames = int(total_duration * fps)
+    total_frames = int(viseme_data[-1]["end_time"] * fps)
     frame_time = 1 / fps
     current_time = 0.0
 
     print(f"Rendering {total_frames} frames...")
     for frame_number in tqdm(range(total_frames), desc="Rendering Frames"):
         # Clear screen
-        screen.fill((211, 211, 211))  # Light grey background
+        screen.fill((211, 211, 211))
 
-        # Draw the head image
+        # Render head
         head_x = resolution[0] // 2 - head_image.get_width() // 2
         head_y = resolution[1] // 2 - head_image.get_height() // 2
         screen.blit(head_image, (head_x, head_y))
 
-        # Determine active viseme
-        displayed_viseme = "neutral"
+        # Determine which viseme to show
+        displayed_viseme = "neutral"  # Default to neutral viseme
         for entry in viseme_data:
-            if entry["start_time"] <= current_time < entry["end_time"]:
-                displayed_viseme = entry["mouth_shape"]
+            viseme_start = entry["start_time"]
+            viseme_end = entry["end_time"]
+            mouth_shape = entry["mouth_shape"]
+
+            if viseme_start <= current_time < viseme_end:
+                displayed_viseme = mouth_shape
                 break
 
-        # Draw the viseme
+        # Display the selected viseme (neutral if no active viseme)
         if displayed_viseme in viseme_images:
             mouth_image = viseme_images[displayed_viseme]
             mouth_x = head_x + head_image.get_width() // 2 - mouth_image.get_width() // 2
             mouth_y = head_y + head_image.get_height() // 2 - mouth_image.get_height() // 2
             screen.blit(mouth_image, (mouth_x, mouth_y))
 
-        # Check for active blink
-        is_blinking = any(start <= current_time < end for start, end in blinks)
+        # Determine which pose to show
+        displayed_pose = "neutralpose"  # Default to neutral viseme
+        for entry in pose_data:
+            pose_start = entry["pose_start_time"]
+            pose_end = entry["pose_end_time"]
+            pose_image = entry["pose_image"]
+
+            if pose_start <= current_time < pose_end:
+                displayed_pose = pose_image
+                break
+
+        # Display the selected pose (neutral if no active viseme)
+        if displayed_pose in pose_images:
+            pose_image = pose_images[displayed_pose]
+            pose_x = head_x + head_image.get_width() // 2 - pose_image.get_width() // 2
+            pose_y = head_y + head_image.get_height() // 2 - pose_image.get_height() // 2
+            screen.blit(pose_image, (pose_x, pose_y))
+
+        # Check if the current frame is during a blink
+        is_blinking = any(blink_start <= current_time < blink_end for blink_start, blink_end in blinks)
         if is_blinking:
             screen.blit(blink_image, (head_x, head_y))
 
-        # Determine active pose
-        active_pose = "neutral"
-        for entry in pose_data:
-            if entry["start_time"] <= current_time < entry["end_time"]:
-                active_pose = entry["pose_image"]
-                break
-
-        # Draw the pose
-        if active_pose in pose_images:
-            pose_image = pose_images[active_pose]
-            screen.blit(pose_image, (head_x, head_y))
-
-        # Save the frame
+        # Save the frame as an image
         frame_path = os.path.join(temp_dir, f"frame_{frame_number:04d}.png")
         pygame.image.save(screen, frame_path)
 
         # Increment time
         current_time += frame_time
 
-    # Encode video from frames
-    print("Encoding video...")
-    temp_video_path = os.path.join(temp_dir, "temp_video.mp4")
+
+    # Encode frames to video
     ffmpeg_command = [
         "ffmpeg", "-y", "-framerate", str(fps), "-i", f"{temp_dir}/frame_%04d.png",
-        "-c:v", "libx264", "-pix_fmt", "yuv420p", temp_video_path
+        "-c:v", "libx264", "-pix_fmt", "yuv420p", output_video
     ]
     subprocess.run(ffmpeg_command, check=True)
-
-    # Combine video with audio
-    print("Adding audio...")
-    final_output_path = output_video
-    ffmpeg_command = [
-        "ffmpeg", "-y", "-i", temp_video_path, "-i", "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav",
-        "-c:v", "copy", "-c:a", "aac", "-shortest", final_output_path
-    ]
-    subprocess.run(ffmpeg_command, check=True)
-
-    print(f"Video saved to {final_output_path}")
-
+    print(f"Video saved to {output_video}")
 
 def combine_audio_with_video(video_file, audio_file, output_file):
     """Combine the rendered video and audio into a single file."""
@@ -178,27 +184,23 @@ def combine_audio_with_video(video_file, audio_file, output_file):
     print(f"Final video with audio saved to {output_file}")
 
 if __name__ == "__main__":
-    # Paths
-    viseme_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"  # Replace with your viseme data file
-    mouth_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes"  # Directory containing mouth shape images
-    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Path to the audio file
-    temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/frames"  # Directory to store temporary frames
-    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/animate_poses_output_video.mp4"  # Video without audio
-    final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/animate_poses_final_output_with_audio.mp4"  # Final video with audio
-    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/body.png" #body image file
-    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/blink.png" #blink image
-    pose_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/pose" #pose image folder
-    pose_data_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json" #pose Data file
+    viseme_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"
+    image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes"
+    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
+    temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/frames"
+    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/poses_animate_output_video.mp4"
+    final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/poses_animate_final_output_with_audio.mp4"
+    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/body.png"
+    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/blink.png"
+    pose_folder = "/Users/nervous/Documents/GitHub/speech-aligner/assets/pose/"
+    pose_data = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json"
+    fps = 30
+    resolution = (800, 600)
 
-    # Configuration
-    fps = 30  # Frames per second
-    resolution = (800, 600)  # Video resolution
-
-    # Load viseme data
+    # Load data
     viseme_data = load_viseme_data(viseme_file)
+    pose_data = load_pose_data(pose_data)  # Call load_pose_data to parse JSON
 
-    # Render animation to video
-    render_animation_to_video(viseme_data, mouth_image_path, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_image_path, pose_data_path)
+    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data)
 
-    # Combine video with audio
     combine_audio_with_video(output_video, audio_file, final_output)
