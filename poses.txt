@@ -1,0 +1,16 @@
+poses:
+Wave (both sides)
+Double guns
+Single Gun (both sides)
+1,2,3 fingers up (both sides)
+hands clasped in front
+hands behind back
+hand out "stop" (Both sides)
+Holding sign (both sides)
+A couple idle poses
+lean forward
+lean back
+
+happy, sad, angry, neutral of each
+
+
