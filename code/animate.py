@@ -134,8 +134,8 @@ if __name__ == "__main__":
     image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/visemes"  # Directory containing mouth shape images
     audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Path to the audio file
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/"  # Directory to store temporary frames
-    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_video.mp4"  # Video without audio
-    final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/final_output_with_audio.mp4"  # Final video with audio
+    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/animate_output_video.mp4"  # Video without audio
+    final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/animate_final_output_with_audio.mp4"  # Final video with audio
     head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/body.png"
     blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/blink.png" 
     # Configuration

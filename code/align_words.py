@@ -37,7 +37,7 @@ def align_words(audio_file, transcript):
 
 if __name__ == "__main__":
     audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Replace with your WAV file
-    transcript = "Writing is hard. I think we can all agree that writing is hard. When I say it is hard, I mean that consistently writing is hard. I love writing, I just wish I did it more. I recently stumbled upon my collection of notebooks from when I was writing my first full novel. Reading through them showed me that I have a lot of fun ideas. I just need to get them out of my head and onto some pages. I'm currently trying to transfer all the notebooks into my remarkable two, tablet. I'm sure I could scan them in and save them as PDFs, but it has been a lot of fun reading and copying over the notes. The only problem is that I don't write by hand very much anymore, so my hand is getting so tired. It also doesn't help that my remarkable marker pro broke so it doesn't work great anymore. I have a new pin thing coming so I can continue to transfer to the remarkable and then I need to rewrite the first novel with all of the new knowledge and time."  # Replace with your transcript
+    transcript = "What did one snowman say to the other snowman? Do you smell carrots?"  # Replace with your transcript
     aligned_words = align_words(audio_file, transcript)
     print("Aligned Words:")
     print(aligned_words)
