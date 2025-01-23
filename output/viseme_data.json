@@ -1,1172 +1,222 @@
 [
     {
-        "mouth_shape": "aei.png",
+        "mouth_shape": "qw.png",
         "start_time": 0.0,
-        "end_time": 0.13999999999999999
+        "end_time": 0.08
     },
     {
         "mouth_shape": "aei.png",
-        "start_time": 0.13999999999999999,
-        "end_time": 0.27999999999999997
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 0.27999999999999997,
-        "end_time": 0.41999999999999993
+        "start_time": 0.08,
+        "end_time": 0.16
     },
     {
         "mouth_shape": "cdgknstxyz.png",
+        "start_time": 0.16,
+        "end_time": 0.24
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 0.24,
+        "end_time": 0.3
+    },
+    {
+        "mouth_shape": "aei.png",
+        "start_time": 0.3,
+        "end_time": 0.36
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 0.36,
+        "end_time": 0.42
+    },
+    {
+        "mouth_shape": "qw.png",
         "start_time": 0.42,
-        "end_time": 0.51
+        "end_time": 0.52
+    },
+    {
+        "mouth_shape": "aei.png",
+        "start_time": 0.52,
+        "end_time": 0.62
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 0.62,
+        "end_time": 0.72
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 0.72,
+        "end_time": 0.7866666666666666
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 0.7866666666666666,
+        "end_time": 0.8533333333333333
     },
     {
         "mouth_shape": "o.png",
-        "start_time": 0.51,
-        "end_time": 0.6
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 0.6,
-        "end_time": 0.6733333333333333
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 0.6733333333333333,
-        "end_time": 0.7466666666666667
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 0.7466666666666667,
-        "end_time": 0.8200000000000001
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 0.82,
-        "end_time": 0.88
+        "start_time": 0.8533333333333333,
+        "end_time": 0.9199999999999999
     },
     {
         "mouth_shape": "bmp.png",
-        "start_time": 0.88,
-        "end_time": 0.9400000000000001
+        "start_time": 0.9199999999999999,
+        "end_time": 0.9866666666666666
     },
     {
         "mouth_shape": "aei.png",
-        "start_time": 0.9400000000000001,
-        "end_time": 1.0
+        "start_time": 0.9866666666666666,
+        "end_time": 1.0533333333333332
     },
     {
         "mouth_shape": "cdgknstxyz.png",
-        "start_time": 1.0,
-        "end_time": 1.06
+        "start_time": 1.0533333333333332,
+        "end_time": 1.1199999999999999
     },
     {
         "mouth_shape": "cdgknstxyz.png",
-        "start_time": 1.06,
-        "end_time": 1.1720000000000002
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 1.1720000000000002,
-        "end_time": 1.2840000000000003
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 1.2840000000000003,
-        "end_time": 1.3960000000000004
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 1.3960000000000004,
-        "end_time": 1.5080000000000005
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 1.5080000000000005,
-        "end_time": 1.6200000000000006
-    },
-    {
-        "mouth_shape": "qw.png",
-        "start_time": 2.0,
-        "end_time": 2.066666666666667
+        "start_time": 1.12,
+        "end_time": 1.23
     },
     {
         "mouth_shape": "ee.png",
-        "start_time": 2.066666666666667,
-        "end_time": 2.1333333333333337
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 2.1333333333333337,
-        "end_time": 2.2000000000000006
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 2.2,
-        "end_time": 2.34
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 2.34,
-        "end_time": 2.388
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 2.388,
-        "end_time": 2.436
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 2.436,
-        "end_time": 2.484
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 2.484,
-        "end_time": 2.532
-    },
-    {
-        "mouth_shape": "l.png",
-        "start_time": 2.532,
-        "end_time": 2.58
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 2.58,
-        "end_time": 2.84
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 2.84,
-        "end_time": 2.913333333333333
-    },
-    {
-        "mouth_shape": "shch.png",
-        "start_time": 2.913333333333333,
-        "end_time": 2.9866666666666664
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 2.9866666666666664,
-        "end_time": 3.0599999999999996
+        "start_time": 1.23,
+        "end_time": 1.3399999999999999
     },
     {
         "mouth_shape": "cdgknstxyz.png",
-        "start_time": 3.0599999999999996,
-        "end_time": 3.133333333333333
+        "start_time": 1.34,
+        "end_time": 1.44
     },
     {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 3.133333333333333,
-        "end_time": 3.206666666666666
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 3.206666666666666,
-        "end_time": 3.2799999999999994
+        "mouth_shape": "o.png",
+        "start_time": 1.44,
+        "end_time": 1.54
     },
     {
         "mouth_shape": "th.png",
-        "start_time": 3.28,
-        "end_time": 3.36
+        "start_time": 1.54,
+        "end_time": 1.6099999999999999
     },
     {
         "mouth_shape": "aei.png",
-        "start_time": 3.36,
-        "end_time": 3.44
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 3.44,
-        "end_time": 3.52
-    },
-    {
-        "mouth_shape": "qw.png",
-        "start_time": 3.52,
-        "end_time": 3.58
+        "start_time": 1.6099999999999999,
+        "end_time": 1.6799999999999997
     },
     {
         "mouth_shape": "aei.png",
-        "start_time": 3.58,
-        "end_time": 3.64
+        "start_time": 1.68,
+        "end_time": 1.76
     },
     {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 3.64,
-        "end_time": 3.7
-    },
-    {
-        "mouth_shape": "qw.png",
-        "start_time": 3.7,
-        "end_time": 3.7533333333333334
+        "mouth_shape": "th.png",
+        "start_time": 1.76,
+        "end_time": 1.84
     },
     {
         "mouth_shape": "aei.png",
-        "start_time": 3.7533333333333334,
-        "end_time": 3.8066666666666666
+        "start_time": 1.84,
+        "end_time": 1.9200000000000002
     },
     {
         "mouth_shape": "cdgknstxyz.png",
-        "start_time": 3.8066666666666666,
+        "start_time": 1.92,
+        "end_time": 1.9966666666666666
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 1.9966666666666666,
+        "end_time": 2.0733333333333333
+    },
+    {
+        "mouth_shape": "o.png",
+        "start_time": 2.0733333333333333,
+        "end_time": 2.15
+    },
+    {
+        "mouth_shape": "bmp.png",
+        "start_time": 2.15,
+        "end_time": 2.2266666666666666
+    },
+    {
+        "mouth_shape": "aei.png",
+        "start_time": 2.2266666666666666,
+        "end_time": 2.3033333333333332
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 2.3033333333333332,
+        "end_time": 2.38
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 2.8,
+        "end_time": 2.87
+    },
+    {
+        "mouth_shape": "o.png",
+        "start_time": 2.87,
+        "end_time": 2.9400000000000004
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 2.94,
+        "end_time": 3.0300000000000002
+    },
+    {
+        "mouth_shape": "o.png",
+        "start_time": 3.0300000000000002,
+        "end_time": 3.12
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 3.12,
+        "end_time": 3.19
+    },
+    {
+        "mouth_shape": "bmp.png",
+        "start_time": 3.19,
+        "end_time": 3.26
+    },
+    {
+        "mouth_shape": "aei.png",
+        "start_time": 3.26,
+        "end_time": 3.3299999999999996
+    },
+    {
+        "mouth_shape": "l.png",
+        "start_time": 3.3299999999999996,
+        "end_time": 3.3999999999999995
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 3.4,
+        "end_time": 3.4766666666666666
+    },
+    {
+        "mouth_shape": "aei.png",
+        "start_time": 3.4766666666666666,
+        "end_time": 3.5533333333333332
+    },
+    {
+        "mouth_shape": "r.png",
+        "start_time": 3.5533333333333332,
+        "end_time": 3.63
+    },
+    {
+        "mouth_shape": "aei.png",
+        "start_time": 3.63,
+        "end_time": 3.7066666666666666
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 3.7066666666666666,
+        "end_time": 3.783333333333333
+    },
+    {
+        "mouth_shape": "cdgknstxyz.png",
+        "start_time": 3.783333333333333,
         "end_time": 3.86
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 3.86,
-        "end_time": 3.913333333333333
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 3.913333333333333,
-        "end_time": 3.9666666666666663
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 3.9666666666666663,
-        "end_time": 4.02
-    },
-    {
-        "mouth_shape": "qw.png",
-        "start_time": 4.02,
-        "end_time": 4.086666666666666
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 4.086666666666666,
-        "end_time": 4.153333333333332
-    },
-    {
-        "mouth_shape": "th.png",
-        "start_time": 4.153333333333332,
-        "end_time": 4.219999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 4.22,
-        "end_time": 4.288571428571428
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 4.288571428571428,
-        "end_time": 4.357142857142857
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 4.357142857142857,
-        "end_time": 4.425714285714285
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 4.425714285714285,
-        "end_time": 4.494285714285714
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 4.494285714285714,
-        "end_time": 4.562857142857142
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 4.562857142857142,
-        "end_time": 4.631428571428571
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 4.631428571428571,
-        "end_time": 4.699999999999999
-    },
-    {
-        "mouth_shape": "th.png",
-        "start_time": 5.1,
-        "end_time": 5.16
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 5.16,
-        "end_time": 5.220000000000001
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 5.22,
-        "end_time": 5.58
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 5.58,
-        "end_time": 5.635
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 5.635,
-        "end_time": 5.6899999999999995
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 5.6899999999999995,
-        "end_time": 5.744999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 5.744999999999999,
-        "end_time": 5.799999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 5.8,
-        "end_time": 5.845
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 5.845,
-        "end_time": 5.89
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 5.89,
-        "end_time": 5.935
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 5.935,
-        "end_time": 5.9799999999999995
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 5.9799999999999995,
-        "end_time": 6.0249999999999995
-    },
-    {
-        "mouth_shape": "shch.png",
-        "start_time": 6.0249999999999995,
-        "end_time": 6.069999999999999
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 6.069999999999999,
-        "end_time": 6.114999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 6.114999999999999,
-        "end_time": 6.159999999999999
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 6.16,
-        "end_time": 6.2225
-    },
-    {
-        "mouth_shape": "l.png",
-        "start_time": 6.2225,
-        "end_time": 6.285
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 6.285,
-        "end_time": 6.3475
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 6.3475,
-        "end_time": 6.41
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 6.41,
-        "end_time": 6.4725
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 6.4725,
-        "end_time": 6.535
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 6.535,
-        "end_time": 6.5975
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 6.5975,
-        "end_time": 6.66
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 7.06,
-        "end_time": 7.15
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 7.15,
-        "end_time": 7.24
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 7.24,
-        "end_time": 7.3100000000000005
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 7.3100000000000005,
-        "end_time": 7.380000000000001
-    },
-    {
-        "mouth_shape": "l.png",
-        "start_time": 7.380000000000001,
-        "end_time": 7.450000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 7.450000000000001,
-        "end_time": 7.520000000000001
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 7.52,
-        "end_time": 7.58
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 7.58,
-        "end_time": 7.640000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 7.640000000000001,
-        "end_time": 7.700000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 7.7,
-        "end_time": 7.7700000000000005
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 7.7700000000000005,
-        "end_time": 7.840000000000001
-    },
-    {
-        "mouth_shape": "shch.png",
-        "start_time": 7.840000000000001,
-        "end_time": 7.910000000000001
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 7.910000000000001,
-        "end_time": 7.980000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 7.98,
-        "end_time": 8.034
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 8.034,
-        "end_time": 8.088000000000001
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 8.088000000000001,
-        "end_time": 8.142000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 8.142000000000001,
-        "end_time": 8.196000000000002
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 8.196000000000002,
-        "end_time": 8.250000000000002
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 8.250000000000002,
-        "end_time": 8.304000000000002
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 8.304000000000002,
-        "end_time": 8.358000000000002
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 8.358000000000002,
-        "end_time": 8.412000000000003
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 8.412000000000003,
-        "end_time": 8.466000000000003
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 8.466000000000003,
-        "end_time": 8.520000000000003
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 8.52,
-        "end_time": 8.606666666666666
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 8.606666666666666,
-        "end_time": 8.693333333333332
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 8.693333333333332,
-        "end_time": 8.779999999999998
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 8.78,
-        "end_time": 8.846666666666666
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 8.846666666666666,
-        "end_time": 8.913333333333332
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 8.913333333333332,
-        "end_time": 8.979999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 8.979999999999999,
-        "end_time": 9.046666666666665
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 9.046666666666665,
-        "end_time": 9.113333333333332
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 9.113333333333332,
-        "end_time": 9.179999999999998
-    },
-    {
-        "mouth_shape": "qw.png",
-        "start_time": 9.58,
-        "end_time": 9.629999999999999
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 9.629999999999999,
-        "end_time": 9.68
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 9.68,
-        "end_time": 9.746666666666666
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 9.746666666666666,
-        "end_time": 9.813333333333333
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 9.813333333333333,
-        "end_time": 9.879999999999999
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 9.88,
-        "end_time": 10.02
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 10.02,
-        "end_time": 10.063333333333333
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 10.063333333333333,
-        "end_time": 10.106666666666666
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 10.106666666666666,
-        "end_time": 10.149999999999999
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 10.149999999999999,
-        "end_time": 10.193333333333332
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 10.193333333333332,
-        "end_time": 10.236666666666665
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 10.236666666666665,
-        "end_time": 10.279999999999998
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 10.28,
-        "end_time": 10.344999999999999
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 10.344999999999999,
-        "end_time": 10.409999999999998
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 10.409999999999998,
-        "end_time": 10.474999999999998
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 10.474999999999998,
-        "end_time": 10.539999999999997
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 10.54,
-        "end_time": 10.586666666666666
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 10.586666666666666,
-        "end_time": 10.633333333333333
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 10.633333333333333,
-        "end_time": 10.68
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 10.68,
-        "end_time": 10.726666666666667
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 10.726666666666667,
-        "end_time": 10.773333333333333
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 10.773333333333333,
-        "end_time": 10.82
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 10.82,
-        "end_time": 10.874285714285714
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 10.874285714285714,
-        "end_time": 10.928571428571427
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 10.928571428571427,
-        "end_time": 10.98285714285714
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 10.98285714285714,
-        "end_time": 11.037142857142854
-    },
-    {
-        "mouth_shape": "shch.png",
-        "start_time": 11.037142857142854,
-        "end_time": 11.091428571428567
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 11.091428571428567,
-        "end_time": 11.14571428571428
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 11.14571428571428,
-        "end_time": 11.199999999999994
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 11.2,
-        "end_time": 11.286666666666665
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 11.286666666666665,
-        "end_time": 11.373333333333331
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 11.373333333333331,
-        "end_time": 11.459999999999997
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 11.459999999999997,
-        "end_time": 11.546666666666663
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 11.546666666666663,
-        "end_time": 11.63333333333333
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 11.63333333333333,
-        "end_time": 11.719999999999995
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 11.72,
-        "end_time": 11.776
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 11.776,
-        "end_time": 11.831999999999999
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 11.831999999999999,
-        "end_time": 11.887999999999998
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 11.887999999999998,
-        "end_time": 11.943999999999997
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 11.943999999999997,
-        "end_time": 11.999999999999996
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 12.0,
-        "end_time": 12.042
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 12.042,
-        "end_time": 12.084
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 12.084,
-        "end_time": 12.126
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 12.126,
-        "end_time": 12.168
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 12.168,
-        "end_time": 12.209999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 12.209999999999999,
-        "end_time": 12.251999999999999
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 12.251999999999999,
-        "end_time": 12.293999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 12.293999999999999,
-        "end_time": 12.335999999999999
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 12.335999999999999,
-        "end_time": 12.377999999999998
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 12.377999999999998,
-        "end_time": 12.419999999999998
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 12.42,
-        "end_time": 12.530000000000001
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 12.530000000000001,
-        "end_time": 12.64
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 12.64,
-        "end_time": 12.74
-    },
-    {
-        "mouth_shape": "l.png",
-        "start_time": 12.74,
-        "end_time": 12.84
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 12.84,
-        "end_time": 12.916
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 12.916,
-        "end_time": 12.992
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 12.992,
-        "end_time": 13.068000000000001
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 13.068000000000001,
-        "end_time": 13.144000000000002
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 13.144000000000002,
-        "end_time": 13.220000000000002
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 13.56,
-        "end_time": 13.606666666666667
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 13.606666666666667,
-        "end_time": 13.653333333333334
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 13.653333333333334,
-        "end_time": 13.700000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 13.7,
-        "end_time": 13.76
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 13.76,
-        "end_time": 13.82
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 13.82,
-        "end_time": 13.88
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 13.88,
-        "end_time": 13.928
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 13.928,
-        "end_time": 13.976
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 13.976,
-        "end_time": 14.024000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 14.024000000000001,
-        "end_time": 14.072000000000001
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 14.072000000000001,
-        "end_time": 14.120000000000001
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 14.12,
-        "end_time": 14.17142857142857
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.17142857142857,
-        "end_time": 14.222857142857142
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 14.222857142857142,
-        "end_time": 14.274285714285714
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.274285714285714,
-        "end_time": 14.325714285714286
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 14.325714285714286,
-        "end_time": 14.377142857142857
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.377142857142857,
-        "end_time": 14.428571428571429
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 14.428571428571429,
-        "end_time": 14.48
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 14.48,
-        "end_time": 14.545
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 14.545,
-        "end_time": 14.61
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.61,
-        "end_time": 14.674999999999999
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 14.674999999999999,
-        "end_time": 14.739999999999998
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.74,
-        "end_time": 14.772
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.772,
-        "end_time": 14.804
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 14.804,
-        "end_time": 14.836
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.836,
-        "end_time": 14.868
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.868,
-        "end_time": 14.9
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 14.9,
-        "end_time": 14.973333333333333
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 14.973333333333333,
-        "end_time": 15.046666666666665
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 15.046666666666665,
-        "end_time": 15.119999999999997
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 15.12,
-        "end_time": 15.219999999999999
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 15.219999999999999,
-        "end_time": 15.32
-    },
-    {
-        "mouth_shape": "th.png",
-        "start_time": 15.32,
-        "end_time": 15.36
-    },
-    {
-        "mouth_shape": "r.png",
-        "start_time": 15.36,
-        "end_time": 15.399999999999999
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 15.399999999999999,
-        "end_time": 15.439999999999998
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 15.439999999999998,
-        "end_time": 15.479999999999997
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 15.479999999999997,
-        "end_time": 15.519999999999996
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 15.519999999999996,
-        "end_time": 15.559999999999995
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 15.56,
-        "end_time": 15.604444444444445
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 15.604444444444445,
-        "end_time": 15.648888888888889
-    },
-    {
-        "mouth_shape": "bmp.png",
-        "start_time": 15.648888888888889,
-        "end_time": 15.693333333333333
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 15.693333333333333,
-        "end_time": 15.737777777777778
-    },
-    {
-        "mouth_shape": "o.png",
-        "start_time": 15.737777777777778,
-        "end_time": 15.782222222222222
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 15.782222222222222,
-        "end_time": 15.826666666666666
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 15.826666666666666,
-        "end_time": 15.87111111111111
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 15.87111111111111,
-        "end_time": 15.915555555555555
-    },
-    {
-        "mouth_shape": "ee.png",
-        "start_time": 15.915555555555555,
-        "end_time": 15.959999999999999
-    },
-    {
-        "mouth_shape": "l.png",
-        "start_time": 16.32,
-        "end_time": 16.39
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 16.39,
-        "end_time": 16.46
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 16.46,
-        "end_time": 16.53
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 16.53,
-        "end_time": 16.6
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 16.6,
-        "end_time": 16.64
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 16.64,
-        "end_time": 16.68
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 16.68,
-        "end_time": 16.72
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 16.72,
-        "end_time": 16.82
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 16.82,
-        "end_time": 16.92
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 16.92,
-        "end_time": 16.98
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 16.98,
-        "end_time": 17.04
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 17.04,
-        "end_time": 17.099999999999998
-    },
-    {
-        "mouth_shape": "fv.png",
-        "start_time": 17.1,
-        "end_time": 17.14
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 17.14,
-        "end_time": 17.18
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 17.18,
-        "end_time": 17.22
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 17.22,
-        "end_time": 17.259999999999998
-    },
-    {
-        "mouth_shape": "aei.png",
-        "start_time": 17.26,
-        "end_time": 17.4
-    },
-    {
-        "mouth_shape": "cdgknstxyz.png",
-        "start_time": 17.4,
-        "end_time": 17.54
     }
 ]

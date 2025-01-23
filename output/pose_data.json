@@ -1,1 +1,27 @@
-[]
+[
+    {
+        "pose_image": "fist.png",
+        "pose_start_time": 0.0,
+        "pose_end_time": 0.74
+    },
+    {
+        "pose_image": "left.png",
+        "pose_start_time": 0.42,
+        "pose_end_time": 1.22
+    },
+    {
+        "pose_image": "curses.png",
+        "pose_start_time": 1.34,
+        "pose_end_time": 2.04
+    },
+    {
+        "pose_image": "right.png",
+        "pose_start_time": 1.92,
+        "pose_end_time": 2.88
+    },
+    {
+        "pose_image": "curses.png",
+        "pose_start_time": 3.4,
+        "pose_end_time": 4.359999999999999
+    }
+]
