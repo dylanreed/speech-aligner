@@ -1,2172 +1,282 @@
 [
     {
-        "word": " Everyone",
+        "word": " Have",
         "start_time": 0.0,
-        "end_time": 0.48
+        "end_time": 0.42
     },
     {
-        "word": " knows",
-        "start_time": 0.48,
-        "end_time": 0.84
+        "word": " you",
+        "start_time": 0.42,
+        "end_time": 0.6
     },
     {
-        "word": " that",
-        "start_time": 0.84,
-        "end_time": 1.1
+        "word": " heard",
+        "start_time": 0.6,
+        "end_time": 0.82
     },
     {
-        "word": " building",
-        "start_time": 1.1,
-        "end_time": 1.36
+        "word": " about",
+        "start_time": 0.82,
+        "end_time": 1.06
+    },
+    {
+        "word": " Nervous?",
+        "start_time": 1.06,
+        "end_time": 1.62
+    },
+    {
+        "word": " We're",
+        "start_time": 2.0,
+        "end_time": 2.2
     },
     {
         "word": " a",
-        "start_time": 1.36,
-        "end_time": 1.66
+        "start_time": 2.2,
+        "end_time": 2.34
     },
     {
-        "word": " community",
-        "start_time": 1.66,
-        "end_time": 1.98
+        "word": " people",
+        "start_time": 2.34,
+        "end_time": 2.58
     },
     {
-        "word": " is",
-        "start_time": 1.98,
-        "end_time": 2.3
+        "word": "-first",
+        "start_time": 2.58,
+        "end_time": 2.84
     },
     {
-        "word": " hard",
-        "start_time": 2.3,
-        "end_time": 2.56
+        "word": " agency",
+        "start_time": 2.84,
+        "end_time": 3.28
     },
     {
-        "word": " work.",
-        "start_time": 2.56,
-        "end_time": 2.88
-    },
-    {
-        "word": " There",
-        "start_time": 3.22,
-        "end_time": 3.36
-    },
-    {
-        "word": " is",
-        "start_time": 3.36,
+        "word": " that",
+        "start_time": 3.28,
         "end_time": 3.52
     },
     {
-        "word": " no",
+        "word": " work",
         "start_time": 3.52,
-        "end_time": 3.76
+        "end_time": 3.7
     },
     {
-        "word": " secret",
-        "start_time": 3.76,
-        "end_time": 4.06
-    },
-    {
-        "word": " sauce",
-        "start_time": 4.06,
-        "end_time": 4.38
-    },
-    {
-        "word": " to",
-        "start_time": 4.38,
-        "end_time": 4.56
-    },
-    {
-        "word": " make",
-        "start_time": 4.56,
-        "end_time": 4.68
-    },
-    {
-        "word": " a",
-        "start_time": 4.68,
-        "end_time": 4.98
-    },
-    {
-        "word": " community",
-        "start_time": 4.98,
-        "end_time": 5.3
-    },
-    {
-        "word": " coalesce",
-        "start_time": 5.3,
-        "end_time": 5.9
-    },
-    {
-        "word": " around",
-        "start_time": 5.9,
-        "end_time": 6.12
-    },
-    {
-        "word": " a",
-        "start_time": 6.12,
-        "end_time": 6.36
-    },
-    {
-        "word": " product",
-        "start_time": 6.36,
-        "end_time": 6.6
-    },
-    {
-        "word": " or",
-        "start_time": 6.6,
-        "end_time": 6.82
-    },
-    {
-        "word": " company.",
-        "start_time": 6.82,
-        "end_time": 7.2
-    },
-    {
-        "word": " Anyone",
-        "start_time": 7.78,
-        "end_time": 8.1
-    },
-    {
-        "word": " who",
-        "start_time": 8.1,
-        "end_time": 8.34
-    },
-    {
-        "word": " says",
-        "start_time": 8.34,
-        "end_time": 8.54
-    },
-    {
-        "word": " there",
-        "start_time": 8.54,
-        "end_time": 8.82
-    },
-    {
-        "word": " is,",
-        "start_time": 8.82,
-        "end_time": 9.22
-    },
-    {
-        "word": " they're",
-        "start_time": 9.56,
-        "end_time": 9.9
-    },
-    {
-        "word": " lying.",
-        "start_time": 9.9,
-        "end_time": 10.32
-    },
-    {
-        "word": " Building",
-        "start_time": 10.96,
-        "end_time": 11.3
-    },
-    {
-        "word": " an",
-        "start_time": 11.3,
-        "end_time": 11.56
-    },
-    {
-        "word": " online",
-        "start_time": 11.56,
-        "end_time": 11.9
-    },
-    {
-        "word": " community",
-        "start_time": 11.9,
-        "end_time": 12.44
-    },
-    {
-        "word": " is",
-        "start_time": 12.44,
-        "end_time": 12.8
-    },
-    {
-        "word": " one",
-        "start_time": 12.8,
-        "end_time": 13.0
-    },
-    {
-        "word": " of",
-        "start_time": 13.0,
-        "end_time": 13.12
-    },
-    {
-        "word": " the",
-        "start_time": 13.12,
-        "end_time": 13.28
-    },
-    {
-        "word": " trickiest",
-        "start_time": 13.28,
-        "end_time": 13.66
-    },
-    {
-        "word": " things",
-        "start_time": 13.66,
-        "end_time": 13.96
-    },
-    {
-        "word": " that",
-        "start_time": 13.96,
-        "end_time": 14.16
-    },
-    {
-        "word": " a",
-        "start_time": 14.16,
-        "end_time": 14.34
-    },
-    {
-        "word": " brand",
-        "start_time": 14.34,
-        "end_time": 14.52
-    },
-    {
-        "word": " can",
-        "start_time": 14.52,
-        "end_time": 14.78
-    },
-    {
-        "word": " do.",
-        "start_time": 14.78,
-        "end_time": 15.06
-    },
-    {
-        "word": " A",
-        "start_time": 15.64,
-        "end_time": 15.82
-    },
-    {
-        "word": " lot",
-        "start_time": 15.82,
-        "end_time": 16.0
-    },
-    {
-        "word": " of",
-        "start_time": 16.0,
-        "end_time": 16.22
-    },
-    {
-        "word": " brand",
-        "start_time": 16.22,
-        "end_time": 16.42
-    },
-    {
-        "word": " Discord",
-        "start_time": 16.42,
-        "end_time": 16.84
-    },
-    {
-        "word": " servers",
-        "start_time": 16.84,
-        "end_time": 17.2
-    },
-    {
-        "word": " are",
-        "start_time": 17.2,
-        "end_time": 17.5
-    },
-    {
-        "word": " started",
-        "start_time": 17.5,
-        "end_time": 17.72
+        "word": " wonders",
+        "start_time": 3.7,
+        "end_time": 4.02
     },
     {
         "word": " with",
-        "start_time": 17.72,
-        "end_time": 17.98
+        "start_time": 4.02,
+        "end_time": 4.22
+    },
+    {
+        "word": " Discord,",
+        "start_time": 4.22,
+        "end_time": 4.7
     },
     {
         "word": " the",
-        "start_time": 17.98,
-        "end_time": 18.22
+        "start_time": 5.1,
+        "end_time": 5.22
     },
     {
-        "word": " assumption",
-        "start_time": 18.22,
-        "end_time": 18.56
+        "word": " web's",
+        "start_time": 5.22,
+        "end_time": 5.58
     },
     {
-        "word": " that",
-        "start_time": 18.56,
-        "end_time": 18.84
+        "word": " best",
+        "start_time": 5.58,
+        "end_time": 5.8
     },
     {
-        "word": " customers",
-        "start_time": 18.84,
-        "end_time": 19.26
+        "word": " discussion",
+        "start_time": 5.8,
+        "end_time": 6.16
     },
     {
-        "word": " will",
-        "start_time": 19.26,
-        "end_time": 19.5
-    },
-    {
-        "word": " be",
-        "start_time": 19.5,
-        "end_time": 19.7
-    },
-    {
-        "word": " happy",
-        "start_time": 19.7,
-        "end_time": 19.92
+        "word": " platform,",
+        "start_time": 6.16,
+        "end_time": 6.66
     },
     {
         "word": " to",
-        "start_time": 19.92,
-        "end_time": 20.14
-    },
-    {
-        "word": " come",
-        "start_time": 20.14,
-        "end_time": 20.32
-    },
-    {
-        "word": " and",
-        "start_time": 20.32,
-        "end_time": 20.5
-    },
-    {
-        "word": " hang",
-        "start_time": 20.5,
-        "end_time": 20.64
-    },
-    {
-        "word": " out",
-        "start_time": 20.64,
-        "end_time": 20.78
-    },
-    {
-        "word": " in",
-        "start_time": 20.78,
-        "end_time": 20.92
-    },
-    {
-        "word": " a",
-        "start_time": 20.92,
-        "end_time": 21.08
-    },
-    {
-        "word": " brand",
-        "start_time": 21.08,
-        "end_time": 21.28
-    },
-    {
-        "word": " server,",
-        "start_time": 21.28,
-        "end_time": 21.66
-    },
-    {
-        "word": " and",
-        "start_time": 21.66,
-        "end_time": 22.34
-    },
-    {
-        "word": " that",
-        "start_time": 22.34,
-        "end_time": 22.54
-    },
-    {
-        "word": " the",
-        "start_time": 22.54,
-        "end_time": 22.78
-    },
-    {
-        "word": " brand",
-        "start_time": 22.78,
-        "end_time": 22.96
-    },
-    {
-        "word": " will",
-        "start_time": 22.96,
-        "end_time": 23.18
-    },
-    {
-        "word": " be",
-        "start_time": 23.18,
-        "end_time": 23.3
-    },
-    {
-        "word": " able",
-        "start_time": 23.3,
-        "end_time": 23.44
-    },
-    {
-        "word": " to",
-        "start_time": 23.44,
-        "end_time": 23.72
-    },
-    {
-        "word": " leverage",
-        "start_time": 23.72,
-        "end_time": 24.0
-    },
-    {
-        "word": " those",
-        "start_time": 24.0,
-        "end_time": 24.32
-    },
-    {
-        "word": " community",
-        "start_time": 24.32,
-        "end_time": 24.78
-    },
-    {
-        "word": " members",
-        "start_time": 24.78,
-        "end_time": 25.16
-    },
-    {
-        "word": " to",
-        "start_time": 25.16,
-        "end_time": 25.6
-    },
-    {
-        "word": " their",
-        "start_time": 25.6,
-        "end_time": 25.8
-    },
-    {
-        "word": " advantage.",
-        "start_time": 25.8,
-        "end_time": 26.28
-    },
-    {
-        "word": " Unfortunately,",
-        "start_time": 27.279999999999998,
-        "end_time": 27.84
-    },
-    {
-        "word": " people",
-        "start_time": 28.5,
-        "end_time": 28.7
-    },
-    {
-        "word": " are",
-        "start_time": 28.7,
-        "end_time": 29.0
-    },
-    {
-        "word": " smarter",
-        "start_time": 29.0,
-        "end_time": 29.28
-    },
-    {
-        "word": " than",
-        "start_time": 29.28,
-        "end_time": 29.52
-    },
-    {
-        "word": " that",
-        "start_time": 29.52,
-        "end_time": 29.86
-    },
-    {
-        "word": " and",
-        "start_time": 29.86,
-        "end_time": 30.26
-    },
-    {
-        "word": " are",
-        "start_time": 30.26,
-        "end_time": 30.48
-    },
-    {
-        "word": " able",
-        "start_time": 30.48,
-        "end_time": 30.62
-    },
-    {
-        "word": " to",
-        "start_time": 30.62,
-        "end_time": 30.98
-    },
-    {
-        "word": " recognize",
-        "start_time": 30.98,
-        "end_time": 31.52
-    },
-    {
-        "word": " when",
-        "start_time": 31.52,
-        "end_time": 31.96
-    },
-    {
-        "word": " a",
-        "start_time": 31.96,
-        "end_time": 32.22
-    },
-    {
-        "word": " community",
-        "start_time": 32.22,
-        "end_time": 32.56
-    },
-    {
-        "word": " is",
-        "start_time": 32.56,
-        "end_time": 32.9
-    },
-    {
-        "word": " just",
-        "start_time": 32.9,
-        "end_time": 33.24
-    },
-    {
-        "word": " another",
-        "start_time": 33.24,
-        "end_time": 33.52
-    },
-    {
-        "word": " way",
-        "start_time": 33.52,
-        "end_time": 33.76
-    },
-    {
-        "word": " to",
-        "start_time": 33.76,
-        "end_time": 34.02
-    },
-    {
-        "word": " sell",
-        "start_time": 34.02,
-        "end_time": 34.22
-    },
-    {
-        "word": " them",
-        "start_time": 34.22,
-        "end_time": 34.5
-    },
-    {
-        "word": " stuff.",
-        "start_time": 34.5,
-        "end_time": 34.92
-    },
-    {
-        "word": " So",
-        "start_time": 35.44,
-        "end_time": 35.62
-    },
-    {
-        "word": " how",
-        "start_time": 35.62,
-        "end_time": 35.82
-    },
-    {
-        "word": " do",
-        "start_time": 35.82,
-        "end_time": 35.96
-    },
-    {
-        "word": " you",
-        "start_time": 35.96,
-        "end_time": 36.12
+        "start_time": 7.06,
+        "end_time": 7.24
     },
     {
         "word": " build",
-        "start_time": 36.12,
-        "end_time": 36.3
+        "start_time": 7.24,
+        "end_time": 7.52
     },
     {
-        "word": " a",
-        "start_time": 36.3,
-        "end_time": 36.46
+        "word": " and",
+        "start_time": 7.52,
+        "end_time": 7.7
     },
     {
-        "word": " community",
-        "start_time": 36.46,
-        "end_time": 36.84
-    },
-    {
-        "word": " for",
-        "start_time": 36.84,
-        "end_time": 37.12
-    },
-    {
-        "word": " your",
-        "start_time": 37.12,
-        "end_time": 37.32
-    },
-    {
-        "word": " brand",
-        "start_time": 37.32,
-        "end_time": 37.64
-    },
-    {
-        "word": " in",
-        "start_time": 37.64,
-        "end_time": 38.04
-    },
-    {
-        "word": " a",
-        "start_time": 38.04,
-        "end_time": 38.22
-    },
-    {
-        "word": " way",
-        "start_time": 38.22,
-        "end_time": 38.36
-    },
-    {
-        "word": " that",
-        "start_time": 38.36,
-        "end_time": 38.52
-    },
-    {
-        "word": " is",
-        "start_time": 38.52,
-        "end_time": 38.68
-    },
-    {
-        "word": " meaningful,",
-        "start_time": 38.68,
-        "end_time": 39.16
-    },
-    {
-        "word": " not",
-        "start_time": 39.58,
-        "end_time": 39.88
-    },
-    {
-        "word": " just",
-        "start_time": 39.88,
-        "end_time": 40.12
-    },
-    {
-        "word": " to",
-        "start_time": 40.12,
-        "end_time": 40.3
-    },
-    {
-        "word": " the",
-        "start_time": 40.3,
-        "end_time": 40.54
-    },
-    {
-        "word": " brand,",
-        "start_time": 40.54,
-        "end_time": 40.84
-    },
-    {
-        "word": " but",
-        "start_time": 41.24,
-        "end_time": 41.36
-    },
-    {
-        "word": " also",
-        "start_time": 41.36,
-        "end_time": 41.82
-    },
-    {
-        "word": " to",
-        "start_time": 41.82,
-        "end_time": 42.12
-    },
-    {
-        "word": " the",
-        "start_time": 42.12,
-        "end_time": 42.3
-    },
-    {
-        "word": " members",
-        "start_time": 42.3,
-        "end_time": 42.58
-    },
-    {
-        "word": " of",
-        "start_time": 42.58,
-        "end_time": 42.78
-    },
-    {
-        "word": " your",
-        "start_time": 42.78,
-        "end_time": 42.98
-    },
-    {
-        "word": " community?",
-        "start_time": 42.98,
-        "end_time": 43.5
-    },
-    {
-        "word": " Here",
-        "start_time": 44.42,
-        "end_time": 44.62
-    },
-    {
-        "word": " are",
-        "start_time": 44.62,
-        "end_time": 44.88
-    },
-    {
-        "word": " three",
-        "start_time": 44.88,
-        "end_time": 45.2
-    },
-    {
-        "word": " steps",
-        "start_time": 45.2,
-        "end_time": 45.6
-    },
-    {
-        "word": " we",
-        "start_time": 45.6,
-        "end_time": 45.88
-    },
-    {
-        "word": " found",
-        "start_time": 45.88,
-        "end_time": 46.1
-    },
-    {
-        "word": " helpful",
-        "start_time": 46.1,
-        "end_time": 46.62
-    },
-    {
-        "word": " in",
-        "start_time": 46.62,
-        "end_time": 47.18
-    },
-    {
-        "word": " building",
-        "start_time": 47.18,
-        "end_time": 47.48
-    },
-    {
-        "word": " a",
-        "start_time": 47.48,
-        "end_time": 47.72
-    },
-    {
-        "word": " successful",
-        "start_time": 47.72,
-        "end_time": 48.24
-    },
-    {
-        "word": " community.",
-        "start_time": 48.24,
-        "end_time": 48.9
-    },
-    {
-        "word": " One,",
-        "start_time": 49.599999999999994,
-        "end_time": 50.16
-    },
-    {
-        "word": " have",
-        "start_time": 50.96,
-        "end_time": 51.14
-    },
-    {
-        "word": " a",
-        "start_time": 51.14,
-        "end_time": 51.4
-    },
-    {
-        "word": " clear",
-        "start_time": 51.4,
-        "end_time": 51.58
-    },
-    {
-        "word": " understanding",
-        "start_time": 51.58,
-        "end_time": 52.26
-    },
-    {
-        "word": " of",
-        "start_time": 52.26,
-        "end_time": 52.68
-    },
-    {
-        "word": " the",
-        "start_time": 52.68,
-        "end_time": 52.94
-    },
-    {
-        "word": " goal",
-        "start_time": 52.94,
-        "end_time": 53.1
-    },
-    {
-        "word": " of",
-        "start_time": 53.1,
-        "end_time": 53.28
-    },
-    {
-        "word": " the",
-        "start_time": 53.28,
-        "end_time": 53.54
-    },
-    {
-        "word": " community.",
-        "start_time": 53.54,
-        "end_time": 53.94
-    },
-    {
-        "word": " This",
-        "start_time": 54.5,
-        "end_time": 54.8
-    },
-    {
-        "word": " is",
-        "start_time": 54.8,
-        "end_time": 55.02
-    },
-    {
-        "word": " more",
-        "start_time": 55.02,
-        "end_time": 55.26
-    },
-    {
-        "word": " difficult",
-        "start_time": 55.26,
-        "end_time": 55.72
-    },
-    {
-        "word": " than",
-        "start_time": 55.72,
-        "end_time": 55.86
-    },
-    {
-        "word": " you",
-        "start_time": 55.86,
-        "end_time": 56.02
-    },
-    {
-        "word": " would",
-        "start_time": 56.02,
-        "end_time": 56.3
-    },
-    {
-        "word": " think.",
-        "start_time": 56.3,
-        "end_time": 56.72
-    },
-    {
-        "word": " Most",
-        "start_time": 57.26,
-        "end_time": 57.56
+        "word": " nurture",
+        "start_time": 7.7,
+        "end_time": 7.98
     },
     {
         "word": " communities",
-        "start_time": 57.56,
-        "end_time": 58.08
-    },
-    {
-        "word": " have",
-        "start_time": 58.08,
-        "end_time": 58.32
-    },
-    {
-        "word": " a",
-        "start_time": 58.32,
-        "end_time": 58.58
-    },
-    {
-        "word": " goal",
-        "start_time": 58.58,
-        "end_time": 58.82
-    },
-    {
-        "word": " of",
-        "start_time": 58.82,
-        "end_time": 59.04
-    },
-    {
-        "word": " getting",
-        "start_time": 59.04,
-        "end_time": 59.36
-    },
-    {
-        "word": " X",
-        "start_time": 59.36,
-        "end_time": 59.78
-    },
-    {
-        "word": " members",
-        "start_time": 59.78,
-        "end_time": 60.18
-    },
-    {
-        "word": " of",
-        "start_time": 60.18,
-        "end_time": 60.4
-    },
-    {
-        "word": " the",
-        "start_time": 60.4,
-        "end_time": 60.66
-    },
-    {
-        "word": " server,",
-        "start_time": 60.66,
-        "end_time": 61.02
-    },
-    {
-        "word": " but",
-        "start_time": 61.36,
-        "end_time": 61.8
-    },
-    {
-        "word": " that",
-        "start_time": 61.8,
-        "end_time": 62.02
-    },
-    {
-        "word": " isn't",
-        "start_time": 62.02,
-        "end_time": 62.28
-    },
-    {
-        "word": " what",
-        "start_time": 62.28,
-        "end_time": 62.5
-    },
-    {
-        "word": " you",
-        "start_time": 62.5,
-        "end_time": 62.7
-    },
-    {
-        "word": " need",
-        "start_time": 62.7,
-        "end_time": 62.9
-    },
-    {
-        "word": " to",
-        "start_time": 62.9,
-        "end_time": 63.1
-    },
-    {
-        "word": " do.",
-        "start_time": 63.1,
-        "end_time": 63.4
-    },
-    {
-        "word": " You",
-        "start_time": 64.02,
-        "end_time": 64.2
-    },
-    {
-        "word": " need",
-        "start_time": 64.2,
-        "end_time": 64.36
-    },
-    {
-        "word": " to",
-        "start_time": 64.36,
-        "end_time": 64.62
-    },
-    {
-        "word": " think",
-        "start_time": 64.62,
-        "end_time": 64.78
-    },
-    {
-        "word": " of",
-        "start_time": 64.78,
-        "end_time": 64.98
-    },
-    {
-        "word": " what",
-        "start_time": 64.98,
-        "end_time": 65.18
-    },
-    {
-        "word": " you",
-        "start_time": 65.18,
-        "end_time": 65.44
-    },
-    {
-        "word": " want",
-        "start_time": 65.44,
-        "end_time": 65.62
-    },
-    {
-        "word": " those",
-        "start_time": 65.62,
-        "end_time": 65.9
-    },
-    {
-        "word": " members",
-        "start_time": 65.9,
-        "end_time": 66.22
-    },
-    {
-        "word": " to",
-        "start_time": 66.22,
-        "end_time": 66.5
-    },
-    {
-        "word": " do",
-        "start_time": 66.5,
-        "end_time": 66.76
-    },
-    {
-        "word": " and",
-        "start_time": 66.76,
-        "end_time": 67.44
-    },
-    {
-        "word": " build",
-        "start_time": 67.44,
-        "end_time": 67.86
-    },
-    {
-        "word": " your",
-        "start_time": 67.86,
-        "end_time": 68.2
-    },
-    {
-        "word": " community",
-        "start_time": 68.2,
-        "end_time": 68.74
-    },
-    {
-        "word": " around",
-        "start_time": 68.74,
-        "end_time": 69.14
-    },
-    {
-        "word": " that",
-        "start_time": 69.14,
-        "end_time": 69.46
-    },
-    {
-        "word": " goal.",
-        "start_time": 69.46,
-        "end_time": 69.8
-    },
-    {
-        "word": " Do",
-        "start_time": 70.52,
-        "end_time": 70.72
-    },
-    {
-        "word": " you",
-        "start_time": 70.72,
-        "end_time": 71.04
-    },
-    {
-        "word": " want",
-        "start_time": 71.04,
-        "end_time": 71.3
-    },
-    {
-        "word": " the",
-        "start_time": 71.3,
-        "end_time": 71.58
-    },
-    {
-        "word": " community",
-        "start_time": 71.58,
-        "end_time": 72.08
-    },
-    {
-        "word": " to",
-        "start_time": 72.08,
-        "end_time": 72.58
-    },
-    {
-        "word": " provide",
-        "start_time": 72.58,
-        "end_time": 73.06
-    },
-    {
-        "word": " feedback",
-        "start_time": 73.06,
-        "end_time": 73.64
-    },
-    {
-        "word": " or",
-        "start_time": 73.64,
-        "end_time": 74.3
-    },
-    {
-        "word": " to",
-        "start_time": 74.3,
-        "end_time": 74.9
-    },
-    {
-        "word": " become",
-        "start_time": 74.9,
-        "end_time": 75.2
-    },
-    {
-        "word": " brand",
-        "start_time": 75.2,
-        "end_time": 75.62
-    },
-    {
-        "word": " evangelists?",
-        "start_time": 75.62,
-        "end_time": 76.56
-    },
-    {
-        "word": " Those",
-        "start_time": 76.86,
-        "end_time": 77.3
-    },
-    {
-        "word": " are",
-        "start_time": 77.3,
-        "end_time": 77.6
-    },
-    {
-        "word": " both",
-        "start_time": 77.6,
-        "end_time": 77.9
-    },
-    {
-        "word": " more",
-        "start_time": 77.9,
-        "end_time": 78.26
-    },
-    {
-        "word": " specific",
-        "start_time": 78.26,
-        "end_time": 78.76
-    },
-    {
-        "word": " goals",
-        "start_time": 78.76,
-        "end_time": 79.2
-    },
-    {
-        "word": " and",
-        "start_time": 79.2,
-        "end_time": 79.62
-    },
-    {
-        "word": " you",
-        "start_time": 79.62,
-        "end_time": 79.82
-    },
-    {
-        "word": " can",
-        "start_time": 79.82,
-        "end_time": 80.1
-    },
-    {
-        "word": " build",
-        "start_time": 80.1,
-        "end_time": 80.38
-    },
-    {
-        "word": " a",
-        "start_time": 80.38,
-        "end_time": 80.68
-    },
-    {
-        "word": " community",
-        "start_time": 80.68,
-        "end_time": 81.14
-    },
-    {
-        "word": " around",
-        "start_time": 81.14,
-        "end_time": 81.6
-    },
-    {
-        "word": " them.",
-        "start_time": 81.6,
-        "end_time": 82.02
-    },
-    {
-        "word": " Two,",
-        "start_time": 82.58,
-        "end_time": 82.92
-    },
-    {
-        "word": " don't",
-        "start_time": 83.56,
-        "end_time": 83.98
-    },
-    {
-        "word": " chase",
-        "start_time": 83.98,
-        "end_time": 84.34
-    },
-    {
-        "word": " numbers.",
-        "start_time": 84.34,
-        "end_time": 84.96
-    },
-    {
-        "word": " Discord",
-        "start_time": 85.62,
-        "end_time": 85.88
-    },
-    {
-        "word": " is",
-        "start_time": 85.88,
-        "end_time": 86.12
-    },
-    {
-        "word": " not",
-        "start_time": 86.12,
-        "end_time": 86.36
-    },
-    {
-        "word": " a",
-        "start_time": 86.36,
-        "end_time": 86.48
-    },
-    {
-        "word": " traditional",
-        "start_time": 86.48,
-        "end_time": 86.96
-    },
-    {
-        "word": " social",
-        "start_time": 86.96,
-        "end_time": 87.38
-    },
-    {
-        "word": " media",
-        "start_time": 87.38,
-        "end_time": 87.76
-    },
-    {
-        "word": " platform.",
-        "start_time": 87.76,
-        "end_time": 88.32
-    },
-    {
-        "word": " It",
-        "start_time": 88.84,
-        "end_time": 88.96
-    },
-    {
-        "word": " is",
-        "start_time": 88.96,
-        "end_time": 89.22
-    },
-    {
-        "word": " not",
-        "start_time": 89.22,
-        "end_time": 89.48
-    },
-    {
-        "word": " one",
-        "start_time": 89.48,
-        "end_time": 89.76
-    },
-    {
-        "word": "-way",
-        "start_time": 89.76,
-        "end_time": 89.9
-    },
-    {
-        "word": " communication",
-        "start_time": 89.9,
-        "end_time": 90.68
-    },
-    {
-        "word": " with",
-        "start_time": 90.68,
-        "end_time": 91.1
-    },
-    {
-        "word": " the",
-        "start_time": 91.1,
-        "end_time": 91.4
-    },
-    {
-        "word": " brand",
-        "start_time": 91.4,
-        "end_time": 91.68
-    },
-    {
-        "word": " talking",
-        "start_time": 91.68,
-        "end_time": 92.38
-    },
-    {
-        "word": " to",
-        "start_time": 92.38,
-        "end_time": 92.64
-    },
-    {
-        "word": " followers.",
-        "start_time": 92.64,
-        "end_time": 93.14
-    },
-    {
-        "word": " The",
-        "start_time": 93.88,
-        "end_time": 94.06
-    },
-    {
-        "word": " larger",
-        "start_time": 94.06,
-        "end_time": 94.5
-    },
-    {
-        "word": " your",
-        "start_time": 94.5,
-        "end_time": 94.86
-    },
-    {
-        "word": " server,",
-        "start_time": 94.86,
-        "end_time": 95.16
-    },
-    {
-        "word": " the",
-        "start_time": 95.58,
-        "end_time": 95.84
-    },
-    {
-        "word": " harder",
-        "start_time": 95.84,
-        "end_time": 96.2
-    },
-    {
-        "word": " it",
-        "start_time": 96.2,
-        "end_time": 96.34
-    },
-    {
-        "word": " is",
-        "start_time": 96.34,
-        "end_time": 96.58
-    },
-    {
-        "word": " to",
-        "start_time": 96.58,
-        "end_time": 96.82
-    },
-    {
-        "word": " manage",
-        "start_time": 96.82,
-        "end_time": 97.1
-    },
-    {
-        "word": " and",
-        "start_time": 97.1,
-        "end_time": 97.72
-    },
-    {
-        "word": " harder",
-        "start_time": 97.72,
-        "end_time": 98.04
-    },
-    {
-        "word": " to",
-        "start_time": 98.04,
-        "end_time": 98.44
-    },
-    {
-        "word": " stay",
-        "start_time": 98.44,
-        "end_time": 98.64
-    },
-    {
-        "word": " within",
-        "start_time": 98.64,
-        "end_time": 98.92
-    },
-    {
-        "word": " the",
-        "start_time": 98.92,
-        "end_time": 99.16
-    },
-    {
-        "word": " community",
-        "start_time": 99.16,
-        "end_time": 99.58
-    },
-    {
-        "word": " goal.",
-        "start_time": 99.58,
-        "end_time": 100.0
-    },
-    {
-        "word": " It",
-        "start_time": 100.8,
-        "end_time": 100.94
-    },
-    {
-        "word": " is",
-        "start_time": 100.94,
-        "end_time": 101.3
-    },
-    {
-        "word": " fine",
-        "start_time": 101.3,
-        "end_time": 101.56
-    },
-    {
-        "word": " to",
-        "start_time": 101.56,
-        "end_time": 101.76
-    },
-    {
-        "word": " have",
-        "start_time": 101.76,
-        "end_time": 101.88
-    },
-    {
-        "word": " a",
-        "start_time": 101.88,
-        "end_time": 102.08
-    },
-    {
-        "word": " goal",
-        "start_time": 102.08,
-        "end_time": 102.26
+        "start_time": 7.98,
+        "end_time": 8.52
     },
     {
         "word": " for",
-        "start_time": 102.26,
-        "end_time": 102.5
+        "start_time": 8.52,
+        "end_time": 8.78
     },
     {
-        "word": " the",
-        "start_time": 102.5,
-        "end_time": 102.66
+        "word": " brands.",
+        "start_time": 8.78,
+        "end_time": 9.18
     },
     {
-        "word": " number",
-        "start_time": 102.66,
-        "end_time": 102.84
-    },
-    {
-        "word": " of",
-        "start_time": 102.84,
-        "end_time": 103.1
-    },
-    {
-        "word": " members,",
-        "start_time": 103.1,
-        "end_time": 103.38
-    },
-    {
-        "word": " but",
-        "start_time": 103.66,
-        "end_time": 103.88
-    },
-    {
-        "word": " remember",
-        "start_time": 103.88,
-        "end_time": 104.52
-    },
-    {
-        "word": " that",
-        "start_time": 104.52,
-        "end_time": 104.88
-    },
-    {
-        "word": " the",
-        "start_time": 104.88,
-        "end_time": 105.14
-    },
-    {
-        "word": " goal",
-        "start_time": 105.14,
-        "end_time": 105.4
-    },
-    {
-        "word": " of",
-        "start_time": 105.4,
-        "end_time": 105.6
-    },
-    {
-        "word": " the",
-        "start_time": 105.6,
-        "end_time": 105.86
-    },
-    {
-        "word": " community",
-        "start_time": 105.86,
-        "end_time": 106.3
-    },
-    {
-        "word": " is",
-        "start_time": 106.3,
-        "end_time": 106.92
-    },
-    {
-        "word": " more",
-        "start_time": 106.92,
-        "end_time": 107.22
-    },
-    {
-        "word": " important",
-        "start_time": 107.22,
-        "end_time": 107.88
-    },
-    {
-        "word": " than",
-        "start_time": 107.88,
-        "end_time": 108.18
-    },
-    {
-        "word": " the",
-        "start_time": 108.18,
-        "end_time": 108.42
-    },
-    {
-        "word": " number",
-        "start_time": 108.42,
-        "end_time": 108.64
-    },
-    {
-        "word": " of",
-        "start_time": 108.64,
-        "end_time": 108.94
-    },
-    {
-        "word": " members",
-        "start_time": 108.94,
-        "end_time": 109.3
-    },
-    {
-        "word": " in",
-        "start_time": 109.3,
-        "end_time": 109.58
-    },
-    {
-        "word": " that",
-        "start_time": 109.58,
-        "end_time": 109.84
-    },
-    {
-        "word": " community.",
-        "start_time": 109.84,
-        "end_time": 110.34
-    },
-    {
-        "word": " It",
-        "start_time": 110.34,
-        "end_time": 110.8
-    },
-    {
-        "word": " is",
-        "start_time": 110.8,
-        "end_time": 111.38
-    },
-    {
-        "word": " always",
-        "start_time": 111.38,
-        "end_time": 111.86
-    },
-    {
-        "word": " better",
-        "start_time": 111.86,
-        "end_time": 112.38
-    },
-    {
-        "word": " to",
-        "start_time": 112.38,
-        "end_time": 112.74
+        "word": " We",
+        "start_time": 9.58,
+        "end_time": 9.68
     },
     {
         "word": " have",
-        "start_time": 112.74,
-        "end_time": 112.92
-    },
-    {
-        "word": " fewer",
-        "start_time": 112.92,
-        "end_time": 113.34
-    },
-    {
-        "word": " active",
-        "start_time": 113.34,
-        "end_time": 113.86
-    },
-    {
-        "word": " community",
-        "start_time": 113.86,
-        "end_time": 114.4
-    },
-    {
-        "word": " members",
-        "start_time": 114.4,
-        "end_time": 114.92
-    },
-    {
-        "word": " than",
-        "start_time": 114.92,
-        "end_time": 115.4
+        "start_time": 9.68,
+        "end_time": 9.88
     },
     {
         "word": " a",
-        "start_time": 115.4,
-        "end_time": 115.68
+        "start_time": 9.88,
+        "end_time": 10.02
     },
     {
-        "word": " bunch",
-        "start_time": 115.68,
-        "end_time": 115.88
+        "word": " proven",
+        "start_time": 10.02,
+        "end_time": 10.28
     },
     {
-        "word": " of",
-        "start_time": 115.88,
-        "end_time": 116.16
+        "word": " track",
+        "start_time": 10.28,
+        "end_time": 10.54
     },
     {
-        "word": " members",
-        "start_time": 116.16,
-        "end_time": 116.56
+        "word": " record",
+        "start_time": 10.54,
+        "end_time": 10.82
     },
     {
-        "word": " who",
-        "start_time": 116.56,
-        "end_time": 116.96
+        "word": " managing",
+        "start_time": 10.82,
+        "end_time": 11.2
     },
     {
-        "word": " don't",
-        "start_time": 116.96,
-        "end_time": 117.3
-    },
-    {
-        "word": " participate.",
-        "start_time": 117.3,
-        "end_time": 117.86
-    },
-    {
-        "word": " Third,",
-        "start_time": 118.82,
-        "end_time": 119.26
+        "word": " amazing",
+        "start_time": 11.2,
+        "end_time": 11.72
     },
     {
         "word": " brand",
-        "start_time": 120.2,
-        "end_time": 120.44
+        "start_time": 11.72,
+        "end_time": 12.0
     },
     {
-        "word": " participation",
-        "start_time": 120.44,
-        "end_time": 121.36
+        "word": " communities",
+        "start_time": 12.0,
+        "end_time": 12.42
     },
     {
-        "word": " is",
-        "start_time": 121.36,
-        "end_time": 122.22
+        "word": " of",
+        "start_time": 12.42,
+        "end_time": 12.64
     },
     {
-        "word": " a",
-        "start_time": 122.22,
-        "end_time": 122.48
+        "word": " all",
+        "start_time": 12.64,
+        "end_time": 12.84
     },
     {
-        "word": " must.",
-        "start_time": 122.48,
-        "end_time": 122.82
+        "word": " sizes.",
+        "start_time": 12.84,
+        "end_time": 13.22
     },
     {
-        "word": " You",
-        "start_time": 123.56,
-        "end_time": 123.8
-    },
-    {
-        "word": " can't",
-        "start_time": 123.8,
-        "end_time": 124.26
-    },
-    {
-        "word": " just",
-        "start_time": 124.26,
-        "end_time": 124.54
-    },
-    {
-        "word": " rely",
-        "start_time": 124.54,
-        "end_time": 124.92
-    },
-    {
-        "word": " on",
-        "start_time": 124.92,
-        "end_time": 125.18
-    },
-    {
-        "word": " community",
-        "start_time": 125.18,
-        "end_time": 125.66
-    },
-    {
-        "word": " management",
-        "start_time": 125.66,
-        "end_time": 126.16
-    },
-    {
-        "word": " to",
-        "start_time": 126.16,
-        "end_time": 126.66
-    },
-    {
-        "word": " keep",
-        "start_time": 126.66,
-        "end_time": 126.9
+        "word": " Could",
+        "start_time": 13.56,
+        "end_time": 13.7
     },
     {
         "word": " your",
-        "start_time": 126.9,
-        "end_time": 127.28
+        "start_time": 13.7,
+        "end_time": 13.88
     },
     {
-        "word": " community",
-        "start_time": 127.28,
-        "end_time": 127.72
+        "word": " brand",
+        "start_time": 13.88,
+        "end_time": 14.12
     },
     {
-        "word": " happy.",
-        "start_time": 127.72,
-        "end_time": 128.3
-    },
-    {
-        "word": " You",
-        "start_time": 129.18,
-        "end_time": 129.42
-    },
-    {
-        "word": " need",
-        "start_time": 129.42,
-        "end_time": 129.64
-    },
-    {
-        "word": " to",
-        "start_time": 129.64,
-        "end_time": 129.92
-    },
-    {
-        "word": " involve",
-        "start_time": 129.92,
-        "end_time": 130.28
-    },
-    {
-        "word": " people",
-        "start_time": 130.28,
-        "end_time": 130.64
+        "word": " benefit",
+        "start_time": 14.12,
+        "end_time": 14.48
     },
     {
         "word": " from",
-        "start_time": 130.64,
-        "end_time": 131.02
-    },
-    {
-        "word": " deep",
-        "start_time": 131.02,
-        "end_time": 131.36
-    },
-    {
-        "word": " inside",
-        "start_time": 131.36,
-        "end_time": 131.92
-    },
-    {
-        "word": " the",
-        "start_time": 131.92,
-        "end_time": 132.22
-    },
-    {
-        "word": " brand",
-        "start_time": 132.22,
-        "end_time": 132.44
-    },
-    {
-        "word": " in",
-        "start_time": 132.44,
-        "end_time": 132.78
-    },
-    {
-        "word": " the",
-        "start_time": 132.78,
-        "end_time": 133.02
-    },
-    {
-        "word": " server.",
-        "start_time": 133.02,
-        "end_time": 133.32
-    },
-    {
-        "word": " This",
-        "start_time": 134.08,
-        "end_time": 134.42
-    },
-    {
-        "word": " gives",
-        "start_time": 134.42,
-        "end_time": 134.7
-    },
-    {
-        "word": " people",
-        "start_time": 134.7,
-        "end_time": 135.06
-    },
-    {
-        "word": " a",
-        "start_time": 135.06,
-        "end_time": 135.32
-    },
-    {
-        "word": " reason",
-        "start_time": 135.32,
-        "end_time": 135.54
-    },
-    {
-        "word": " to",
-        "start_time": 135.54,
-        "end_time": 135.76
-    },
-    {
-        "word": " come",
-        "start_time": 135.76,
-        "end_time": 135.94
-    },
-    {
-        "word": " to",
-        "start_time": 135.94,
-        "end_time": 136.12
-    },
-    {
-        "word": " the",
-        "start_time": 136.12,
-        "end_time": 136.32
-    },
-    {
-        "word": " server",
-        "start_time": 136.32,
-        "end_time": 136.68
-    },
-    {
-        "word": " because",
-        "start_time": 136.68,
-        "end_time": 137.24
-    },
-    {
-        "word": " they",
-        "start_time": 137.24,
-        "end_time": 137.44
-    },
-    {
-        "word": " will",
-        "start_time": 137.44,
-        "end_time": 137.64
-    },
-    {
-        "word": " be",
-        "start_time": 137.64,
-        "end_time": 137.8
-    },
-    {
-        "word": " able",
-        "start_time": 137.8,
-        "end_time": 138.0
-    },
-    {
-        "word": " to",
-        "start_time": 138.0,
-        "end_time": 138.42
-    },
-    {
-        "word": " interact",
-        "start_time": 138.42,
-        "end_time": 138.74
-    },
-    {
-        "word": " with",
-        "start_time": 138.74,
-        "end_time": 139.16
-    },
-    {
-        "word": " the",
-        "start_time": 139.16,
-        "end_time": 139.54
-    },
-    {
-        "word": " important",
-        "start_time": 139.54,
-        "end_time": 139.96
-    },
-    {
-        "word": " people",
-        "start_time": 139.96,
-        "end_time": 140.4
-    },
-    {
-        "word": " of",
-        "start_time": 140.4,
-        "end_time": 140.62
-    },
-    {
-        "word": " the",
-        "start_time": 140.62,
-        "end_time": 140.86
-    },
-    {
-        "word": " brand.",
-        "start_time": 140.86,
-        "end_time": 141.12
-    },
-    {
-        "word": " If",
-        "start_time": 141.5,
-        "end_time": 141.64
-    },
-    {
-        "word": " your",
-        "start_time": 141.64,
-        "end_time": 141.92
-    },
-    {
-        "word": " community",
-        "start_time": 141.92,
-        "end_time": 142.38
-    },
-    {
-        "word": " is",
-        "start_time": 142.38,
-        "end_time": 142.66
-    },
-    {
-        "word": " built",
-        "start_time": 142.66,
-        "end_time": 142.86
-    },
-    {
-        "word": " around",
-        "start_time": 142.86,
-        "end_time": 143.14
-    },
-    {
-        "word": " a",
-        "start_time": 143.14,
-        "end_time": 143.4
-    },
-    {
-        "word": " product,",
-        "start_time": 143.4,
-        "end_time": 143.74
+        "start_time": 14.48,
+        "end_time": 14.74
     },
     {
         "word": " having",
-        "start_time": 144.34,
-        "end_time": 144.44
+        "start_time": 14.74,
+        "end_time": 14.9
     },
     {
-        "word": " the",
-        "start_time": 144.44,
-        "end_time": 144.76
+        "word": " its",
+        "start_time": 14.9,
+        "end_time": 15.12
     },
     {
-        "word": " people",
-        "start_time": 144.76,
-        "end_time": 144.98
+        "word": " own",
+        "start_time": 15.12,
+        "end_time": 15.32
     },
     {
-        "word": " who",
-        "start_time": 144.98,
-        "end_time": 145.24
+        "word": " thriving",
+        "start_time": 15.32,
+        "end_time": 15.56
     },
     {
-        "word": " actually",
-        "start_time": 145.24,
-        "end_time": 145.7
+        "word": " community?",
+        "start_time": 15.56,
+        "end_time": 15.96
     },
     {
-        "word": " built",
-        "start_time": 145.7,
-        "end_time": 145.98
+        "word": " Let's",
+        "start_time": 16.32,
+        "end_time": 16.6
     },
     {
-        "word": " the",
-        "start_time": 145.98,
-        "end_time": 146.3
-    },
-    {
-        "word": " project",
-        "start_time": 146.3,
-        "end_time": 146.62
-    },
-    {
-        "word": " available",
-        "start_time": 146.62,
-        "end_time": 147.16
+        "word": " dive",
+        "start_time": 16.6,
+        "end_time": 16.72
     },
     {
         "word": " in",
-        "start_time": 147.16,
-        "end_time": 147.34
+        "start_time": 16.72,
+        "end_time": 16.92
     },
     {
-        "word": " the",
-        "start_time": 147.34,
-        "end_time": 147.56
+        "word": " and",
+        "start_time": 16.92,
+        "end_time": 17.1
     },
     {
-        "word": " server",
-        "start_time": 147.56,
-        "end_time": 147.78
+        "word": " find",
+        "start_time": 17.1,
+        "end_time": 17.26
     },
     {
-        "word": " is",
-        "start_time": 147.78,
-        "end_time": 148.3
-    },
-    {
-        "word": " a",
-        "start_time": 148.3,
-        "end_time": 148.58
-    },
-    {
-        "word": " huge",
-        "start_time": 148.58,
-        "end_time": 148.92
-    },
-    {
-        "word": " bonus",
-        "start_time": 148.92,
-        "end_time": 149.4
-    },
-    {
-        "word": " to",
-        "start_time": 149.4,
-        "end_time": 149.64
-    },
-    {
-        "word": " members",
-        "start_time": 149.64,
-        "end_time": 150.04
-    },
-    {
-        "word": " of",
-        "start_time": 150.04,
-        "end_time": 150.26
-    },
-    {
-        "word": " the",
-        "start_time": 150.26,
-        "end_time": 150.46
-    },
-    {
-        "word": " community.",
-        "start_time": 150.46,
-        "end_time": 150.88
-    },
-    {
-        "word": " If",
-        "start_time": 151.5,
-        "end_time": 151.68
-    },
-    {
-        "word": " you",
-        "start_time": 151.68,
-        "end_time": 151.96
-    },
-    {
-        "word": " build",
-        "start_time": 151.96,
-        "end_time": 152.24
-    },
-    {
-        "word": " your",
-        "start_time": 152.24,
-        "end_time": 152.56
-    },
-    {
-        "word": " community",
-        "start_time": 152.56,
-        "end_time": 153.08
-    },
-    {
-        "word": " keeping",
-        "start_time": 153.08,
-        "end_time": 153.7
-    },
-    {
-        "word": " these",
-        "start_time": 153.7,
-        "end_time": 154.1
-    },
-    {
-        "word": " three",
-        "start_time": 154.1,
-        "end_time": 154.36
-    },
-    {
-        "word": " things",
-        "start_time": 154.36,
-        "end_time": 154.64
-    },
-    {
-        "word": " in",
-        "start_time": 154.64,
-        "end_time": 154.88
-    },
-    {
-        "word": " mind,",
-        "start_time": 154.88,
-        "end_time": 155.18
-    },
-    {
-        "word": " you",
-        "start_time": 155.56,
-        "end_time": 155.62
-    },
-    {
-        "word": " are",
-        "start_time": 155.62,
-        "end_time": 155.9
-    },
-    {
-        "word": " already",
-        "start_time": 155.9,
-        "end_time": 156.3
-    },
-    {
-        "word": " miles",
-        "start_time": 156.3,
-        "end_time": 156.72
-    },
-    {
-        "word": " ahead",
-        "start_time": 156.72,
-        "end_time": 157.02
-    },
-    {
-        "word": " of",
-        "start_time": 157.02,
-        "end_time": 157.26
-    },
-    {
-        "word": " most",
-        "start_time": 157.26,
-        "end_time": 157.54
-    },
-    {
-        "word": " brand",
-        "start_time": 157.54,
-        "end_time": 157.92
-    },
-    {
-        "word": " servers.",
-        "start_time": 157.92,
-        "end_time": 158.38
-    },
-    {
-        "word": " Need",
-        "start_time": 159.08,
-        "end_time": 159.26
-    },
-    {
-        "word": " help?",
-        "start_time": 159.26,
-        "end_time": 159.66
-    },
-    {
-        "word": " Hit",
-        "start_time": 160.02,
-        "end_time": 160.16
-    },
-    {
-        "word": " us",
-        "start_time": 160.16,
-        "end_time": 160.36
-    },
-    {
-        "word": " up.",
-        "start_time": 160.36,
-        "end_time": 160.54
+        "word": " out.",
+        "start_time": 17.26,
+        "end_time": 17.54
     }
 ]

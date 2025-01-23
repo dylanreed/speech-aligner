@@ -29,5 +29,4 @@ def transcribe_and_save(audio_file, model_name="base", transcript_file="transcri
 # Example usage
 audio_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Path to your audio file
 output_text_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/transcript.txt"  # Path to save the transcription
-
 transcribe_and_save(audio_path, transcript_file=output_text_file)

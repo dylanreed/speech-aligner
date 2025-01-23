@@ -1,4 +1,5 @@
 import sys
+import os
 from pydub import AudioSegment
 
 def convert_to_wav(input_file, output_file):
@@ -10,12 +11,22 @@ def convert_to_wav(input_file, output_file):
     except Exception as e:
         print(f"Error during conversion: {e}")
 
-if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print("Usage: python audio_conversion.py <input_file> <output_file>")
-        sys.exit(1)
+def main():
+    # Prompt user for the audio file name
+    audio_file_name = input("Please enter the name of your audio file (with extension): ").strip()
+    audio_file_path = os.path.join("/Users/nervous/Documents/GitHub/speech-aligner/inputs", audio_file_name)
+    output_wav_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
 
-    input_audio = sys.argv[1]
-    output_wav = sys.argv[2]
-    convert_to_wav(input_audio, output_wav)
-    print(f"sys.argv[2] (output file): {sys.argv[2]}")
+    if not os.path.exists(audio_file_path):
+        print(f"Error: The file {audio_file_path} does not exist. Please check the file name and try again.")
+        exit(1)
+
+    print(f"Using audio file: {audio_file_path}")
+
+
+
+    # Perform the conversion
+    convert_to_wav(audio_file_path, output_wav_path)
+
+if __name__ == "__main__":
+    main()

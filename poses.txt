@@ -14,3 +14,10 @@ lean back
 happy, sad, angry, neutral of each
 
 
+Need to make
+    Pose change on every line break in transcript or maybe ***word*** to chage randomly
+    emotions in [square] brackets
+    Arms in <arms>
+
+
+There I was [happy] hanging out with my friends when ***they*** came in. I was so [angry]angry that they were inturpting

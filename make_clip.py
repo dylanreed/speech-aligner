@@ -25,37 +25,8 @@ def run_script(script_path, *args):
     except subprocess.CalledProcessError as e:
         print(f"Error running script {script_path}: {e}")
 
-def main():
-    # Prompt user for the audio file name
-    audio_file_name = input("Please enter the name of your audio file (with extension): ").strip()
-    audio_file_path = os.path.join("/Users/nervous/Documents/GitHub/speech-aligner/inputs", audio_file_name)
-    output_wav_path = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
-
-    if not os.path.exists(audio_file_path):
-        print(f"Error: The file {audio_file_path} does not exist. Please check the file name and try again.")
-        exit(1)
-
-    print(f"Using audio file: {audio_file_path}")
-
-    script_dir = "/Users/nervous/Documents/GitHub/speech-aligner/code"
-    audio_conversion_script = os.path.join(script_dir, "/Users/nervous/Documents/GitHub/speech-aligner/code/audio_conversion.py")
-
-    # Run audio_conversion.py with input and output arguments
-    run_script(audio_conversion_script, audio_file_path, output_wav_path)
-
 
 def main():
-    """Main function to execute scripts in sequence."""
-    # Prompt user for the audio file name
-    audio_file_name = input("Please enter the name of your audio file (with extension): ").strip()
-
-    # Validate the file exists
-    audio_file_path = os.path.join("/Users/nervous/Documents/GitHub/speech-aligner/inputs", audio_file_name)
-    if not os.path.exists(audio_file_path):
-        print(f"Error: The file {audio_file_path} does not exist. Please check the file name and try again.")
-        exit(1)
-
-    print(f"Using audio file: {audio_file_path}")
 
     script_dir = "/Users/nervous/Documents/GitHub/speech-aligner/code"  # Path to the folder containing the scripts
     scripts = [
