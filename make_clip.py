@@ -38,7 +38,8 @@ def main():
         "phoneme_mapping.py",
         "viseme_mapping.py",
         "pose_data.py",
-        "animate_poses.py"
+        "animate_poses.py",
+        "black_and_white.py"
     ]
 
     # Run the first set of scripts

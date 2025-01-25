@@ -27,7 +27,7 @@ def load_pose_data(pose_data):
                     raise ValueError(f"Missing key '{key}' in pose data entry: {entry}")
         return data
 
-def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data, background_path):
+def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data, background_path, eye_image, pupil_image):
     """Render animation frames and encode them into a video, with blinks and random poses."""
     # Debug: print loaded pose_data
     print("Pose data at the start of render_animation_to_video:")
@@ -39,9 +39,16 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     screen = pygame.Surface(resolution)
 
     # Load images #
+
     # Load Background Image
     bg_image = pygame.image.load(background_path)
     bg_image = pygame.transform.scale(bg_image, resolution)  # Scale background to fit the screen
+
+    # Load Eye Image
+    eye_image = pygame.image.load(eye_image)
+
+     # Load pupil Image
+    pupil_image = pygame.image.load(pupil_image)
 
     # Load head image
     if os.path.exists(head_image_path):
@@ -49,6 +56,7 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     else:
         raise FileNotFoundError(f"Head image not found: {head_image_path}")
     
+
     # Load blink image
     if os.path.exists(blink_image_path):
         blink_image = pygame.image.load(blink_image_path)
@@ -84,9 +92,9 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
                     print(f"Pose image not found for pose: {pose}")
 
     # Check for missing neutral pose image
-    neutral_pose_path = os.path.join(pose_folder, "neutralpose.png")
+    neutral_pose_path = os.path.join(pose_folder, "neutral.png")
     if not os.path.exists(neutral_pose_path):
-        print("Warning: Neutral pose ('neutralpose.png') not found in the pose directory.")
+        print("Warning: Neutral pose ('neutral.png') not found in the pose directory.")
     else:
         pose_images["neutralpose"] = pygame.image.load(neutral_pose_path)
       
@@ -98,7 +106,7 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     current_time = 0.0
     blinks = []
     while current_time < total_duration:
-        blink_start = current_time + random.uniform(2, 10)
+        blink_start = current_time + random.uniform(1, 7)
         blink_end = blink_start + 0.2
         if blink_end > total_duration:
             break
@@ -126,6 +134,15 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
         head_y = resolution[1] // 2 - head_image.get_height() // 2 + resolution[1] // 4  # Move down 25%
         screen.blit(head_image, (head_x, head_y))
 
+        # Render Eyes
+        eye_image_x = 375
+        eye_image_y = 1450
+        screen.blit(eye_image, (eye_image_x, eye_image_y))
+
+
+        # Render pupil
+        screen.blit(pupil_image, (eye_image_x+50, eye_image_y+50))
+
         # Determine which viseme to show
         displayed_viseme = "neutral"  # Default to neutral viseme
         for entry in viseme_data:
@@ -140,8 +157,8 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
         # Display the selected viseme (neutral if no active viseme)
         if displayed_viseme in viseme_images:
             mouth_image = viseme_images[displayed_viseme]
-            mouth_x = head_x + head_image.get_width() // 2 - mouth_image.get_width() // 2
-            mouth_y = head_y + head_image.get_height() // 2 - mouth_image.get_height() // 2
+            mouth_x = head_x + head_image.get_width() // 2.035 - mouth_image.get_width() // 2
+            mouth_y = head_y + head_image.get_height() // 2.55- mouth_image.get_height() // 2
             screen.blit(mouth_image, (mouth_x, mouth_y))
 
         # Determine which pose to show
@@ -159,13 +176,13 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
         if displayed_pose in pose_images:
             pose_image = pose_images[displayed_pose]
             pose_x = head_x + head_image.get_width() // 2 - pose_image.get_width() // 2
-            pose_y = head_y + head_image.get_height() // 2 - pose_image.get_height() // 2
+            pose_y = head_y + head_image.get_height() // 3.75 - pose_image.get_height() // 2
             screen.blit(pose_image, (pose_x, pose_y))
 
         # Check if the current frame is during a blink
         is_blinking = any(blink_start <= current_time < blink_end for blink_start, blink_end in blinks)
-        if is_blinking:
-            screen.blit(blink_image, (head_x, head_y))
+        if is_blinking:          
+            screen.blit(blink_image, (eye_image_x, eye_image_y))
 
         # Save the frame as an image
         frame_path = os.path.join(temp_dir, f"frame_{frame_number:04d}.png")
@@ -196,6 +213,7 @@ def combine_audio_with_video(video_file, audio_file, output_file):
     ffmpeg_command = [
         "ffmpeg", "-y", "-i", video_file, "-i", audio_file, 
         "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", output_file
+    
     ]
     subprocess.run(ffmpeg_command, check=True)
     print(f"Final video with audio saved to {output_file}")
@@ -205,20 +223,23 @@ if __name__ == "__main__":
     image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/visemes"
     audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/frames"
-    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/poses_animate_output_video.mp4"
-    final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/poses_animate_final_output_with_audio.mp4"
+    output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/without_audio.mp4"
+    final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/with_audio.mp4"
     head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/body.png"
     blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyes/blink.png"
-    pose_folder = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eybrows"
+    pose_folder = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyebrows"
     pose_data = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json"
+    eye_image = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyes/eyeballs.png"
+    pupil_image = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyes/pupil_left.png"
     fps = 30
     resolution = (1320, 2868)
 
     # Load data
     viseme_data = load_viseme_data(viseme_file)
     pose_data = load_pose_data(pose_data)  # Call load_pose_data to parse JSON
-    background_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/background/background.png"
+    background_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/tree.png"
 
-    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data, background_path)
+
+    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data, background_path, eye_image, pupil_image)
 
     combine_audio_with_video(output_video, audio_file, final_output)

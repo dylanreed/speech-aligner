@@ -1,0 +1,337 @@
+[
+    {
+        "phoneme": "W",
+        "start_time": 0.8600000000000005,
+        "end_time": 0.9800000000000003
+    },
+    {
+        "phoneme": "AH",
+        "start_time": 0.9800000000000003,
+        "end_time": 1.1
+    },
+    {
+        "phoneme": "T",
+        "start_time": 1.1,
+        "end_time": 1.22
+    },
+    {
+        "phoneme": "D",
+        "start_time": 1.22,
+        "end_time": 1.27
+    },
+    {
+        "phoneme": "UW",
+        "start_time": 1.27,
+        "end_time": 1.32
+    },
+    {
+        "phoneme": "Y",
+        "start_time": 1.32,
+        "end_time": 1.38
+    },
+    {
+        "phoneme": "UW",
+        "start_time": 1.38,
+        "end_time": 1.44
+    },
+    {
+        "phoneme": "K",
+        "start_time": 1.44,
+        "end_time": 1.5066666666666666
+    },
+    {
+        "phoneme": "AO",
+        "start_time": 1.5066666666666666,
+        "end_time": 1.5733333333333333
+    },
+    {
+        "phoneme": "L",
+        "start_time": 1.5733333333333333,
+        "end_time": 1.64
+    },
+    {
+        "phoneme": "AH",
+        "start_time": 1.64,
+        "end_time": 1.78
+    },
+    {
+        "phoneme": "D",
+        "start_time": 1.78,
+        "end_time": 1.8333333333333333
+    },
+    {
+        "phoneme": "IH",
+        "start_time": 1.8333333333333333,
+        "end_time": 1.8866666666666665
+    },
+    {
+        "phoneme": "R",
+        "start_time": 1.8866666666666665,
+        "end_time": 1.9399999999999997
+    },
+    {
+        "phoneme": "W",
+        "start_time": 1.94,
+        "end_time": 2.02
+    },
+    {
+        "phoneme": "IH",
+        "start_time": 2.02,
+        "end_time": 2.1
+    },
+    {
+        "phoneme": "DH",
+        "start_time": 2.1,
+        "end_time": 2.18
+    },
+    {
+        "phoneme": "N",
+        "start_time": 2.18,
+        "end_time": 2.29
+    },
+    {
+        "phoneme": "OW",
+        "start_time": 2.29,
+        "end_time": 2.4
+    },
+    {
+        "phoneme": "AY",
+        "start_time": 2.4,
+        "end_time": 2.55
+    },
+    {
+        "phoneme": "Z",
+        "start_time": 2.55,
+        "end_time": 2.7
+    },
+    {
+        "phoneme": "N",
+        "start_time": 3.16,
+        "end_time": 3.25
+    },
+    {
+        "phoneme": "OW",
+        "start_time": 3.25,
+        "end_time": 3.34
+    },
+    {
+        "phoneme": "AY",
+        "start_time": 3.34,
+        "end_time": 3.56
+    },
+    {
+        "phoneme": "D",
+        "start_time": 3.56,
+        "end_time": 3.64
+    },
+    {
+        "phoneme": "IH",
+        "start_time": 3.64,
+        "end_time": 3.72
+    },
+    {
+        "phoneme": "R",
+        "start_time": 3.72,
+        "end_time": 3.8000000000000003
+    },
+    {
+        "phoneme": "W",
+        "start_time": 4.4,
+        "end_time": 4.42
+    },
+    {
+        "phoneme": "AH",
+        "start_time": 4.42,
+        "end_time": 4.4399999999999995
+    },
+    {
+        "phoneme": "T",
+        "start_time": 4.4399999999999995,
+        "end_time": 4.459999999999999
+    },
+    {
+        "phoneme": "D",
+        "start_time": 4.46,
+        "end_time": 4.5
+    },
+    {
+        "phoneme": "UW",
+        "start_time": 4.5,
+        "end_time": 4.54
+    },
+    {
+        "phoneme": "Y",
+        "start_time": 4.54,
+        "end_time": 4.609999999999999
+    },
+    {
+        "phoneme": "UW",
+        "start_time": 4.609999999999999,
+        "end_time": 4.68
+    },
+    {
+        "phoneme": "K",
+        "start_time": 4.68,
+        "end_time": 4.733333333333333
+    },
+    {
+        "phoneme": "AO",
+        "start_time": 4.733333333333333,
+        "end_time": 4.786666666666667
+    },
+    {
+        "phoneme": "L",
+        "start_time": 4.786666666666667,
+        "end_time": 4.840000000000001
+    },
+    {
+        "phoneme": "AH",
+        "start_time": 4.84,
+        "end_time": 5.0
+    },
+    {
+        "phoneme": "D",
+        "start_time": 5.0,
+        "end_time": 5.046666666666667
+    },
+    {
+        "phoneme": "IH",
+        "start_time": 5.046666666666667,
+        "end_time": 5.093333333333334
+    },
+    {
+        "phoneme": "R",
+        "start_time": 5.093333333333334,
+        "end_time": 5.140000000000001
+    },
+    {
+        "phoneme": "W",
+        "start_time": 5.14,
+        "end_time": 5.22
+    },
+    {
+        "phoneme": "IH",
+        "start_time": 5.22,
+        "end_time": 5.3
+    },
+    {
+        "phoneme": "DH",
+        "start_time": 5.3,
+        "end_time": 5.38
+    },
+    {
+        "phoneme": "N",
+        "start_time": 5.38,
+        "end_time": 5.47
+    },
+    {
+        "phoneme": "OW",
+        "start_time": 5.47,
+        "end_time": 5.56
+    },
+    {
+        "phoneme": "AY",
+        "start_time": 5.56,
+        "end_time": 5.64
+    },
+    {
+        "phoneme": "Z",
+        "start_time": 5.64,
+        "end_time": 5.72
+    },
+    {
+        "phoneme": "AH",
+        "start_time": 5.72,
+        "end_time": 5.786666666666666
+    },
+    {
+        "phoneme": "N",
+        "start_time": 5.786666666666666,
+        "end_time": 5.853333333333333
+    },
+    {
+        "phoneme": "D",
+        "start_time": 5.853333333333333,
+        "end_time": 5.919999999999999
+    },
+    {
+        "phoneme": "N",
+        "start_time": 5.92,
+        "end_time": 6.01
+    },
+    {
+        "phoneme": "OW",
+        "start_time": 6.01,
+        "end_time": 6.1
+    },
+    {
+        "phoneme": "L",
+        "start_time": 6.1,
+        "end_time": 6.154999999999999
+    },
+    {
+        "phoneme": "EH",
+        "start_time": 6.154999999999999,
+        "end_time": 6.209999999999999
+    },
+    {
+        "phoneme": "G",
+        "start_time": 6.209999999999999,
+        "end_time": 6.264999999999999
+    },
+    {
+        "phoneme": "Z",
+        "start_time": 6.264999999999999,
+        "end_time": 6.3199999999999985
+    },
+    {
+        "phoneme": "S",
+        "start_time": 6.56,
+        "end_time": 6.6
+    },
+    {
+        "phoneme": "T",
+        "start_time": 6.6,
+        "end_time": 6.64
+    },
+    {
+        "phoneme": "IH",
+        "start_time": 6.64,
+        "end_time": 6.68
+    },
+    {
+        "phoneme": "L",
+        "start_time": 6.68,
+        "end_time": 6.72
+    },
+    {
+        "phoneme": "N",
+        "start_time": 6.72,
+        "end_time": 6.83
+    },
+    {
+        "phoneme": "OW",
+        "start_time": 6.83,
+        "end_time": 6.94
+    },
+    {
+        "phoneme": "AY",
+        "start_time": 6.94,
+        "end_time": 7.12
+    },
+    {
+        "phoneme": "D",
+        "start_time": 7.12,
+        "end_time": 7.18
+    },
+    {
+        "phoneme": "IH",
+        "start_time": 7.18,
+        "end_time": 7.239999999999999
+    },
+    {
+        "phoneme": "R",
+        "start_time": 7.239999999999999,
+        "end_time": 7.299999999999999
+    }
+]
