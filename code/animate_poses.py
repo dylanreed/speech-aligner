@@ -27,7 +27,7 @@ def load_pose_data(pose_data):
                     raise ValueError(f"Missing key '{key}' in pose data entry: {entry}")
         return data
 
-def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data):
+def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data, background_path):
     """Render animation frames and encode them into a video, with blinks and random poses."""
     # Debug: print loaded pose_data
     print("Pose data at the start of render_animation_to_video:")
@@ -39,6 +39,9 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     screen = pygame.Surface(resolution)
 
     # Load images #
+    # Load Background Image
+    bg_image = pygame.image.load(background_path)
+    bg_image = pygame.transform.scale(bg_image, resolution)  # Scale background to fit the screen
 
     # Load head image
     if os.path.exists(head_image_path):
@@ -110,11 +113,17 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     print(f"Rendering {total_frames} frames...")
     for frame_number in tqdm(range(total_frames), desc="Rendering Frames"):
         # Clear screen
-        screen.fill((211, 211, 211))
+        screen.blit(bg_image, (0, 0))  # Draw the background
+        #screen.fill((211, 211, 211))
 
         # Render head
+        #head_x = resolution[0] // 2 - head_image.get_width() // 2
+        #head_y = resolution[1] // 2 - head_image.get_height() // 2
+        #screen.blit(head_image, (head_x, head_y))
+
+         # Adjust positions
         head_x = resolution[0] // 2 - head_image.get_width() // 2
-        head_y = resolution[1] // 2 - head_image.get_height() // 2
+        head_y = resolution[1] // 2 - head_image.get_height() // 2 + resolution[1] // 4  # Move down 25%
         screen.blit(head_image, (head_x, head_y))
 
         # Determine which viseme to show
@@ -203,12 +212,13 @@ if __name__ == "__main__":
     pose_folder = "/Users/nervous/Documents/GitHub/speech-aligner/assets/pose/"
     pose_data = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json"
     fps = 30
-    resolution = (800, 600)
+    resolution = (1320, 2868)
 
     # Load data
     viseme_data = load_viseme_data(viseme_file)
     pose_data = load_pose_data(pose_data)  # Call load_pose_data to parse JSON
+    background_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/background/background.png"
 
-    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data)
+    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, blink_image_path, pose_folder, pose_data, background_path)
 
     combine_audio_with_video(output_video, audio_file, final_output)
