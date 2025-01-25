@@ -202,14 +202,14 @@ def combine_audio_with_video(video_file, audio_file, output_file):
 
 if __name__ == "__main__":
     viseme_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"
-    image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/new_visemes"
+    image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/visemes"
     audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/frames"
     output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/poses_animate_output_video.mp4"
     final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/poses_animate_final_output_with_audio.mp4"
-    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/norris_body.png"
-    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/other/norris_blink.png"
-    pose_folder = "/Users/nervous/Documents/GitHub/speech-aligner/assets/pose/"
+    head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/body.png"
+    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyes/blink.png"
+    pose_folder = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eybrows"
     pose_data = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json"
     fps = 30
     resolution = (1320, 2868)
