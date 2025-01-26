@@ -124,11 +124,6 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
         screen.blit(bg_image, (0, 0))  # Draw the background
         #screen.fill((211, 211, 211))
 
-        # Render head
-        #head_x = resolution[0] // 2 - head_image.get_width() // 2
-        #head_y = resolution[1] // 2 - head_image.get_height() // 2
-        #screen.blit(head_image, (head_x, head_y))
-
          # Adjust positions
         head_x = resolution[0] // 2 - head_image.get_width() // 2
         head_y = resolution[1] // 2 - head_image.get_height() // 2 + resolution[1] // 4  # Move down 25%
@@ -138,7 +133,6 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
         eye_image_x = 375
         eye_image_y = 1450
         screen.blit(eye_image, (eye_image_x, eye_image_y))
-
 
         # Render pupil
         screen.blit(pupil_image, (eye_image_x+50, eye_image_y+50))
