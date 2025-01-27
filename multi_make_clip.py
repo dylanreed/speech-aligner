@@ -3,8 +3,8 @@ import subprocess
 import json
 
 # Define paths
-audio_dir = "//Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes"
-output_dir = "/Users/nervous/Documents/GitHub/speech-aligner/output"
+audio_dir = "/Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes"
+output_dir = "/Users/nervous/Documents/GitHub/speech-aligner/output/finished_jokes"
 script_dir = "/Users/nervous/Documents/GitHub/speech-aligner/code"
 
 def run_script(script_name, *args):

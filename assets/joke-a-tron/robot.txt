@@ -1,0 +1,37 @@
+Base Poses
+    Head on
+    3/4 view
+    profile
+
+Attitudes
+    happy
+    sad
+    mad
+
+Visemes (for each attitude and each pose)
+    aei
+    bmp
+    cdgknstxyz
+    ch
+    ee
+    fv
+    l
+    neutral
+    o
+    qw
+    r
+    th
+    u
+
+Other expressions (for each pose)
+    smile
+    frown
+
+gestures (for each pose)
+    pointing to the side
+    pointing up
+    pointing down
+    thumbs up
+    double thumbs up
+    thumbs down
+    fist to the sky
