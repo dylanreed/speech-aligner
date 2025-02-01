@@ -27,7 +27,7 @@ def load_pose_data(pose_data):
                     raise ValueError(f"Missing key '{key}' in pose data entry: {entry}")
         return data
 
-def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, background_path):
+def render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, background_path, blink_image_path):
     """Render animation frames and encode them into a video, with blinks and random poses."""
     # Debug: print loaded pose_data
     #print("Pose data at the start of render_animation_to_video:")
@@ -58,10 +58,10 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     
 
     # Load blink image
-    #if os.path.exists(blink_image_path):
-    #    blink_image = pygame.image.load(blink_image_path)
-   # else:
-    #    raise FileNotFoundError(f"Blink image not found: {blink_image_path}")
+    if os.path.exists(blink_image_path):
+        blink_image = pygame.image.load(blink_image_path)
+    else:
+        raise FileNotFoundError(f"Blink image not found: {blink_image_path}")
 
     # Load viseme images
     viseme_images = {}
@@ -102,16 +102,16 @@ def render_animation_to_video(viseme_data, image_directory, output_video, fps, r
     os.makedirs(temp_dir, exist_ok=True)
 
     # Generate random blink timings
-    #total_duration = viseme_data[-1]["end_time"]
-    #current_time = 0.0
-    #blinks = []
-    #while current_time < total_duration:
-    #    blink_start = current_time + random.uniform(1, 7)
-    #    blink_end = blink_start + 0.2
-    #    if blink_end > total_duration:
-    #        break
-    #    blinks.append((blink_start, blink_end))
-    #    current_time = blink_start
+    total_duration = viseme_data[-1]["end_time"]
+    current_time = 0.0
+    blinks = []
+    while current_time < total_duration:
+        blink_start = current_time + random.uniform(1, 7)
+        blink_end = blink_start + 0.2
+        if blink_end > total_duration:
+            break
+        blinks.append((blink_start, blink_end))
+        current_time = blink_start
 
     # Render frames
     total_frames = int(viseme_data[-1]["end_time"] * fps)
@@ -216,18 +216,18 @@ def combine_audio_with_video(video_file, audio_file, output_file):
 if __name__ == "__main__":
     viseme_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/viseme_data.json"
     image_directory = "/Users/nervous/Documents/GitHub/speech-aligner/assets/cat/Visemes"
-    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"
+    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes/audio.wav"
     temp_dir = "/Users/nervous/Documents/GitHub/speech-aligner/tmp_frames/frames"
     output_video = "/Users/nervous/Documents/GitHub/speech-aligner/output/without_audio.mp4"
     final_output = "/Users/nervous/Documents/GitHub/speech-aligner/output/with_audio.mp4"
     head_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/cat/body.png"
-    #blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyes/blink.png"
+    blink_image_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/cat/blink.png"
     #pose_folder = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyebrows"
     #pose_data = "/Users/nervous/Documents/GitHub/speech-aligner/output/pose_data.json"
     #eye_image = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyes/eyeballs.png"
     #pupil_image = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/eyes/pupil_left.png"
     fps = 30
-    resolution = (400, 400)
+    resolution = (800, 1400)
 
     # Load data
     viseme_data = load_viseme_data(viseme_file)
@@ -235,6 +235,6 @@ if __name__ == "__main__":
     background_path = "/Users/nervous/Documents/GitHub/speech-aligner/assets/joke-a-tron/Robot/tree.png"
 
 
-    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, background_path)
+    render_animation_to_video(viseme_data, image_directory, output_video, fps, resolution, temp_dir, head_image_path, background_path, blink_image_path)
 
     combine_audio_with_video(output_video, audio_file, final_output)

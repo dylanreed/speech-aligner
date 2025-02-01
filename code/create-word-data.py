@@ -2,7 +2,7 @@ import whisper
 import json
 
 model = whisper.load_model("medium")
-result = model.transcribe("/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav", word_timestamps=True)
+result = model.transcribe("/Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes/audio.wav", word_timestamps=True)
 
 # Print the entire result to understand its structure
 print(result)

@@ -1,142 +1,1292 @@
 [
     {
-        "word": " What",
-        "start_time": 0.8600000000000005,
-        "end_time": 1.22
-    },
-    {
-        "word": " do",
-        "start_time": 1.22,
-        "end_time": 1.32
-    },
-    {
-        "word": " you",
-        "start_time": 1.32,
+        "word": " Everything",
+        "start_time": 0.9199999999999968,
         "end_time": 1.44
     },
     {
-        "word": " call",
+        "word": " is",
         "start_time": 1.44,
-        "end_time": 1.64
+        "end_time": 1.68
     },
     {
-        "word": " a",
-        "start_time": 1.64,
-        "end_time": 1.78
-    },
-    {
-        "word": " deer",
-        "start_time": 1.78,
-        "end_time": 1.94
-    },
-    {
-        "word": " with",
-        "start_time": 1.94,
-        "end_time": 2.18
-    },
-    {
-        "word": " no",
-        "start_time": 2.18,
-        "end_time": 2.4
-    },
-    {
-        "word": " eyes?",
-        "start_time": 2.4,
-        "end_time": 2.7
-    },
-    {
-        "word": " No",
-        "start_time": 3.16,
-        "end_time": 3.34
-    },
-    {
-        "word": " eye",
-        "start_time": 3.34,
-        "end_time": 3.56
-    },
-    {
-        "word": " deer.",
-        "start_time": 3.56,
-        "end_time": 3.8
+        "word": " terrible.",
+        "start_time": 1.68,
+        "end_time": 2.22
     },
     {
         "word": " What",
-        "start_time": 4.4,
-        "end_time": 4.46
+        "start_time": 2.62,
+        "end_time": 2.76
     },
     {
         "word": " do",
+        "start_time": 2.76,
+        "end_time": 2.92
+    },
+    {
+        "word": " we",
+        "start_time": 2.92,
+        "end_time": 3.1
+    },
+    {
+        "word": " do?",
+        "start_time": 3.1,
+        "end_time": 3.56
+    },
+    {
+        "word": " America",
+        "start_time": 4.14,
+        "end_time": 4.46
+    },
+    {
+        "word": " has",
         "start_time": 4.46,
-        "end_time": 4.54
+        "end_time": 4.78
     },
     {
-        "word": " you",
-        "start_time": 4.54,
-        "end_time": 4.68
+        "word": " gone",
+        "start_time": 4.78,
+        "end_time": 4.98
     },
     {
-        "word": " call",
-        "start_time": 4.68,
-        "end_time": 4.84
+        "word": " into",
+        "start_time": 4.98,
+        "end_time": 5.16
+    },
+    {
+        "word": " the",
+        "start_time": 5.16,
+        "end_time": 5.44
+    },
+    {
+        "word": " shitter.",
+        "start_time": 5.44,
+        "end_time": 5.84
+    },
+    {
+        "word": " We",
+        "start_time": 6.66,
+        "end_time": 6.66
+    },
+    {
+        "word": " have",
+        "start_time": 6.66,
+        "end_time": 6.86
     },
     {
         "word": " a",
-        "start_time": 4.84,
-        "end_time": 5.0
+        "start_time": 6.86,
+        "end_time": 7.0
     },
     {
-        "word": " deer",
-        "start_time": 5.0,
-        "end_time": 5.14
+        "word": " person",
+        "start_time": 7.0,
+        "end_time": 7.3
+    },
+    {
+        "word": " doing",
+        "start_time": 7.3,
+        "end_time": 7.62
+    },
+    {
+        "word": " Nazi",
+        "start_time": 7.62,
+        "end_time": 8.0
+    },
+    {
+        "word": " salutes",
+        "start_time": 8.0,
+        "end_time": 8.38
+    },
+    {
+        "word": " at",
+        "start_time": 8.38,
+        "end_time": 8.66
+    },
+    {
+        "word": " presidential",
+        "start_time": 8.66,
+        "end_time": 9.06
+    },
+    {
+        "word": " inauguration.",
+        "start_time": 9.06,
+        "end_time": 9.76
+    },
+    {
+        "word": " We",
+        "start_time": 10.14,
+        "end_time": 10.22
+    },
+    {
+        "word": " have",
+        "start_time": 10.22,
+        "end_time": 10.42
+    },
+    {
+        "word": " elected",
+        "start_time": 10.42,
+        "end_time": 10.74
+    },
+    {
+        "word": " officials",
+        "start_time": 10.74,
+        "end_time": 11.18
+    },
+    {
+        "word": " who",
+        "start_time": 11.18,
+        "end_time": 11.38
+    },
+    {
+        "word": " are",
+        "start_time": 11.38,
+        "end_time": 11.48
+    },
+    {
+        "word": " doing",
+        "start_time": 11.48,
+        "end_time": 11.66
+    },
+    {
+        "word": " everything",
+        "start_time": 11.66,
+        "end_time": 12.16
+    },
+    {
+        "word": " in",
+        "start_time": 12.16,
+        "end_time": 12.3
+    },
+    {
+        "word": " their",
+        "start_time": 12.3,
+        "end_time": 12.58
+    },
+    {
+        "word": " power",
+        "start_time": 12.58,
+        "end_time": 12.76
+    },
+    {
+        "word": " to",
+        "start_time": 12.76,
+        "end_time": 13.0
+    },
+    {
+        "word": " hamstring",
+        "start_time": 13.0,
+        "end_time": 13.46
+    },
+    {
+        "word": " democracy",
+        "start_time": 13.46,
+        "end_time": 13.98
+    },
+    {
+        "word": " while",
+        "start_time": 13.98,
+        "end_time": 14.3
+    },
+    {
+        "word": " punishing",
+        "start_time": 14.3,
+        "end_time": 14.7
+    },
+    {
+        "word": " those",
+        "start_time": 14.7,
+        "end_time": 15.0
+    },
+    {
+        "word": " that",
+        "start_time": 15.0,
+        "end_time": 15.26
+    },
+    {
+        "word": " disagree",
+        "start_time": 15.26,
+        "end_time": 15.6
     },
     {
         "word": " with",
-        "start_time": 5.14,
-        "end_time": 5.38
+        "start_time": 15.6,
+        "end_time": 15.82
     },
     {
-        "word": " no",
-        "start_time": 5.38,
-        "end_time": 5.56
+        "word": " them.",
+        "start_time": 15.82,
+        "end_time": 16.04
     },
     {
-        "word": " eyes",
-        "start_time": 5.56,
-        "end_time": 5.72
+        "word": " And",
+        "start_time": 16.26,
+        "end_time": 16.44
+    },
+    {
+        "word": " on",
+        "start_time": 16.44,
+        "end_time": 16.68
+    },
+    {
+        "word": " top",
+        "start_time": 16.68,
+        "end_time": 16.84
+    },
+    {
+        "word": " of",
+        "start_time": 16.84,
+        "end_time": 17.06
+    },
+    {
+        "word": " that,",
+        "start_time": 17.06,
+        "end_time": 17.22
+    },
+    {
+        "word": " they",
+        "start_time": 17.24,
+        "end_time": 17.38
+    },
+    {
+        "word": " have",
+        "start_time": 17.38,
+        "end_time": 17.62
+    },
+    {
+        "word": " started",
+        "start_time": 17.62,
+        "end_time": 17.84
+    },
+    {
+        "word": " going",
+        "start_time": 17.84,
+        "end_time": 18.06
+    },
+    {
+        "word": " after",
+        "start_time": 18.06,
+        "end_time": 18.46
+    },
+    {
+        "word": " anyone",
+        "start_time": 18.46,
+        "end_time": 18.9
+    },
+    {
+        "word": " who",
+        "start_time": 18.9,
+        "end_time": 19.04
+    },
+    {
+        "word": " is",
+        "start_time": 19.04,
+        "end_time": 19.3
+    },
+    {
+        "word": " not",
+        "start_time": 19.3,
+        "end_time": 19.52
+    },
+    {
+        "word": " white,",
+        "start_time": 19.52,
+        "end_time": 19.74
+    },
+    {
+        "word": " assuming",
+        "start_time": 19.82,
+        "end_time": 20.16
+    },
+    {
+        "word": " they",
+        "start_time": 20.16,
+        "end_time": 20.36
+    },
+    {
+        "word": " are",
+        "start_time": 20.36,
+        "end_time": 20.52
+    },
+    {
+        "word": " in",
+        "start_time": 20.52,
+        "end_time": 20.6
+    },
+    {
+        "word": " the",
+        "start_time": 20.6,
+        "end_time": 20.76
+    },
+    {
+        "word": " United",
+        "start_time": 20.76,
+        "end_time": 21.08
+    },
+    {
+        "word": " States",
+        "start_time": 21.08,
+        "end_time": 21.42
+    },
+    {
+        "word": " illegally.",
+        "start_time": 21.42,
+        "end_time": 21.9
+    },
+    {
+        "word": " Watching",
+        "start_time": 22.54,
+        "end_time": 22.8
+    },
+    {
+        "word": " all",
+        "start_time": 22.8,
+        "end_time": 23.14
+    },
+    {
+        "word": " of",
+        "start_time": 23.14,
+        "end_time": 23.26
+    },
+    {
+        "word": " this",
+        "start_time": 23.26,
+        "end_time": 23.44
+    },
+    {
+        "word": " happen",
+        "start_time": 23.44,
+        "end_time": 23.72
+    },
+    {
+        "word": " is",
+        "start_time": 23.72,
+        "end_time": 23.98
+    },
+    {
+        "word": " horrible.",
+        "start_time": 23.98,
+        "end_time": 24.54
+    },
+    {
+        "word": " But",
+        "start_time": 25.04,
+        "end_time": 25.24
+    },
+    {
+        "word": " what",
+        "start_time": 25.24,
+        "end_time": 25.42
+    },
+    {
+        "word": " can",
+        "start_time": 25.42,
+        "end_time": 25.64
+    },
+    {
+        "word": " one",
+        "start_time": 25.64,
+        "end_time": 25.88
+    },
+    {
+        "word": " person",
+        "start_time": 25.88,
+        "end_time": 26.24
+    },
+    {
+        "word": " do",
+        "start_time": 26.24,
+        "end_time": 26.58
+    },
+    {
+        "word": " against",
+        "start_time": 26.58,
+        "end_time": 26.88
+    },
+    {
+        "word": " so",
+        "start_time": 26.88,
+        "end_time": 27.18
+    },
+    {
+        "word": " much",
+        "start_time": 27.18,
+        "end_time": 27.36
+    },
+    {
+        "word": " hate?",
+        "start_time": 27.36,
+        "end_time": 27.62
+    },
+    {
+        "word": " I",
+        "start_time": 27.62,
+        "end_time": 27.84
+    },
+    {
+        "word": " honestly",
+        "start_time": 27.84,
+        "end_time": 28.12
+    },
+    {
+        "word": " don't",
+        "start_time": 28.12,
+        "end_time": 28.38
+    },
+    {
+        "word": " know.",
+        "start_time": 28.38,
+        "end_time": 28.64
+    },
+    {
+        "word": " I",
+        "start_time": 29.08,
+        "end_time": 29.16
+    },
+    {
+        "word": " am",
+        "start_time": 29.16,
+        "end_time": 29.34
+    },
+    {
+        "word": " doing",
+        "start_time": 29.34,
+        "end_time": 29.52
+    },
+    {
+        "word": " my",
+        "start_time": 29.52,
+        "end_time": 29.8
+    },
+    {
+        "word": " best",
+        "start_time": 29.8,
+        "end_time": 29.98
+    },
+    {
+        "word": " to",
+        "start_time": 29.98,
+        "end_time": 30.22
+    },
+    {
+        "word": " not",
+        "start_time": 30.22,
+        "end_time": 30.34
+    },
+    {
+        "word": " let",
+        "start_time": 30.34,
+        "end_time": 30.56
+    },
+    {
+        "word": " hate",
+        "start_time": 30.56,
+        "end_time": 30.82
+    },
+    {
+        "word": " win",
+        "start_time": 30.82,
+        "end_time": 31.06
+    },
+    {
+        "word": " inside",
+        "start_time": 31.06,
+        "end_time": 31.44
+    },
+    {
+        "word": " of",
+        "start_time": 31.44,
+        "end_time": 31.62
+    },
+    {
+        "word": " me.",
+        "start_time": 31.62,
+        "end_time": 31.9
+    },
+    {
+        "word": " Wasting",
+        "start_time": 32.08,
+        "end_time": 32.4
+    },
+    {
+        "word": " time",
+        "start_time": 32.4,
+        "end_time": 32.7
+    },
+    {
+        "word": " hating",
+        "start_time": 32.7,
+        "end_time": 32.98
+    },
+    {
+        "word": " the",
+        "start_time": 32.98,
+        "end_time": 33.2
+    },
+    {
+        "word": " people",
+        "start_time": 33.2,
+        "end_time": 33.4
+    },
+    {
+        "word": " that",
+        "start_time": 33.4,
+        "end_time": 33.58
+    },
+    {
+        "word": " are",
+        "start_time": 33.58,
+        "end_time": 33.7
+    },
+    {
+        "word": " doing",
+        "start_time": 33.7,
+        "end_time": 33.88
+    },
+    {
+        "word": " this",
+        "start_time": 33.88,
+        "end_time": 34.1
+    },
+    {
+        "word": " isn't",
+        "start_time": 34.1,
+        "end_time": 34.4
+    },
+    {
+        "word": " fixing",
+        "start_time": 34.4,
+        "end_time": 34.74
+    },
+    {
+        "word": " anything.",
+        "start_time": 34.74,
+        "end_time": 35.14
+    },
+    {
+        "word": " They",
+        "start_time": 35.48,
+        "end_time": 35.58
+    },
+    {
+        "word": " are",
+        "start_time": 35.58,
+        "end_time": 35.78
+    },
+    {
+        "word": " bad",
+        "start_time": 35.78,
+        "end_time": 36.0
+    },
+    {
+        "word": " people",
+        "start_time": 36.0,
+        "end_time": 36.28
     },
     {
         "word": " and",
-        "start_time": 5.72,
-        "end_time": 5.92
+        "start_time": 36.28,
+        "end_time": 36.46
     },
     {
         "word": " no",
-        "start_time": 5.92,
-        "end_time": 6.1
+        "start_time": 36.46,
+        "end_time": 36.64
     },
     {
-        "word": " legs?",
-        "start_time": 6.1,
-        "end_time": 6.32
+        "word": " amount",
+        "start_time": 36.64,
+        "end_time": 36.86
     },
     {
-        "word": " Still",
-        "start_time": 6.56,
-        "end_time": 6.72
+        "word": " of",
+        "start_time": 36.86,
+        "end_time": 37.0
+    },
+    {
+        "word": " me",
+        "start_time": 37.0,
+        "end_time": 37.18
+    },
+    {
+        "word": " dwelling",
+        "start_time": 37.18,
+        "end_time": 37.38
+    },
+    {
+        "word": " on",
+        "start_time": 37.38,
+        "end_time": 37.58
+    },
+    {
+        "word": " the",
+        "start_time": 37.58,
+        "end_time": 37.7
+    },
+    {
+        "word": " fact",
+        "start_time": 37.7,
+        "end_time": 37.84
+    },
+    {
+        "word": " that",
+        "start_time": 37.84,
+        "end_time": 38.02
+    },
+    {
+        "word": " they",
+        "start_time": 38.02,
+        "end_time": 38.22
+    },
+    {
+        "word": " bad",
+        "start_time": 38.22,
+        "end_time": 38.36
+    },
+    {
+        "word": " people",
+        "start_time": 38.36,
+        "end_time": 38.6
+    },
+    {
+        "word": " will",
+        "start_time": 38.6,
+        "end_time": 38.8
+    },
+    {
+        "word": " help.",
+        "start_time": 38.8,
+        "end_time": 39.08
+    },
+    {
+        "word": " Instead,",
+        "start_time": 39.4,
+        "end_time": 39.76
+    },
+    {
+        "word": " I",
+        "start_time": 39.76,
+        "end_time": 39.9
+    },
+    {
+        "word": " am",
+        "start_time": 39.9,
+        "end_time": 40.04
+    },
+    {
+        "word": " doing",
+        "start_time": 40.04,
+        "end_time": 40.22
+    },
+    {
+        "word": " my",
+        "start_time": 40.22,
+        "end_time": 40.42
+    },
+    {
+        "word": " best",
+        "start_time": 40.42,
+        "end_time": 40.58
+    },
+    {
+        "word": " to",
+        "start_time": 40.58,
+        "end_time": 40.76
+    },
+    {
+        "word": " find",
+        "start_time": 40.76,
+        "end_time": 40.92
+    },
+    {
+        "word": " small",
+        "start_time": 40.92,
+        "end_time": 41.16
+    },
+    {
+        "word": " ways",
+        "start_time": 41.16,
+        "end_time": 41.4
+    },
+    {
+        "word": " that",
+        "start_time": 41.4,
+        "end_time": 41.56
+    },
+    {
+        "word": " I",
+        "start_time": 41.56,
+        "end_time": 41.62
+    },
+    {
+        "word": " can",
+        "start_time": 41.62,
+        "end_time": 41.76
+    },
+    {
+        "word": " help",
+        "start_time": 41.76,
+        "end_time": 41.92
+    },
+    {
+        "word": " my",
+        "start_time": 41.92,
+        "end_time": 42.14
+    },
+    {
+        "word": " community",
+        "start_time": 42.14,
+        "end_time": 42.44
+    },
+    {
+        "word": " get",
+        "start_time": 42.44,
+        "end_time": 42.66
+    },
+    {
+        "word": " through",
+        "start_time": 42.66,
+        "end_time": 42.88
+    },
+    {
+        "word": " this.",
+        "start_time": 42.88,
+        "end_time": 43.18
+    },
+    {
+        "word": " I",
+        "start_time": 43.44,
+        "end_time": 43.56
+    },
+    {
+        "word": " don't",
+        "start_time": 43.56,
+        "end_time": 43.72
+    },
+    {
+        "word": " know",
+        "start_time": 43.72,
+        "end_time": 43.8
+    },
+    {
+        "word": " what",
+        "start_time": 43.8,
+        "end_time": 43.94
+    },
+    {
+        "word": " that",
+        "start_time": 43.94,
+        "end_time": 44.16
+    },
+    {
+        "word": " means",
+        "start_time": 44.16,
+        "end_time": 44.34
+    },
+    {
+        "word": " yet,",
+        "start_time": 44.34,
+        "end_time": 44.52
+    },
+    {
+        "word": " but",
+        "start_time": 44.54,
+        "end_time": 44.72
+    },
+    {
+        "word": " some",
+        "start_time": 44.72,
+        "end_time": 44.92
+    },
+    {
+        "word": " ideas",
+        "start_time": 44.92,
+        "end_time": 45.16
+    },
+    {
+        "word": " I",
+        "start_time": 45.16,
+        "end_time": 45.42
+    },
+    {
+        "word": " had",
+        "start_time": 45.42,
+        "end_time": 45.54
+    },
+    {
+        "word": " are",
+        "start_time": 45.54,
+        "end_time": 45.9
+    },
+    {
+        "word": " help",
+        "start_time": 45.9,
+        "end_time": 46.26
+    },
+    {
+        "word": " pay",
+        "start_time": 46.26,
+        "end_time": 46.46
+    },
+    {
+        "word": " for",
+        "start_time": 46.46,
+        "end_time": 46.66
+    },
+    {
+        "word": " lunches",
+        "start_time": 46.66,
+        "end_time": 46.94
+    },
+    {
+        "word": " for",
+        "start_time": 46.94,
+        "end_time": 47.1
+    },
+    {
+        "word": " kids",
+        "start_time": 47.1,
+        "end_time": 47.3
+    },
+    {
+        "word": " that",
+        "start_time": 47.3,
+        "end_time": 47.5
+    },
+    {
+        "word": " can't",
+        "start_time": 47.5,
+        "end_time": 47.7
+    },
+    {
+        "word": " afford",
+        "start_time": 47.7,
+        "end_time": 47.92
+    },
+    {
+        "word": " to",
+        "start_time": 47.92,
+        "end_time": 48.14
+    },
+    {
+        "word": " eat,",
+        "start_time": 48.14,
+        "end_time": 48.4
+    },
+    {
+        "word": " donate",
+        "start_time": 48.84,
+        "end_time": 49.14
+    },
+    {
+        "word": " money",
+        "start_time": 49.14,
+        "end_time": 49.38
+    },
+    {
+        "word": " to",
+        "start_time": 49.38,
+        "end_time": 49.56
+    },
+    {
+        "word": " local",
+        "start_time": 49.56,
+        "end_time": 49.82
+    },
+    {
+        "word": " charities",
+        "start_time": 49.82,
+        "end_time": 50.16
+    },
+    {
+        "word": " to",
+        "start_time": 50.16,
+        "end_time": 50.36
+    },
+    {
+        "word": " keep",
+        "start_time": 50.36,
+        "end_time": 50.5
+    },
+    {
+        "word": " my",
+        "start_time": 50.5,
+        "end_time": 50.72
+    },
+    {
+        "word": " donation",
+        "start_time": 50.72,
+        "end_time": 51.06
+    },
+    {
+        "word": " in",
+        "start_time": 51.06,
+        "end_time": 51.24
+    },
+    {
+        "word": " the",
+        "start_time": 51.24,
+        "end_time": 51.42
+    },
+    {
+        "word": " community,",
+        "start_time": 51.42,
+        "end_time": 51.72
+    },
+    {
+        "word": " take",
+        "start_time": 52.22,
+        "end_time": 52.38
+    },
+    {
+        "word": " care",
+        "start_time": 52.38,
+        "end_time": 52.52
+    },
+    {
+        "word": " of",
+        "start_time": 52.52,
+        "end_time": 52.66
+    },
+    {
+        "word": " my",
+        "start_time": 52.66,
+        "end_time": 52.78
+    },
+    {
+        "word": " mental",
+        "start_time": 52.78,
+        "end_time": 53.02
+    },
+    {
+        "word": " health",
+        "start_time": 53.02,
+        "end_time": 53.26
+    },
+    {
+        "word": " because",
+        "start_time": 53.26,
+        "end_time": 53.48
+    },
+    {
+        "word": " I",
+        "start_time": 53.48,
+        "end_time": 53.66
+    },
+    {
+        "word": " am",
+        "start_time": 53.66,
+        "end_time": 53.8
     },
     {
         "word": " no",
-        "start_time": 6.72,
-        "end_time": 6.94
+        "start_time": 53.8,
+        "end_time": 54.02
     },
     {
-        "word": " eye",
-        "start_time": 6.94,
-        "end_time": 7.12
+        "word": " good",
+        "start_time": 54.02,
+        "end_time": 54.14
     },
     {
-        "word": " deer.",
-        "start_time": 7.12,
-        "end_time": 7.3
+        "word": " to",
+        "start_time": 54.14,
+        "end_time": 54.38
+    },
+    {
+        "word": " anyone",
+        "start_time": 54.38,
+        "end_time": 54.6
+    },
+    {
+        "word": " if",
+        "start_time": 54.6,
+        "end_time": 54.78
+    },
+    {
+        "word": " I",
+        "start_time": 54.78,
+        "end_time": 54.88
+    },
+    {
+        "word": " am",
+        "start_time": 54.88,
+        "end_time": 55.02
+    },
+    {
+        "word": " broken,",
+        "start_time": 55.02,
+        "end_time": 55.42
+    },
+    {
+        "word": " continuing",
+        "start_time": 56.980000000000004,
+        "end_time": 57.34
+    },
+    {
+        "word": " to",
+        "start_time": 57.34,
+        "end_time": 57.68
+    },
+    {
+        "word": " stand",
+        "start_time": 57.68,
+        "end_time": 57.88
+    },
+    {
+        "word": " up",
+        "start_time": 57.88,
+        "end_time": 58.06
+    },
+    {
+        "word": " for",
+        "start_time": 58.06,
+        "end_time": 58.18
+    },
+    {
+        "word": " what",
+        "start_time": 58.18,
+        "end_time": 58.34
+    },
+    {
+        "word": " I",
+        "start_time": 58.34,
+        "end_time": 58.54
+    },
+    {
+        "word": " believe",
+        "start_time": 58.54,
+        "end_time": 58.68
+    },
+    {
+        "word": " is",
+        "start_time": 58.68,
+        "end_time": 58.92
+    },
+    {
+        "word": " right.",
+        "start_time": 58.92,
+        "end_time": 59.3
+    },
+    {
+        "word": " And",
+        "start_time": 59.86,
+        "end_time": 60.1
+    },
+    {
+        "word": " I",
+        "start_time": 60.1,
+        "end_time": 60.24
+    },
+    {
+        "word": " think",
+        "start_time": 60.24,
+        "end_time": 60.36
+    },
+    {
+        "word": " that",
+        "start_time": 60.36,
+        "end_time": 60.58
+    },
+    {
+        "word": " says",
+        "start_time": 60.58,
+        "end_time": 60.78
+    },
+    {
+        "word": " it",
+        "start_time": 60.78,
+        "end_time": 60.94
+    },
+    {
+        "word": " all.",
+        "start_time": 60.94,
+        "end_time": 61.38
+    },
+    {
+        "word": " We",
+        "start_time": 62.06,
+        "end_time": 62.14
+    },
+    {
+        "word": " need",
+        "start_time": 62.14,
+        "end_time": 62.28
+    },
+    {
+        "word": " to",
+        "start_time": 62.28,
+        "end_time": 62.44
+    },
+    {
+        "word": " do",
+        "start_time": 62.44,
+        "end_time": 62.48
+    },
+    {
+        "word": " what",
+        "start_time": 62.48,
+        "end_time": 62.6
+    },
+    {
+        "word": " we",
+        "start_time": 62.6,
+        "end_time": 62.82
+    },
+    {
+        "word": " can",
+        "start_time": 62.82,
+        "end_time": 62.94
+    },
+    {
+        "word": " in",
+        "start_time": 62.94,
+        "end_time": 63.1
+    },
+    {
+        "word": " our",
+        "start_time": 63.1,
+        "end_time": 63.26
+    },
+    {
+        "word": " communities",
+        "start_time": 63.26,
+        "end_time": 63.62
+    },
+    {
+        "word": " and",
+        "start_time": 63.62,
+        "end_time": 63.84
+    },
+    {
+        "word": " then",
+        "start_time": 63.84,
+        "end_time": 64.0
+    },
+    {
+        "word": " start",
+        "start_time": 64.0,
+        "end_time": 64.14
+    },
+    {
+        "word": " figuring",
+        "start_time": 64.14,
+        "end_time": 64.44
+    },
+    {
+        "word": " out",
+        "start_time": 64.44,
+        "end_time": 64.66
+    },
+    {
+        "word": " how",
+        "start_time": 64.66,
+        "end_time": 64.78
+    },
+    {
+        "word": " to",
+        "start_time": 64.78,
+        "end_time": 64.92
+    },
+    {
+        "word": " push",
+        "start_time": 64.92,
+        "end_time": 65.02
+    },
+    {
+        "word": " it",
+        "start_time": 65.02,
+        "end_time": 65.18
+    },
+    {
+        "word": " out",
+        "start_time": 65.18,
+        "end_time": 65.36
+    },
+    {
+        "word": " nationwide.",
+        "start_time": 65.36,
+        "end_time": 65.88
+    },
+    {
+        "word": " Take",
+        "start_time": 66.96,
+        "end_time": 67.04
+    },
+    {
+        "word": " care",
+        "start_time": 67.04,
+        "end_time": 67.18
+    },
+    {
+        "word": " of",
+        "start_time": 67.18,
+        "end_time": 67.32
+    },
+    {
+        "word": " your",
+        "start_time": 67.32,
+        "end_time": 67.44
+    },
+    {
+        "word": " neighbors,",
+        "start_time": 67.44,
+        "end_time": 67.76
+    },
+    {
+        "word": " help",
+        "start_time": 68.08,
+        "end_time": 68.18
+    },
+    {
+        "word": " those",
+        "start_time": 68.18,
+        "end_time": 68.36
+    },
+    {
+        "word": " that",
+        "start_time": 68.36,
+        "end_time": 68.54
+    },
+    {
+        "word": " need",
+        "start_time": 68.54,
+        "end_time": 68.66
+    },
+    {
+        "word": " help,",
+        "start_time": 68.66,
+        "end_time": 69.06
+    },
+    {
+        "word": " and",
+        "start_time": 69.2,
+        "end_time": 69.84
+    },
+    {
+        "word": " please",
+        "start_time": 69.84,
+        "end_time": 70.06
+    },
+    {
+        "word": " don't",
+        "start_time": 70.06,
+        "end_time": 70.26
+    },
+    {
+        "word": " let",
+        "start_time": 70.26,
+        "end_time": 70.42
+    },
+    {
+        "word": " hate",
+        "start_time": 70.42,
+        "end_time": 70.64
+    },
+    {
+        "word": " win.",
+        "start_time": 70.64,
+        "end_time": 70.9
     }
 ]

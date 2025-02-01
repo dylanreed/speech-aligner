@@ -36,7 +36,7 @@ def align_words(audio_file, transcript):
     return word_data
 
 if __name__ == "__main__":
-    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/output_audio.wav"  # Replace with your WAV file
+    audio_file = "/Users/nervous/Documents/GitHub/speech-aligner/output/converted_jokes/audio.wav"  # Replace with your WAV file
     transcript = "/Users/nervous/Documents/GitHub/speech-aligner/output/transcript.txt"  # Replace with your transcript
     aligned_words = align_words(audio_file, transcript)
     print("Aligned Words:")

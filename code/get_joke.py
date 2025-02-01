@@ -41,7 +41,7 @@ def main():
 
     # Eleven Labs API settings
     api_key = "sk_176192a20220752b5863e294703ea73200898bf126ebb3e2"  # Replace with your API key
-    voice_id = "eKGPXPRZTOOKD5KCoCxP"           # Replace with the desired voice ID
+    voice_id = "i1CsF0dbxtrr78piuktK"           # Replace with the desired voice ID
 
     # Iterate through lines in the CSV and generate audio for each
     output_dir = "/Users/nervous/Documents/GitHub/speech-aligner/output/jokes_audio/output.wav"
